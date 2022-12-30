@@ -5,12 +5,16 @@ permalink: /research/
 author_profile: true
 ---
 
-## Multi-Agent Systems
+## Topics
+### Multi-Agent Systems
 * Emergence
 * Resilience
 
-## Dependability in ML systems
+### Dependability in ML systems
 * Adversarial Methods
 * Specification Awareness
 
+## Collaborations and Groups
+* [TRAIL](https://www.mobile.ifi.lmu.de/ai-lab/): Technology and Research on Artificial Intelligence Laboratory
+* [DARTS](https://darts-ai.github.io/darts/): Distributed Autonomous Real-Time Systems
 
