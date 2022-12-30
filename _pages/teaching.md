@@ -6,7 +6,9 @@ author_profile: true
 ---
 
 {% include base_path %}
-
+<link rel="stylesheet" href="{{ base_path }}/assets/css/bootstrap.min.css">
+<script src="{{ base_path }}/assets/js/jquery-3.6.3.min.js"></script>
+<script src="{{ base_path }}/assets/js/bootstrap.min.css"></script>
 ## Practical Courses
 <div class="container">
   <div class="panel panel-primary">
