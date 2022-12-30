@@ -56,11 +56,11 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     **Thomy Phan**, Lenz Belzner, Kyrill Schmid, Thomas Gabor, Fabian Ritz, Sebastian Feld, and Claudia Linnhoff-Popien.      
     <i>Adaptive and Learning Agents Workshop (**ALA**)</i>, 2020.
 
-* **A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games**.     
+* [**A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games**](https://link.springer.com/chapter/10.1007/978-3-030-50433-5_38).     
     Christoph Roch, **Thomy Phan**, Sebastian Feld, Robert Müller, Thomas Gabor, Carsten Hahn, and Claudia Linnhoff-Popien.      
     <i>International Conference on Computational Science (**ICCS**)</i>, pages 488-501, 2020.
 
-* **The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems**.     
+* [**The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems**](https://link.springer.com/article/10.1007/s10009-020-00560-5).     
     Thomas Gabor, Andreas Sedlmeier, **Thomy Phan**, Fabian Ritz, Marie Kiermeier, Lenz Belzner, Bernhard Kempter, Cornel Klein, Horst Sauer, Reiner Schmid, Jan Wieghardt, Marc Zeller, and Claudia Linnhoff-Popien.      
     <i>International Journal on Software Tools for Technology Transfer (**STTT**)</i>, volume 22, pages 457-476, 2020.
 
