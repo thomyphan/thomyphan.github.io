@@ -12,11 +12,11 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 [2022](#year2022) | [2021](#year2021) | [2020](#year2020) | [2019](#year2019) | [2018](year2018) | [2016](#year2016) |
 
 ## <a name="year2022"></a> 2022
-* **Emergent Cooperation from Mutual Acknowledgment Exchange**.     
+* [**Emergent Cooperation from Mutual Acknowledgment Exchange**](http://thomyphan.github.io/files/2022-aamas.pdf).     
     **Thomy Phan**, Felix Sommer, Philipp Altmann, Fabian Ritz, Lenz Belzner, and Claudia Linnhoff-Popien.     
     <i>International Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS**)</i>, pages 1047–1055, 2022.
 
-* **Towards Anomaly Detection in Reinforcement Learning**.     
+* [**Towards Anomaly Detection in Reinforcement Learning**](http://thomyphan.github.io/files/2022-aamas-bluesky.pdf).     
     Robert Müller, Steffen Illium, **Thomy Phan**, Tom Haider, and Claudia Linnhoff-Popien.      
     <i>International Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS Blue Sky Ideas**)</i>, pages 1799–1803, 2022.
 
