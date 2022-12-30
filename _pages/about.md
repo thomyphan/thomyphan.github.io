@@ -12,7 +12,7 @@ I am currently a Ph.D Student at the [Mobile and Distributed Systems Chair](http
 
 My research focuses on **emergence and resilience in multi-agent systems** with industrial applications using planning and reinforcement learning techniques.
 
-Before joining the Mobile and Distributed Systems Chair, I studied Computer Science at the [Department of Computer Science and Mathematics](https://www.cs.hm.edu/en/home/index.en.html) at [Munich University of Applied Sciences](https://www.hm.edu/en/index.en.html) to obtain my B.Sc degree in 2015. I continued my studies at the [Institute for Informatics](https://www.ifi.uni-muenchen.de/index.html) at LMU Munich, where I received my M.Sc. degree in Computer Science in 2017.
+I received my B.Sc. degree in Computer Science in 2015 from [Munich University of Applied Sciences](https://www.hm.edu/en/index.en.html) and my M.Sc. degree in Computer Science in 2017 from LMU Munich. In 2015, I was a Visiting Scholar in Research in [Bewersdorf Lab](http://www.bewersdorflab.org) at [Yale School of Medicine](https://medicine.yale.edu) from February to May.
 
 
 
