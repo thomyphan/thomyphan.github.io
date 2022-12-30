@@ -6,24 +6,79 @@ author_profile: true
 ---
 
 {% include base_path %}
-<h2>Practical Courses</h2>
-<div class="container">
-  <div class="panel panel-primary">
-    <div class="panel-heading">Autonomous Systems</div>
-    <div class="panel-body">2019 - Today</div>
+<style>
+  .flex-container {
+      display: flex;
+  }
+  
+  .is-flex-wrap {
+    flex-wrap: wrap;
+  }
+  
+  .flex-child{
+      padding:.75rem;
+      min-width:300px;
+      flex: 1;
+      margin-right: 20px;
+      margin-top: 20px;
+  }
+  
+  .card {
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    padding: 0.75rem;
+    flex-direction: column;
+    max-width: 100%;
+    border-radius: 5px;
+  }
+  
+  .card:hover {
+    box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
+  }
+  
+  .box {
+      position: relative;
+      width: 250px;
+      margin-top: 1.0em;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  
+  .box_title {
+      font-size: 1em;
+      font-weight: bold;
+      text-align: center;
+      margin-top: 1.0em;
+  }
+  
+  .box_description {
+      margin-top: 0.25em;
+      margin-left: 0.25em;
+      margin-right: 0.25em;
+      text-align: center;
+      font-size: 0.8em;
+      font-weight: normal
+  }
+
+  </style>
+
+<div class="flex-container is-flex-wrap">
+  <!-- Autonomous Systems -->
+  <div class="flex-child card">
+      <p class="box_title">Autonomous Systems</p>
+      <div class="box">
+          <p class="box_description">
+              Practical course on planning and reinforcement learning algorithms.
+          </p>
+      </div>
   </div>
-  <div class="panel panel-primary">
-    <div class="panel-heading">Mobile and Distributed Systems</div>
-    <div class="panel-body">2018 - 2019</div>
+  <!-- Mobile and Distributed Systems -->
+  <div class="flex-child card">
+    <p class="box_title">Mobile and Distributed Systems</p>
+    <div class="box">
+        <p class="box_description">
+          Practical course on mobile app development and on-device machine learning.
+        </p>
+    </div>
   </div>
 </div>
-
-<h2>Working Groups</h2>
-<div class="container">
-  <div class="panel panel-primary">
-    <div class="panel-heading">Artificial Intelligence</div>
-    <div class="panel-body">2019 - Today</div>
-  </div>
-</div>
-
-<h2>Thesis Supervision</h2>
