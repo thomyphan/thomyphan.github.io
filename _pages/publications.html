@@ -40,11 +40,13 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 
     function getVenue(entry) {
         var entryTags = entry["entryTags"];
-        if(entryTags["entryType"] == "article") {
-            return entryTags["journal"];
+        var venue = "";
+        if(entryTags["entryType"].localeCompare("article")) {
+            venue = entryTags["journal"];
         } else {
-            return entryTags["booktitle"];
+            venue = entryTags["booktitle"];
         }
+        return venue.replace("\\(", "<strong>").replace("\\)", "</strong>");
     }
 
     function publicationEntry(entry) {
@@ -53,13 +55,16 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         var entryTags = entry["entryTags"];
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
-        authors = authors.replace(authorName, "<b>"+authorName+"</b>");
+        authors = authors.replace(authorName, "<strong>"+authorName+"</strong>");
         result += authors + ".<br/>";
-        result += valueInTag(getVenue(entry), "i");
+        result += valueInTag(getVenue(entry), "em");
         if("pages" in entryTags) {
             result += ", pages " + entryTags["pages"];
         }
-        result += ", "+ entryTags["year"] + ".";
+        result += ", "+ entryTags["year"] + ".<br/>";
+        if("doi" in entryTags) {
+            result += '[<a href="'+entryTags["doi"]+'">DOI</a>].<br/>';
+        }
         result += "</span></li>";
         return result;
     }
