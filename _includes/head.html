@@ -17,12 +17,13 @@
 
 <script>
   function toggleSomeAction(target, id, action_name) {
-    if ($('#' + id).css('display') == 'block') {
-      $('#' + id).hide('fast');
-      $(target).text(action_name)
-    } else {
-      $('#' + id).show('fast'); $(target).text(action_name+'▲')
-    }
+      if ($('#' + id).css('display') == 'block') {
+          $('#' + id).hide('fast');
+          $(target).text(action_name);
+      } else {
+          $('#' + id).show('fast');
+          $(target).text(action_name+'▲');
+      }
   }
 
   function toggleBibtex(target, id) {
