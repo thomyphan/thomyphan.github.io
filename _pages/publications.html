@@ -9,6 +9,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 
 {% include base_path %}
 
+<div id="selected_publications_container">
+</div>
+
 <script>
     function accumulateEntries(total, currentEntry, currentIndex, arr) {
         return total + currentEntry;
@@ -21,17 +24,15 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     function loadPublications(bibtex) {
         var publicationData = bibtexParse.toJSON(bibtex);
         publicationData.sort(function(a,b) {return b["year"] - a["year"]});
-        return publicationData.map(publicationEntry).reduce(accumulateEntries);
+        return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
     }
 
     var mainContainer = document.getElementById("selected_publications_container");
     var client = new XMLHttpRequest();
-    client.open('GET', '/assets/publications.bib');
+    client.open('GET', '{{ base_path }}/assets/publications.bib');
     client.onreadystatechange = function() {
         var publicationList = loadPublications(client.responseText);
         mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
     };
     client.send();
 </script>
-<div id="selected_publications_container">
-</div>
