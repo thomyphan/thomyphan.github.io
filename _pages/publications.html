@@ -53,8 +53,8 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         var entryTags = entry["entryTags"];
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
-        authors = authors.replace(authorName, "<b>"+authorName+".</b>");
-        result += authors + "<br/>";
+        authors = authors.replace(authorName, "<b>"+authorName+"</b>");
+        result += authors + ".<br/>";
         result += valueInTag(getVenue(entry), "i");
         if("pages" in entryTags) {
             result += ", pages " + entryTags["pages"];
