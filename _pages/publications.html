@@ -34,8 +34,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         var result = "<li><span>";
         var entryTags = entry["entryTags"];
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a><br/>';
-        result += entryTags["author"] + "<br/>";
-        result += entryTags["author"] + "<br/>";
+        result += entryTags["author"].replace("and", ", ") + "<br/>";
         result += "</span></li>";
         return result;
     }
@@ -57,6 +56,6 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
         }
     };
-    client.open('GET', 'https://thomyphan.github.io/assets/publications.bib');
+    client.open('GET', '{{ base_path }}/assets/publications.bib');
     client.send();
 </script>
