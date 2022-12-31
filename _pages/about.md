@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am currently a Ph.D Student at the [Mobile and Distributed Systems Chair](https://www.mobile.ifi.lmu.de/team/thomy-phan/) at [LMU Munich](https://www.lmu.de/en/index.html). 
+I am a PhD Student at the [Mobile and Distributed Systems Chair](https://www.mobile.ifi.lmu.de/team/thomy-phan/) at [LMU Munich](https://www.lmu.de/en/index.html). 
 
 My research focuses on **emergence and resilience in multi-agent systems** with industrial applications using planning and reinforcement learning techniques.
 
