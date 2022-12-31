@@ -18,12 +18,11 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     }
 
     function publicationEntry(entry, index, arr) {
-        return "<li>" + entry["title"] + "</li>";
+        return "<li><pre>" + entry["title"] + "</pre></li>";
     }
 
     function loadPublications(bibtex) {
-        var publicationData = bibtexParse.toJSON(bibtex);
-        publicationData.sort(function(a,b) {return b["year"] - a["year"]});
+        publicationData.split("\\n");
         return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
     }
 
