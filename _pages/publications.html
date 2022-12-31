@@ -1,0 +1,37 @@
+---
+layout: archive
+title: "Selected Publications"
+permalink: /publications/
+author_profile: true
+---
+
+You can find all my articles on <u><a href="https://scholar.google.de/citations?user=yny05hUAAAAJ">my Google Scholar profile</a>.</u>
+
+{% include base_path %}
+
+<script>
+    function accumulateEntries(total, currentEntry, currentIndex, arr) {
+        return total + currentEntry;
+    }
+
+    function publicationEntry(entry, index, arr) {
+        return "<li>" + entry["title"] + "</li>";
+    }
+
+    function loadPublications(bibtex) {
+        var publicationData = bibtexParse.toJSON(bibtex);
+        publicationData.sort(function(a,b) {return b["year"] - a["year"]});
+        return publicationData.map(publicationEntry).reduce(accumulateEntries);
+    }
+
+    var mainContainer = document.getElementById("selected_publications_container");
+    var client = new XMLHttpRequest();
+    client.open('GET', '/assets/publications.bib');
+    client.onreadystatechange = function() {
+        var publicationList = loadPublications(client.responseText);
+        mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
+    }
+    client.send();
+</script>
+<div id="selected_publications_container">
+</div>
