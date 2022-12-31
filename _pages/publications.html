@@ -30,7 +30,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     client.onreadystatechange = function() {
         var publicationList = loadPublications(client.responseText);
         mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
-    }
+    };
     client.send();
 </script>
 <div id="selected_publications_container">
