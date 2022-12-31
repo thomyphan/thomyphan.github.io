@@ -20,6 +20,14 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     Robert Müller, Steffen Illium, **Thomy Phan**, Tom Haider, and Claudia Linnhoff-Popien.      
     <i>International Conference on Autonomous Agents and Multi-Agent Systems (**AAMAS Blue Sky Ideas**)</i>, pages 1799–1803, 2022.
 
+* [**Capturing Dependencies within Machine Learning via a Formal Process Model**](http://thomyphan.github.io/files/2022-isola-preprint.pdf).     
+    Fabian Ritz, **Thomy Phan**, Andreas Sedlmeier, Philipp Altmann, Jan Wieghardt, Reiner Schmid, Horst Sauer, Cornel Klein, Claudia Linnhoff-Popien, and Thomas Gabor.      
+    <i>International Symposium on Leveraging Applications of Formal Methods (**ISoLA**)</i>, pages 249-265, 2022.
+
+* [**Specification Aware Multi-Agent Reinforcement Learning**](https://link.springer.com/chapter/10.1007/978-3-031-10161-8_1).     
+    Fabian Ritz, **Thomy Phan**, Robert Müller, Thomas Gabor, Andreas Sedlmeier, Marc Zeller, Jan Wieghardt, Reiner Schmid, Horst Sauer, Cornel Klein, and Claudia Linnhoff-Popien.      
+    <i>Agents and Artificial Intelligence: 13th International Conference (**ICAART 2021 - Revised Selected Papers**)</i>, pages 3-21, 2022.
+
 ## <a name="year2021"></a> 2021
 
 * [**VAST: Value Function Factorization with Variable Agent Sub-Teams**](http://thomyphan.github.io/files/2021-neurips.pdf).     
@@ -38,6 +46,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     Thomas Gabor, **Thomy Phan**, and Claudia Linnhoff-Popien.      
     <i>Natural Computing (**NACO**)</i>, volume 20, pages 363-376, 2021.
 
+* [**SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning**](http://thomyphan.github.io/files/2021-icaart-preprint.pdf).     
+    Fabian Ritz, **Thomy Phan**, Robert Müller, Thomas Gabor, Andreas Sedlmeier, Marc Zeller, Jan Wieghardt, Reiner Schmid, Horst Sauer, Cornel Klein, and Claudia Linnhoff-Popien.      
+    <i>International Conference on Agents and Artificial Intelligence (**ICAART**)</i>, pages 28–37, 2021.
+
 ## <a name="year2020"></a> 2020
 
 * [**Towards Ecosystem Management from Greedy Reinforcement Learning in a Predator-Prey Setting**](https://direct.mit.edu/isal/proceedings/isal2020/518/98475).     
@@ -47,6 +59,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 * [**Foraging Swarms using Multi-Agent Reinforcement Learning**](https://direct.mit.edu/isal/proceedings/isal2020/333/98496).     
     Carsten Hahn, Fabian Ritz, Paula Wikidal, **Thomy Phan**, Thomas Gabor, and Claudia Linnhoff-Popien.      
     <i>Conference on Artificial Life (**ALIFE**)</i>, pages 333–340, 2020.
+
+* [**The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline**](http://thomyphan.github.io/files/2020-qse-preprint.pdf).     
+    Thomas Gabor, Leo Sünkel, Fabian Ritz, **Thomy Phan**, Lenz Belzner, Christoph Roch, Sebastian Feld, Claudia Linnhoff-Popien.      
+    <i>Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering (**ICSE**) Workshops</i>, pages 456-461, 2020.
 
 * [**Learning and Testing Resilience in Cooperative Multi-Agent Systems**](http://thomyphan.github.io/files/2020-aamas.pdf).     
     **Thomy Phan**, Thomas Gabor, Andreas Sedlmeier, Fabian Ritz, Bernhard Kempter, Cornel Klein, Horst Sauer, Reiner Schmid, Jan Wieghardt, Marc Zeller, and Claudia Linnhoff-Popien.      
@@ -64,6 +80,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     Thomas Gabor, Andreas Sedlmeier, **Thomy Phan**, Fabian Ritz, Marie Kiermeier, Lenz Belzner, Bernhard Kempter, Cornel Klein, Horst Sauer, Reiner Schmid, Jan Wieghardt, Marc Zeller, and Claudia Linnhoff-Popien.      
     <i>International Journal on Software Tools for Technology Transfer (**STTT**)</i>, volume 22, pages 457-476, 2020.
 
+* [**Uncertainty-Based Out-of-Distribution Classification in Deep Reinforcement Learning**](http://thomyphan.github.io/files/2020-icaart-preprint.pdf).     
+    Andreas Sedlmeier, Thomas Gabor, **Thomy Phan**, Lenz Belzner, and Claudia Linnhoff-Popien.      
+    <i>International Conference on Agents and Artificial Intelligence (**ICAART**)</i>, pages 522-529, 2020.
+
 ## <a name="year2019"></a> 2019
 * [**Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning**](http://thomyphan.github.io/files/2019-ijcai-1.pdf).     
     **Thomy Phan**, Thomas Gabor, Robert Müller, Christoph Roch, and Claudia Linnhoff-Popien.     
@@ -72,6 +92,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 * [**Subgoal-Based Temporal Abstraction in Monte-Carlo Tree Search**](http://thomyphan.github.io/files/2019-ijcai-2.pdf).     
     Thomas Gabor, Jan Peter, **Thomy Phan**, Christian Meyer, and Claudia Linnhoff-Popien.      
     <i>International Joint Conference on Artificial Intelligence (**IJCAI**)</i>, pages 5562-5568, 2019.
+
+* [**Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning**](http://thomyphan.github.io/files/2019-isaai-preprint.pdf).     
+    Andreas Sedlmeier, Thomas Gabor, **Thomy Phan**, Lenz Belzner, and Claudia Linnhoff-Popien.      
+    <i>International Symposium on Applied Artificial Intelligence (**ISAAI**)</i>, pages 74-78, 2019.
 
 * [**Emergent Escape-based Flocking Behavior using Multi-Agent Reinforcement Learning**](http://thomyphan.github.io/files/2019-alife-preprint.pdf).     
     Carsten Hahn, **Thomy Phan**, Thomas Gabor, Lenz Belzner, and Claudia Linnhoff-Popien.      
