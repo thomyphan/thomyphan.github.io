@@ -22,7 +22,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     }
 
     function loadPublications(bibtex) {
-        publicationData.split("\\n");
+        var publicationData = bibtex.split("\\n");
         return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
     }
 
