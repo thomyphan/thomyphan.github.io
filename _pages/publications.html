@@ -34,8 +34,6 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             //var publicationList = loadPublications(client.responseText);
             //mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
             mainContainer.innerHTML = client.responseText;
-        } else {
-            mainContainer.innerHTML = client.statusText;
         }
     };
     client.send();
