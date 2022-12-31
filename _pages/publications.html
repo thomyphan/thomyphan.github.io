@@ -22,14 +22,13 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     }
 
     function loadPublications(bibtex) {
-        return bibtex;
-        //var publicationData = bibtex.split("\\n");
-        //return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
+        var publicationData = bibtex.split("\\n");
+        return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
     }
 
     var mainContainer = document.getElementById("selected_publications_container");
     var client = new XMLHttpRequest();
-    client.open('GET', '{{ base_path }}/assets/publications.bib');
+    client.open('GET', 'https://thomyphan.github.io/assets/publications.bib');
     client.onreadystatechange = function() {
         var publicationList = loadPublications(client.responseText);
         mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
