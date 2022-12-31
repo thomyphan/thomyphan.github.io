@@ -1,0 +1,368 @@
+@inproceedings{phanAAMAS22,
+    author      = {Phan, Thomy and Sommer, Felix and Altmann, Philipp and Ritz, Fabian and Belzner, Lenz and Linnhoff-Popien, Claudia},
+    title       = {Emergent Cooperation from Mutual Acknowledgment Exchange},
+    year        = {2022},
+    isbn        = {9781450392136},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {Peer incentivization (PI) is a recent approach, where all agents learn to reward or to penalize each other in a distributed fashion which often leads to emergent cooperation. Current PI mechanisms implicitly assume a flawless communication channel in order to exchange rewards. These rewards are directly integrated into the learning process without any chance to respond with feedback. Furthermore, most PI approaches rely on global information which limits scalability and applicability to real-world scenarios, where only local information is accessible. In this paper, we propose Mutual Acknowledgment Token Exchange (MATE), a PI approach defined by a two-phase communication protocol to mutually exchange acknowledgment tokens to shape individual rewards. Each agent evaluates the monotonic improvement of its individual situation in order to accept or reject acknowledgment requests from other agents. MATE is completely decentralized and only requires local communication and information. We evaluate MATE in three social dilemma domains. Our results show that MATE is able to achieve and maintain significantly higher levels of cooperation than previous PI approaches. In addition, we evaluate the robustness of MATE in more realistic scenarios, where agents can defect from the protocol and where communication failures can occur.},
+    booktitle   = {Proceedings of the 21st International Conference on Autonomous Agents and Multiagent Systems},
+    pages       = {1047–1055},
+    numpages    = {9},
+    keywords    = {mutual acknowledgments, emergent cooperation, peer incentivization, reinforcement learning, multi-agent learning},
+    location    = {Virtual Event, New Zealand},
+    doi         = {https://dl.acm.org/doi/abs/10.5555/3535850.3535967},
+    url         = {https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1047.pdf}
+}
+
+@inproceedings{muellerAAMAS22,
+    author      = {M\"{u}ller, Robert and Illium, Steffen and Phan, Thomy and Haider, Tom and Linnhoff-Popien, Claudia},
+    title       = {Towards Anomaly Detection in Reinforcement Learning},
+    year        = {2022},
+    isbn        = {9781450392136},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {Identifying datapoints that substantially differ from normality is the task of anomaly detection (AD). While AD has gained widespread attention in rich data domains such as images, videos, audio and text, it has has been studied less frequently in the context of reinforcement learning (RL). This is due to the additional layer of complexity that RL introduces through sequential decision making. Developing suitable anomaly detectors for RL is of particular importance in safety-critical scenarios where acting on anomalous data could result in hazardous situations. In this work, we address the question of what AD means in the context of RL. We found that current research trains and evaluates on overly simplistic and unrealistic scenarios which reduce to classic pattern recognition tasks. We link AD in RL to various fields in RL such as lifelong RL and generalization. We discuss their similarities, differences, and how the fields can benefit from each other. Moreover, we identify non-stationarity to be one of the key drivers for future research on AD in RL and make a first step towards a more formal treatment of the problem by framing it in terms of the recently introduced block contextual Markov decision process. Finally, we define a list of practical desiderata for future problems.},
+    booktitle   = {Proceedings of the 21st International Conference on Autonomous Agents and Multiagent Systems},
+    pages       = {1799–1803},
+    numpages    = {5},
+    keywords    = {anomaly detection, AI safety, reinforcement learning},
+    location    = {Virtual Event, New Zealand},
+    doi         = {https://dl.acm.org/doi/10.5555/3535850.3536113},
+    url         = {https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1799.pdf}
+}
+
+@inproceedings{ritzISoLA22,
+    author      = {Ritz, Fabian and Phan, Thomy and Sedlmeier, Andreas and Altmann, Philipp and Wieghardt, Jan and Schmid, Reiner and Sauer, Horst and Klein, Cornel and Linnhoff-Popien, Claudia and Gabor, Thomas},
+    editor      = {Margaria, Tiziana and Steffen, Bernhard},
+    title       = {Capturing Dependencies Within Machine Learning via a Formal Process Model},
+    booktitle   = {Leveraging Applications of Formal Methods, Verification and Validation. Adaptation and Learning},
+    year        = {2022},
+    publisher   = {Springer Nature Switzerland},
+    pages       = {249--265},
+    isbn        = {978-3-031-19759-8},
+    doi         = {https://doi.org/10.1007/978-3-031-19759-8_16},
+    url         = {https://arxiv.org/abs/2208.05219},
+    abstract    = {The development of Machine Learning (ML) models is more than just a special case of software development (SD): ML models acquire properties and fulfill requirements even without direct human interaction in a seemingly uncontrollable manner. Nonetheless, the underlying processes can be described in a formal way. We define a comprehensive SD process model for ML that encompasses most tasks and artifacts described in the literature in a consistent way. In addition to the production of the necessary artifacts, we also focus on generating and validating fitting descriptions in the form of specifications. We stress the importance of further evolving the ML model throughout its life-cycle even after initial training and testing. Thus, we provide various interaction points with standard SD processes in which ML often is an encapsulated task. Further, our SD process model allows to formulate ML as a (meta-) optimization problem. If automated rigorously, it can be used to realize self-adaptive autonomous systems. Finally, our SD process model features a description of time that allows to reason about the progress within ML development processes. This might lead to further applications of formal methods within the field of ML.}
+}
+
+@inproceedings{ritzICAARTBook22,
+    author      = {Ritz, Fabian and Phan, Thomy and M\"{u}ller, Robert and Gabor, Thomas and Sedlmeier, Andreas and Zeller, Marc and Wieghardt, Jan and Schmid, Reiner and Sauer, Horst and Klein, Cornel and Linnhoff-Popien, Claudia},
+    title       = {Specification Aware Multi-Agent Reinforcement Learning},
+    year        = {2021},
+    isbn        = {978-3-031-10160-1},
+    publisher   = {Springer-Verlag},
+    doi         = {https://doi.org/10.1007/978-3-031-10161-8_1},
+    url         = {https://link.springer.com/chapter/10.1007/978-3-031-10161-8_1},
+    eprint      = {https://arxiv.org/pdf/2012.07949.pdf},
+    abstract    = {Engineering intelligent industrial systems is challenging due to high complexity and uncertainty with respect to domain dynamics and multiple agents. If industrial systems act autonomously, their choices and results must be within specified bounds to satisfy these requirements. Reinforcement learning (RL) is promising to find solutions that outperform known or handcrafted heuristics. However in industrial scenarios, it also is crucial to prevent RL from inducing potentially undesired or even dangerous behavior. This paper considers specification alignment in industrial scenarios with multi-agent reinforcement learning (MARL). We propose to embed functional and non-functional requirements into the reward function, enabling the agents to learn to align with the specification. We evaluate our approach in a smart factory simulation representing an industrial lot-size-one production facility, where we train up to eight agents using DQN, VDN, and QMIX. Our results show that the proposed approach enables agents to satisfy a given set of requirements.},
+    booktitle   = {Agents and Artificial Intelligence: 13th International Conference, ICAART 2021, Virtual Event, February 4–6, 2021, Revised Selected Papers},
+    pages       = {3–21},
+    numpages    = {19},
+    keywords    = {Reinforcement learning, Multi-agent, Specification compliance, AI safety}
+}
+
+@inproceedings{phanNeurIPS21,
+    author      = {Phan, Thomy and Ritz, Fabian and Belzner, Lenz and Altmann, Philipp and Gabor, Thomas and Linnhoff-Popien, Claudia},
+    booktitle   = {Advances in Neural Information Processing Systems},
+    editor      = {M. Ranzato and A. Beygelzimer and Y. Dauphin and P.S. Liang and J. Wortman Vaughan},
+    pages       = {24018--24032},
+    publisher   = {Curran Associates, Inc.},
+    title       = {VAST: Value Function Factorization with Variable Agent Sub-Teams},
+    url         = {https://openreview.net/forum?id=hyJKKIhfxxT},
+    eprint      = {https://proceedings.neurips.cc/paper/2021/file/c97e7a5153badb6576d8939469f58336-Paper.pdf},
+    volume      = {34},
+    year        = {2021}
+}
+
+@inproceedings{ritzALIFE21,
+    author      = {Ritz, Fabian and Ratke, Daniel and Phan, Thomy and Belzner, Lenz and Linnhoff-Popien, Claudia},
+    title       = {A Sustainable Ecosystem through Emergent Cooperation in Multi-Agent Reinforcement Learning},
+    booktitle   = {ALIFE 2021: The 2021 Conference on Artificial Life},
+    year        = {2021},
+    month       = {07},
+    abstract    = {This paper considers sustainable and cooperative behavior in multi-agent systems. In the proposed predator-prey simulation, multiple selfish predators can learn to act sustainably by maintaining a herd of reproducing prey and further hunt cooperatively for long term benefit. Since the predators face starvation pressure, the scenario can also turn in a tragedy of the commons if selfish individuals decide to greedily hunt down the prey population before their conspecifics do, ultimately leading to extinction of prey and predators. This paper uses Multi-Agent Reinforcement Learning to overcome a collapse of the simulated ecosystem, analyzes the impact factors over multiple dimensions and proposes suitable metrics. We show that up to three predators are able to learn sustainable behavior in form of collective herding under starvation pressure. Complex cooperation in form of group hunting emerges between the predators as their speed is handicapped and the prey is given more degrees of freedom to escape. The implementation of environment and reinforcement learning pipeline is available online.},
+    url         = {https://direct.mit.edu/isal/proceedings/isal/74/102891},
+    doi         = {https://doi.org/10.1162/isal\_a\_00399},
+    note        = {74},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal/33/74/1930024/isal\_a\_00399.pdf}
+}
+
+@article{phanAAAI21,
+    author      = {Phan, Thomy and Belzner, Lenz and Gabor, Thomas and Sedlmeier, Andreas and Ritz, Fabian and Linnhoff-Popien, Claudia},
+    title       = {Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition},
+    volume      = {35},
+    url         = {https://ojs.aaai.org/index.php/AAAI/article/view/17348},
+    doi         = {https://doi.org/10.1609/aaai.v35i13.17348},
+    abstract    = {We focus on resilience in cooperative multi-agent systems, where agents can change their behavior due to udpates or failures of hardware and software components. Current state-of-the-art approaches to cooperative multi-agent reinforcement learning (MARL) have either focused on idealized settings without any changes or on very specialized scenarios, where the number of changing agents is fixed, e.g., in extreme cases with only one productive agent. Therefore, we propose Resilient Adversarial value Decomposition with Antagonist-Ratios (RADAR). RADAR offers a value decomposition scheme to train competing teams of varying size for improved resilience against arbitrary agent changes. We evaluate RADAR in two cooperative multi-agent domains and show that RADAR achieves better worst case performance w.r.t. arbitrary agent changes than state-of-the-art MARL.},
+    number      = {13},
+    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    year        = {2021},
+    month       = {May},
+    pages       = {11308-11316}
+}
+
+@article{gaborNACO21,
+    author      = {Gabor, Thomas and Phan, Thomy and Linnhoff-Popien, Claudia},
+    title       = {Productive Fitness in Diversity-Aware Evolutionary Algorithms},
+    year        = {2021},
+    publisher   = {Kluwer Academic Publishers},
+    volume      = {20},
+    number      = {3},
+    issn        = {1567-7818},
+    doi         = {https://doi.org/10.1007/s11047-021-09853-3},
+    url         = {https://link.springer.com/article/10.1007/s11047-021-09853-3},
+    abstract    = {In evolutionary algorithms, the notion of diversity has been adopted from biology and is used to describe the distribution of a population of solution candidates. While it has been known that maintaining a reasonable amount of diversity often benefits the overall result of the evolutionary optimization process by adjusting the exploration/exploitation trade-off, little has been known about what diversity is optimal. We introduce the notion of productive fitness based on the effect that a specific solution candidate has some generations down the evolutionary path. We derive the notion of final productive fitness, which is the ideal target fitness for any evolutionary process. Although it is inefficient to compute, we show empirically that it allows for an a posteriori analysis of how well a given evolutionary optimization process hit the ideal exploration/exploitation trade-off, providing insight into why diversity-aware evolutionary optimization often performs better.},
+    journal     = {Natural Computing: An International Journal},
+    month       = {September},
+    pages       = {363–376},
+    numpages    = {14},
+    keywords    = {Evolutionary algorithm, Diversity, Adaptive fitness}
+}
+
+@conference{ritzICAART21,
+    author      = {Fabian Ritz and Thomy Phan and Robert Müller and Thomas Gabor and Andreas Sedlmeier and Marc Zeller and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien.},
+    title       = {SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning},
+    booktitle   = {Proceedings of the 13th International Conference on Agents and Artificial Intelligence - Volume 1: ICAART},
+    year        = {2021},
+    pages       = {28-37},
+    publisher   = {SciTePress},
+    doi         = {https://doi.org/10.5220/0010189500280037},
+    isbn        = {978-989-758-484-8},
+    url         = {https://www.scitepress.org/Papers/2021/101895/101895.pdf},
+    abstract    = {A characteristic of reinforcement learning is the ability to develop unforeseen strategies when solving problems. While such strategies sometimes yield superior performance, they may also result in undesired or even dangerous behavior. In industrial scenarios, a system’s behavior also needs to be predictable and lie within defined ranges. To enable the agents to learn (how) to align with a given specification, this paper proposes to explicitly transfer functional and non-functional requirements into shaped rewards. Experiments are carried out on the smart factory, a multi-agent environment modeling an industrial lot-size-one production facility, with up to eight agents and different multi-agent reinforcement learning algorithms. Results indicate that compliance with functional and non-functional constraints can be achieved by the proposed approach.}
+}
+
+@inproceedings{ritzALIFE20,
+    author      = {Ritz, Fabian and Hohnstein, Felix and Müller, Robert and Phan, Thomy and Gabor, Thomas and Hahn, Carsten and Linnhoff-Popien, Claudia},
+    title       = {Towards Ecosystem Management from Greedy Reinforcement Learning in a Predator-Prey Setting},
+    booktitle   = {ALIFE 2020: The 2020 Conference on Artificial Life},
+    pages       = {518-525},
+    year        = {2020},
+    month       = {07},
+    abstract    = {This paper applies reinforcement learning to train a predator to hunt multiple prey, which are able to reproduce, in a 2D simulation. It is shown that, using methods of curriculum learning, long-term reward discounting and stacked observations, a reinforcement-learning-based predator can achieve an economic strategy: Only hunt when there is still prey left to reproduce in order to maintain the population. Hence, purely selfish goals are sufficient to motivate a reinforcement learning agent for long-term planning and keeping a certain balance with its environment by not depleting its resources. While a comparably simple reinforcement learning algorithm achieves such behavior in the present scenario, providing a suitable amount of past and predictive information turns out to be crucial for the training success.},
+    url         = {https://direct.mit.edu/isal/proceedings/isal2020/518/98475},
+    doi         = {https://doi.org/10.1162/isal\_a\_00273},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/518/1908444/isal\_a\_00273.pdf}
+}
+
+@inproceedings{hahnALIFE20,
+    author      = {Hahn, Carsten and Ritz, Fabian and Wikidal, Paula and Phan, Thomy and Gabor, Thomas and Linnhoff-Popien, Claudia},
+    title       = {Foraging Swarms using Multi-Agent Reinforcement Learning},
+    booktitle   = {ALIFE 2020: The 2020 Conference on Artificial Life},
+    pages       = {333-340},
+    year        = {2020},
+    month       = {07},
+    abstract    = {Flocking or swarm behavior is a widely observed phenomenon in nature. Although the entities might have self-interested goals like evading predators or foraging, they group themselves together because a collaborative observation is superior to the observation of a single individual. In this paper, we evaluate the emergence of swarms in a foraging task using multi-agent reinforcement learning (MARL). Every individual can move freely in a continuous space with the objective to follow a moving target object in a partially observable environment. The individuals are self-interested as there is no explicit incentive to collaborate with each other. However, our evaluation shows that these individuals learn to form swarms out of self-interest and learn to orient themselves to each other in order to find the target object even when it is out of sight for most individuals.},
+    doi         = {https://doi.org/10.1162/isal\_a\_00267},
+    url         = {https://direct.mit.edu/isal/proceedings/isal2020/333/98496},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/333/1908570/isal\_a\_00267.pdf}
+}
+
+@inproceedings{gaborQSE20,
+    author      = {Gabor, Thomas and S\"{u}nkel, Leo and Ritz, Fabian and Phan, Thomy and Belzner, Lenz and Roch, Christoph and Feld, Sebastian and Linnhoff-Popien, Claudia},
+    title       = {The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline},
+    year        = {2020},
+    isbn        = {9781450379632},
+    publisher   = {Association for Computing Machinery},
+    eprint      = {http://thomyphan.github.io/files/2020-qse-preprint.pdf},
+    doi         = {https://doi.org/10.1145/3387940.3391469},
+    abstract    = {We discuss the synergetic connection between quantum computing and artificial intelligence. After surveying current approaches to quantum artificial intelligence and relating them to a formal model for machine learning processes, we deduce four major challenges for the future of quantum artificial intelligence: (i) Replace iterative training with faster quantum algorithms, (ii) distill the experience of larger amounts of data into the training process, (iii) allow quantum and classical components to be easily combined and exchanged, and (iv) build tools to thoroughly analyze whether observed benefits really stem from quantum properties of the algorithm.},
+    booktitle   = {Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering Workshops},
+    pages       = {456–461},
+    numpages    = {6},
+    keywords    = {artificial intelligence, software engineering, quantum computing},
+    location    = {Seoul, Republic of Korea}
+}
+
+@inproceedings{phanAAMAS20,
+    author      = {Phan, Thomy and Gabor, Thomas and Sedlmeier, Andreas and Ritz, Fabian and Kempter, Bernhard and Klein, Cornel and Sauer, Horst and Schmid, Reiner and Wieghardt, Jan and Zeller, Marc and Linnhoff-Popien, Claudia},
+    title       = {Learning and Testing Resilience in Cooperative Multi-Agent Systems},
+    year        = {2020},
+    isbn        = {9781450375184},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {State-of-the-art multi-agent reinforcement learning has achieved remarkable success in recent years. The success has been mainly based on the assumption that all teammates perfectly cooperate to optimize a global objective in order to achieve a common goal. While this may be true in the ideal case, these approaches could fail in practice, since in multi-agent systems (MAS), all agents may be a potential source of failure. In this paper, we focus on resilience in cooperative MAS and propose an Antagonist-Ratio Training Scheme (ARTS) by reformulating the original target MAS as a mixed cooperative-competitive game between a group of protagonists which represent agents of the target MAS and a group of antagonists which represent failures in the MAS. While the protagonists can learn robust policies to ensure resilience against failures, the antagonists can learn malicious behavior to provide an adequate test suite for other MAS. We empirically evaluate ARTS in a cyber physical production domain and show the effectiveness of ARTS w.r.t. resilience and testing capabilities.},
+    booktitle   = {Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems},
+    pages       = {1055–1063},
+    numpages    = {9},
+    keywords    = {learning and testing, multi-agent learning, adversarial learning},
+    location    = {Auckland, New Zealand},
+    url         = {https://ifaamas.org/Proceedings/aamas2020/pdfs/p1055.pdf},
+    doi         = {https://dl.acm.org/doi/10.5555/3398761.3398884}
+}
+
+@inproceedings{phanALA20,
+    title        = {A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation},
+    author       = {Thomy Phan and Lenz Belzner and Kyrill Schmid and Thomas Gabor and Fabian Ritz and Sebastian Feld and Claudia Linnhoff-Popien},
+    abstract     = {We propose Stable Emergent Policy (STEP) approximation, a distributed policy iteration scheme to stably approximate decentralized policies for partially observable and cooperative multi-agent systems. STEP offers a novel training architecture, where function approximation is used to learn from action recommendations of a decentralized planning algorithm. Planning is enabled by exploiting a training simulator, which is assumed to be available during centralized learning, and further enhanced by reintegrating the learned policies. We experimentally evaluate STEP in two challenging and stochastic domains, and compare its performance with state-of-the-art multi-agent reinforcement learning algorithms.},
+    booktitle    = {12th Adaptive and Learning Agents Workshop (ALA 2020)},
+    month        = {May},
+    pages        = {9},
+    year         = {2020},
+    url          = {https://ala2020.vub.ac.be/papers/ALA2020_paper_36.pdf}
+}
+
+@inproceedings{rochICCS20,
+    title       = {A quantum annealing algorithm for finding pure Nash equilibria in graphical games},
+    author      = {Roch, Christoph and Phan, Thomy and Feld, Sebastian and M{\"u}ller, Robert and Gabor, Thomas and Hahn, Carsten and Linnhoff-Popien, Claudia},
+    booktitle   = {International Conference on Computational Science},
+    pages       = {488--501},
+    year        = {2020},
+    publisher   = {Springer},
+    abstract    = {We introduce Q-Nash, a quantum annealing algorithm for the NP-complete problem of finding pure Nash equilibria in graphical games. The algorithm consists of two phases. The first phase determines all combinations of best response strategies for each player using classical computation. The second phase finds pure Nash equilibria using a quantum annealing device by mapping the computed combinations to a quadratic unconstrained binary optimization formulation based on the Set Cover problem. We empirically evaluate Q-Nash on D-Wave’s Quantum Annealer 2000Q using different graphical game topologies. The results with respect to solution quality and computing time are compared to a Brute Force algorithm and the Iterated Best Response heuristic.},
+    doi         = {https://doi.org/10.1007/978-3-030-50433-5_38},
+    url         = {https://link.springer.com/chapter/10.1007/978-3-030-50433-5_38}
+}
+
+@article{gaborSTTT20,
+    title       = {The scenario coevolution paradigm: adaptive quality assurance for adaptive systems},
+    author      = {Gabor, Thomas and Sedlmeier, Andreas and Phan, Thomy and Ritz, Fabian and Kiermeier, Marie and Belzner, Lenz and Kempter, Bernhard and Klein, Cornel and Sauer, Horst and Schmid, Reiner and others},
+    journal     = {International Journal on Software Tools for Technology Transfer},
+    volume      = {22},
+    number      = {4},
+    pages       = {457--476},
+    year        = {2020},
+    publisher   = {Springer},
+    abstract    = {Systems are becoming increasingly more adaptive, using techniques like machine learning to enhance their behavior on their own rather than only through human developers programming them. We analyze the impact the advent of these new techniques has on the discipline of rigorous software engineering, especially on the issue of quality assurance. To this end, we provide a general description of the processes related to machine learning and embed them into a formal framework for the analysis of adaptivity, recognizing that to test an adaptive system a new approach to adaptive testing is necessary. We introduce scenario coevolution as a design pattern describing how system and test can work as antagonists in the process of software evolution. While the general pattern applies to large-scale processes (including human developers further augmenting the system), we show all techniques on a smaller-scale example of an agent navigating a simple smart factory. We point out new aspects in software engineering for adaptive systems that may be tackled naturally using scenario coevolution. This work is a substantially extended take on Gabor et al. (International symposium on leveraging applications of formal methods, Springer, pp 137–154, 2018)},
+    doi         = {https://doi.org/10.1007/s10009-020-00560-5},
+    url         = {https://link.springer.com/article/10.1007/s10009-020-00560-5},
+    eprint      = {https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf}
+}
+
+@inproceedings{sedlmeierICAART20,
+  author    = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
+  title     = {Uncertainty-based Out-of-Distribution Classification in Deep Reinforcement Learning},
+  booktitle = {Proceedings of the 12th International Conference on Agents and Artificial Intelligence - Volume 2: ICAART},
+  pages     = {522 -- 529},
+  year      = {2020},
+  abstract  = {Robustness to out-of-distribution (OOD) data is an important goal in building reliable machine learning systems. Especially in autonomous systems, wrong predictions for OOD inputs can cause safety critical situations. As a first step towards a solution, we consider the problem of detecting such data in a value-based deep reinforcement learning (RL) setting. Modelling this problem as a one-class classification problem, we propose a framework for uncertainty-based OOD classification: UBOOD. It is based on the effect that an agent's epistemic uncertainty is reduced for situations encountered during training (in-distribution), and thus lower than for unencountered (OOD) situations. Being agnostic towards the approach used for estimating epistemic uncertainty, combinations with different uncertainty estimation methods, e.g. approximate Bayesian inference methods or ensembling techniques are possible. We further present a first viable solution for calculating a dynamic classification threshold, based on the uncertainty distribution of the training data. Evaluation shows that the framework produces reliable classification results when combined with ensemble-based estimators, while the combination with concrete dropout-based estimators fails to reliably detect OOD situations. In summary, UBOOD presents a viable approach for OOD classification in deep RL settings by leveraging the epistemic uncertainty of the agent's value function.},
+  doi       = {https://doi.org/10.5220/0008949905220529},
+  eprint    = {http://thomyphan.github.io/files/2020-icaart-preprint.pdf}
+}
+
+@inproceedings{phanIJCAI19,
+  title     = {Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning},
+  author    = {Phan, Thomy and Gabor, Thomas and Müller, Robert and Roch, Christoph and Linnhoff-Popien, Claudia},
+  booktitle = {Proceedings of the 28th International Joint Conference on Artificial Intelligence, {IJCAI-19}},
+  publisher = {International Joint Conferences on Artificial Intelligence Organization},
+  abstract  = {We propose Stable Yet Memory Bounded Open-Loop (SYMBOL) planning, a general memory bounded approach to partially observable open-loop planning. SYMBOL maintains an adaptive stack of Thompson Sampling bandits, whose size is bounded by the planning horizon and can be automatically adapted according to the underlying domain without any prior domain knowledge beyond a generative model. We empirically test SYMBOL in four large POMDP benchmark problems to demonstrate its effectiveness and robustness w.r.t. the choice of hyperparameters and evaluate its adaptive memory consumption. We also compare its performance with other open-loop planning algorithms and POMCP.},
+  pages     = {5607--5613},
+  year      = {2019},
+  month     = {7},
+  url       = {https://www.ijcai.org/proceedings/2019/0778},
+  doi       = {https://doi.org/10.24963/ijcai.2019/778},
+}
+
+
+@inproceedings{gaborIJCAI19,
+    title     = {Subgoal-Based Temporal Abstraction in Monte-Carlo Tree Search},
+    author    = {Gabor, Thomas and Peter, Jan and Phan, Thomy and Meyer, Christian and Linnhoff-Popien, Claudia},
+    booktitle = {Proceedings of the 28th International Joint Conference on Artificial Intelligence, {IJCAI-19}},
+    publisher = {International Joint Conferences on Artificial Intelligence Organization},
+    pages     = {5562--5568},
+    abstract  = {We propose an approach to general subgoal-based temporal abstraction in MCTS. Our approach approximates a set of available macro-actions locally for each state only requiring a generative model and a subgoal predicate. For that, we modify the expansion step of MCTS to automatically discover and optimize macro-actions that lead to subgoals. We empirically evaluate the effectiveness, computational efficiency and robustness of our approach w.r.t. different parameter settings in two benchmark domains and compare the results to standard MCTS without temporal abstraction.},
+    year      = {2019},
+    month     = {7},
+    doi       = {https://doi.org/10.24963/ijcai.2019/772},
+    url       = {https://www.ijcai.org/proceedings/2019/772}
+}
+
+@inproceedings{sedlmeierISAAI19,
+    author      = {Sedlmeier, Andreas and Gabor, Thomas and Phan, Thomy and Belzner, Lenz and Linnhoff-Popien, Claudia},
+    title       = {Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning},
+    pages       = {74–78},
+    year        = {2020},
+    booktitle   = {ISAAI'19 Proceedings — Artificial Intelligence},
+    publisher   = {Digitale Welt},
+    abstract    = {We consider the problem of detecting out-of-distribution (OOD) samples in deep reinforcement learning. In a value based reinforcement learning setting, we propose to use uncertainty estimation techniques directly on the agent's value estimating neural network to detect OOD samples. The focus of our work lies in analyzing the suitability of approximate Bayesian inference methods and related ensembling techniques that generate uncertainty estimates. Although prior work has shown that dropout-based variational inference techniques and bootstrap-based approaches can be used to model epistemic uncertainty, the suitability for detecting OOD samples in deep reinforcement learning remains an open question. Our results show that uncertainty estimation can be used to differentiate in- from out-of-distribution samples. Over the complete training process of the reinforcement learning agents, bootstrap-based approaches tend to produce more reliable epistemic uncertainty estimates, when compared to dropout-based approaches.},
+    doi         = {https://doi.org/10.1007/s42354-019-0238-z},
+    url         = {https://link.springer.com/article/10.1007/s42354-019-0238-z},
+    eprint      = {http://thomyphan.github.io/files/2019-isaai-preprint.pdf}
+}
+
+@inproceedings{hahnALIFE19,
+    author      = {Hahn, Carsten and Phan, Thomy and Gabor, Thomas and Belzner, Lenz and Linnhoff-Popien, Claudia},
+    title       = {Emergent Escape-based Flocking behavior using Multi-Agent Reinforcement Learning},
+    booktitle   = {ALIFE 2019: The 2019 Conference on Artificial Life},
+    pages       = {598-605},
+    year        = {2019},
+    month       = {07},
+    abstract    = {In nature, flocking or swarm behavior is observed in many species as it has beneficial properties like reducing the probability of being caught by a predator. In this paper, we propose SELFish (Swarm Emergent Learning Fish), an approach with multiple autonomous agents which can freely move in a continuous space with the objective to avoid being caught by a present predator. The predator has the property that it might get distracted by multiple possible preys in its vicinity. We show that this property in interaction with self-interested agents which are trained with reinforcement learning solely to survive as long as possible leads to flocking behavior similar to Boids, a common simulation for flocking behavior. Furthermore we present interesting insights into the swarming behavior and into the process of agents being caught in our modeled environment.},
+    doi         = {https://doi.org/10.1162/isal\_a\_00226},
+    url         = {https://direct.mit.edu/isal/proceedings/isal2019/598/99238},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2019/31/598/1903589/isal\_a\_00226.pdf}
+}
+
+
+@inproceedings{gaborGECCO19,
+    author      = {Gabor, Thomas and Sedlmeier, Andreas and Kiermeier, Marie and Phan, Thomy and Henrich, Marcel and Pichlmair, Monika and Kempter, Bernhard and Klein, Cornel and Sauer, Horst and AG, Reiner SchmidSiemens and Wieghardt, Jan},
+    title       = {Scenario Co-Evolution for Reinforcement Learning on a Grid World Smart Factory Domain},
+    year        = {2019},
+    isbn        = {9781450361118},
+    publisher   = {Association for Computing Machinery},
+    abstract    = {Adversarial learning has been established as a successful paradigm in reinforcement learning. We propose a hybrid adversarial learner where a reinforcement learning agent tries to solve a problem while an evolutionary algorithm tries to find problem instances that are hard to solve for the current expertise of the agent, causing the intelligent agent to co-evolve with a set of test instances or scenarios. We apply this setup, called scenario co-evolution, to a simulated smart factory problem that combines task scheduling with navigation of a grid world. We show that the so trained agent outperforms conventional reinforcement learning. We also show that the scenarios evolved this way can provide useful test cases for the evaluation of any (however trained) agent.},
+    booktitle   = {Proceedings of the Genetic and Evolutionary Computation Conference},
+    pages       = {898–906},
+    numpages    = {9},
+    keywords    = {coevolution, evolutionary algorithms, adversarial learning, reinforcement learning, automatic test generation},
+    location    = {Prague, Czech Republic},
+    url         = {http://thomyphan.github.io/files/2019-gecco.pdf},
+    doi         = {https://doi.org/10.1145/3321707.3321831}
+}
+
+@inproceedings{phanAAMAS19,
+    author      = {Phan, Thomy and Schmid, Kyrill and Belzner, Lenz and Gabor, Thomas and Feld, Sebastian and Linnhoff-Popien, Claudia},
+    title       = {Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies},
+    year        = {2019},
+    isbn        = {9781450363099},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {We propose Strong Emergent Policy (STEP) approximation, a scalable approach to learn strong decentralized policies for cooperative MAS with a distributed variant of policy iteration. For that, we use function approximation to learn from action recommendations of a decentralized multi-agent planning algorithm. STEP combines decentralized multi-agent planning with centralized learning, only requiring a generative model for distributed black box optimization. We experimentally evaluate STEP in two challenging and stochastic domains with large state and joint action spaces and show that STEP is able to learn stronger policies than standard multi-agent reinforcement learning algorithms, when combining multi-agent open-loop planning with centralized function approximation. The learned policies can be reintegrated into the multi-agent planning process to further improve performance.},
+    booktitle   = {Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems},
+    pages       = {2162–2164},
+    numpages    = {3},
+    keywords    = {multi-agent learning, policy iteration, multi-agent planning},
+    location    = {Montreal QC, Canada},
+    url         = {https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2162.pdf},
+    doi         = {https://dl.acm.org/doi/10.5555/3306127.3332044}
+}
+
+@article{phanAAAI2019,
+    author      = {Phan, Thomy and Belzner, Lenz and Kiermeier, Marie and Friedrich, Markus and Schmid, Kyrill and Linnhoff-Popien, Claudia},
+    title       = {Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling},
+    volume      = {33},
+    abstract    = {State-of-the-art approaches to partially observable planning like POMCP are based on stochastic tree search. While these approaches are computationally efficient, they may still construct search trees of considerable size, which could limit the performance due to restricted memory resources. In this paper, we propose Partially Observable Stacked Thompson Sampling (POSTS), a memory bounded approach to openloop planning in large POMDPs, which optimizes a fixed size stack of Thompson Sampling bandits. We empirically evaluate POSTS in four large benchmark problems and compare its performance with different tree-based approaches. We show that POSTS achieves competitive performance compared to tree-based open-loop planning and offers a performance memory tradeoff, making it suitable for partially observable planning with highly restricted computational and memory resources.},
+    number      = {01},
+    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence},
+    year        = {2019},
+    month       = {July},
+    pages       = {7941-7948},
+    url         = {https://ojs.aaai.org/index.php/AAAI/article/view/4794},
+    doi         = {https://doi.org/10.1609/aaai.v33i01.33017941}
+}
+
+@inproceedings{phanAAMAS18,
+    author      = {Phan, Thomy and Belzner, Lenz and Gabor, Thomas and Schmid, Kyrill},
+    title       = {Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation},
+    year        = {2018},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {Making decisions is a great challenge in distributed autonomous environments due to enormous state spaces and uncertainty. Many online planning algorithms rely on statistical sampling to avoid searching the whole state space, while still being able to make acceptable decisions. However, planning often has to be performed under strict computational constraints making online planning in multi-agent systems highly limited, which could lead to poor system performance, especially in stochastic domains. In this paper, we propose Emergent Value function Approximation for Distributed Environments (EVADE), an approach to integrate global experience into multi-agent online planning in stochastic domains to consider global effects during local planning. For this purpose, a value function is approximated online based on the emergent system behaviour by using methods of reinforcement learning. We empirically evaluated EVADE with two statistical multi-agent online planning algorithms in a highly complex and stochastic smart factory environment, where multiple agents need to process various items at a shared set of machines. Our experiments show that EVADE can effectively improve the performance of multi-agent online planning while offering efficiency w.r.t. the breadth and depth of the planning process.},
+    booktitle   = {Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems},
+    pages       = {730–738},
+    numpages    = {9},
+    keywords    = {online planning, value function approximation, multi-agent planning},
+    location    = {Stockholm, Sweden},
+    doi         = {https://dl.acm.org/doi/abs/10.5555/3237383.3237491},
+    url         = {https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf}
+}
+
+@article{huangCell16,
+    author      = {Fang Huang and George Sirinakis and Edward S. Allgeyer and Lena K. Schroeder and Whitney C. Duim and Emil B. Kromann and Thomy Phan and Felix E. Rivera-Molina and Jordan R. Myers and Irnov Irnov and Mark Lessard and Yongdeng Zhang and Mary Ann Handel and Christine Jacobs-Wagner and C. Patrick Lusk and James E. Rothman and Derek Toomre and Martin J. Booth and Joerg Bewersdorf},
+    title       = {Ultra-High Resolution 3D Imaging of Whole Cells},
+    journal     = {Cell},
+    volume      = {166},
+    number      = {4},
+    pages       = {1028-1040},
+    year        = {2016},
+    issn        = {0092-8674},
+    doi         = {https://doi.org/10.1016/j.cell.2016.06.016},
+    url         = {https://www.cell.com/fulltext/S0092-8674(16)30745-0},
+    abstract    = {Fluorescence nanoscopy, or super-resolution microscopy, has become an important tool in cell biological research. However, because of its usually inferior resolution in the depth direction (50–80 nm) and rapidly deteriorating resolution in thick samples, its practical biological application has been effectively limited to two dimensions and thin samples. Here, we present the development of whole-cell 4Pi single-molecule switching nanoscopy (W-4PiSMSN), an optical nanoscope that allows imaging of three-dimensional (3D) structures at 10- to 20-nm resolution throughout entire mammalian cells. We demonstrate the wide applicability of W-4PiSMSN across diverse research fields by imaging complex molecular architectures ranging from bacteriophages to nuclear pores, cilia, and synaptonemal complexes in large 3D cellular volumes.}
+}

@@ -16,13 +16,21 @@
 </script>
 
 <script>
-  function toggleBibtex(target, id) {
+  function toggleSomeAction(target, id, action_name) {
     if ($('#' + id).css('display') == 'block') {
       $('#' + id).hide('fast');
-      $(target).text('bibtex')
+      $(target).text(action_name)
     } else {
-      $('#' + id).show('fast'); $(target).text('bibtex▲')
+      $('#' + id).show('fast'); $(target).text(action_name+'▲')
     }
+  }
+
+  function toggleBibtex(target, id) {
+    toggleSomeAction(target, id, "bibtex")
+  }
+
+  function toggleAbstract(target, id) {
+    toggleSomeAction(target, id, "abstract")
   }
 </script>
 
