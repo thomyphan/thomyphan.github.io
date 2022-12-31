@@ -38,14 +38,28 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         }
     }
 
+    function getVenue(entry) {
+        var entryTags = entry["entryTags"];
+        if(entryTags["entryType"] == "article") {
+            return entryTags["url"];
+        } else {
+            return entryTags["url"];
+        }
+    }
+
     function publicationEntry(entry) {
         var authorName = '{{ site.name | default: site.title }}';
         var result = "<li><span>";
         var entryTags = entry["entryTags"];
-        result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a><br/>';
+        result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
-        authors = authors.replace(authorName, "<b>"+authorName+"</b>");
+        authors = authors.replace(authorName, "<b>"+authorName+".</b>");
         result += authors + "<br/>";
+        result += valueInTag(getVenue(entry), "i");
+        if("pages" in entryTags) {
+            result += ", pages " + entryTags["pages"];
+        }
+        result += ", "+ entryTags["year"] + ".";
         result += "</span></li>";
         return result;
     }
