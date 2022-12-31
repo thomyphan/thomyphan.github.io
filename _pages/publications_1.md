@@ -1,9 +1,4 @@
----
-layout: archive
-title: "Selected Publications"
-permalink: /publications/
-author_profile: true
----
+
 
 You can find all my articles on <u><a href="https://scholar.google.de/citations?user=yny05hUAAAAJ">my Google Scholar profile</a>.</u>
 
