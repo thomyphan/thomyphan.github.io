@@ -14,7 +14,12 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 
 <script>
     function publicationEntry(entry) {
-        return "<li><pre>" + entry + "</pre></li>";
+        var result = "<li><pre>";
+        for (let variable in entry) {
+            result += ''+variable+' = "' + entry[variable] + '"\n';
+        }
+        result += "</pre></li>";
+        return result;
     }
 
     function loadPublications(bibtex) {
