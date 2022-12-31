@@ -30,8 +30,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     var client = new XMLHttpRequest();
     client.open('GET', 'https://thomyphan.github.io/assets/publications.bib');
     client.onreadystatechange = function() {
-        var publicationList = loadPublications(client.responseText);
-        mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
+        //var publicationList = loadPublications(client.responseText);
+        //mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
+        mainContainer.innerHTML = client.responseText;
     };
     client.send();
 </script>
