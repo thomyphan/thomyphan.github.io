@@ -15,8 +15,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 <script>
     function publicationEntry(entry) {
         var result = "<li><pre>";
-        for (let variable in entry) {
-            result += ''+variable+' = "' + entry[variable] + '"\n';
+        var entryTags = entry["entryTags"];
+        for (let variable in entryTags) {
+            result += ''+variable+' = "' + entryTags[variable] + '"\n';
         }
         result += "</pre></li>";
         return result;
