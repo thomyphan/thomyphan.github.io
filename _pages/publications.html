@@ -26,15 +26,18 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         return publicationData.map(publicationEntry).reduce(accumulateEntries, "");
     }
 
-    /*var mainContainer = document.getElementById("selected_publications_container");
     var client = new XMLHttpRequest();
-    client.open('GET', 'https://thomyphan.github.io/assets/publications.bib');
     client.onreadystatechange = function() {
-        if (client.readyState==4 && client.status == 200) {
+        if (this.readyState == 4 && this.status == 200) {
+            var mainContainer = document.getElementById("selected_publications_container");
+            mainContainer.innerHTML = this.responseText;
+        }
+        /*if (client.readyState==4 && client.status == 200) {
             //var publicationList = loadPublications(client.responseText);
             //mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
             mainContainer.innerHTML = client.responseText;
-        }
+        }*/
     };
-    client.send();*/
+    client.open('GET', 'https://thomyphan.github.io/assets/publications.bib');
+    client.send();
 </script>
