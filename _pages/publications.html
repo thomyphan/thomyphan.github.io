@@ -22,9 +22,12 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     }
 
     function loadPublications(bibtex) {
-        return bibtex;
-        /*var publicationData = bibtex.split("/\r?\n//\r?\n/");
-        return publicationData.map(publicationEntry).reduce(accumulateEntries, "");*/
+        var publicationData = bibtex.split("/\r?\n//\r?\n/");
+        var result = "";
+        for (var i = 0; i < publicationData.length; i++) {
+            result += publicationData[i];
+        }
+        return result;
     }
 
     var client = new XMLHttpRequest();
