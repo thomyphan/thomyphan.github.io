@@ -13,19 +13,15 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 </div>
 
 <script>
-    function accumulateEntries(total, currentEntry, currentIndex, arr) {
-        return total + currentEntry;
-    }
-
-    function publicationEntry(entry, index, arr) {
+    function publicationEntry(entry) {
         return "<li><pre>" + entry["title"] + "</pre></li>";
     }
 
     function loadPublications(bibtex) {
-        var publicationData = bibtex.split("/\r?\n//\r?\n/");
+        var publicationData = bibtexParse.toJSON(bibtex);
         var result = "";
         for (var i = 0; i < publicationData.length; i++) {
-            result += publicationData[i];
+            result += publicationEntry(publicationData[i]);
         }
         return result;
     }
