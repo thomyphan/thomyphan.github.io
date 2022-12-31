@@ -13,13 +13,30 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 </div>
 
 <script>
-    function publicationEntry(entry) {
-        var result = "<li><pre>";
+    function valueInTag(value, tag) {
+        return "<"+tag+">"+value+"</"+tag+">";
+    }
+
+    function getEntryURL(entry) {
         var entryTags = entry["entryTags"];
-        for (let variable in entryTags) {
-            result += ''+variable+' = "' + entryTags[variable] + '"\n';
+        if("url" in entryTags) {
+            return entryTags["url"];
+        } else if("eprint" in entryTags) {
+            return entryTags["eprint"];
+        } else if("doi" in entryTags) {
+            return entryTags["doi"];
+        } else {
+            return "#";
         }
-        result += "</pre></li>";
+    }
+
+    function publicationEntry(entry) {
+        var result = "<li><span>";
+        var entryTags = entry["entryTags"];
+        result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a><br/>';
+        result += entryTags["author"] + "<br/>";
+        result += entryTags["author"] + "<br/>";
+        result += "</span></li>";
         return result;
     }
 
