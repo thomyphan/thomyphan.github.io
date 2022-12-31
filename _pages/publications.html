@@ -41,7 +41,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     function getVenue(entry) {
         var entryTags = entry["entryTags"];
         var venue = "";
-        if(entryTags["entryType"].localeCompare("article")) {
+        if(entry["entryType"].localeCompare("article")) {
             venue = entryTags["journal"];
         } else {
             venue = entryTags["booktitle"];
