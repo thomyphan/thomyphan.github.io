@@ -41,9 +41,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     function getVenue(entry) {
         var entryTags = entry["entryTags"];
         if(entryTags["entryType"] == "article") {
-            return entryTags["url"];
+            return entryTags["journal"];
         } else {
-            return entryTags["url"];
+            return entryTags["booktitle"];
         }
     }
 
