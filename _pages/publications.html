@@ -31,7 +31,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     client.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var mainContainer = document.getElementById("selected_publications_container");
-            var publicationList = loadPublications(client.responseText);
+            var publicationList = loadPublications(this.responseText);
             mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
         }
     };
