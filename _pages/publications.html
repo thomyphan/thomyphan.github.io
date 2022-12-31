@@ -13,6 +13,14 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
 </div>
 
 <script>
+    function escapeRegExp(string) {
+        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'); // $& means the whole matched string
+    }
+
+    function replaceAll(str, find, replace) {
+        return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+    }
+
     function valueInTag(value, tag) {
         return "<"+tag+">"+value+"</"+tag+">";
     }
@@ -31,10 +39,13 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     }
 
     function publicationEntry(entry) {
+        var authorName = '{{ site.name | default: site.title }}';
         var result = "<li><span>";
         var entryTags = entry["entryTags"];
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a><br/>';
-        result += entryTags["author"].replace("and", ", ") + "<br/>";
+        var authors = replaceAll(entryTags["author"], " and ", ", ");
+        authors = authors.replace(authorName, "<b>"+authorName+"</b>");
+        result += local + "<br/>";
         result += "</span></li>";
         return result;
     }
