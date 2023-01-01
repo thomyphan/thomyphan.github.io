@@ -5,6 +5,8 @@ permalink: /research/resilience/
 author_profile: true
 ---
 
+{% include base_path %}
+
 ## Diverse Optimization
 - Diverse Evolutionary Planning
 - Productive Fitness Optimization

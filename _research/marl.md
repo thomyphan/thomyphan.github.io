@@ -5,6 +5,8 @@ permalink: /research/marl/
 author_profile: true
 ---
 
+{% include base_path %}
+
 ## Cooperative Systems
 - Scalability
 - Benchmarks

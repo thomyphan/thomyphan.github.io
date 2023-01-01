@@ -5,6 +5,8 @@ permalink: /research/emergence/
 author_profile: true
 ---
 
+{% include base_path %}
+
 ## Emerging Swarms
 - RL-based Swarm formations
 

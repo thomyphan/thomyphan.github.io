@@ -5,6 +5,8 @@ permalink: /research/planning/
 author_profile: true
 ---
 
+{% include base_path %}
+
 ## Efficiency
 - Open-Loop Planning
 - Memory Bounded Planning
