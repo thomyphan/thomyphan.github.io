@@ -18,3 +18,6 @@ author_profile: true
 ## Social Dilemmas
 - Peer Incentivization
 
+<div style="float: right;">
+    <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
+</div>

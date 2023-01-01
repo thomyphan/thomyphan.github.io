@@ -17,3 +17,6 @@ author_profile: true
 ## Resilient Multi-Agent Reinforcement Learning
 - Antagonist-based MARL
 
+<div style="float: right;">
+    <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
+</div>
