@@ -94,7 +94,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         }
         result += ", "+ entryTags["year"] + ".<br/>";
         result += '[<a href="javascript:void(0)" id="'+linkAbstractId+'">abstract</a>]';
-        result += '[<a href="javascript:void(0)" id="'+linkBibtexId+'">bibtex</a>]';
+        result += ' [<a href="javascript:void(0)" id="'+linkBibtexId+'">bibtex</a>]';
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
@@ -102,7 +102,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
         }
         result += ".<br/>";
-        result += '<div id="'+abstractId+'" style="display:none"><p>';
+        result += '<div id="'+abstractId+'" style="display:none; border-radius: 25px; background: #e6e6e6; padding: 20px; "><p>';
         result += entryTags["abstract"];
         result += "</p></div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
