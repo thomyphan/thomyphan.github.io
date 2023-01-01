@@ -69,7 +69,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         bibtexLink.href = "javascript:void(0)";
         bibtexLink.addEventListener("click",
             function handleClick(event){
-                toggleBibtex(this, 'bibtex-'+entry["citationKey"]);
+                toggleBibtex(bibtexLink, 'bibtex-'+entry["citationKey"]);
             }
         );
         if("doi" in entryTags) {
