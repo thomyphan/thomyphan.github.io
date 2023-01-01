@@ -140,7 +140,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
                 var linkBibtexId = "a-"+bibtexId;
                 var bibtexLink = document.getElementById(linkBibtexId);
                 bibtexLink.addEventListener("click", function(){
-                    toggleBibtex(bibtexLink, bibtexId);
+                    toggleBibtex("#"+linkBibtexId, bibtexId);
                 });
             }
         }
