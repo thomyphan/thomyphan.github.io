@@ -82,6 +82,8 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         var entryTags = entry["entryTags"];
         var bibtexId = "bibtex-" + entry["citationKey"];
         var linkBibtexId = "a-"+bibtexId;
+        var abstractId = "abstract-"+bibtexId;
+        var linkAbstractId = "a-"+abstractId;
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
         authors = authors.replace(authorName, "<strong>"+authorName+"</strong>");
@@ -91,6 +93,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ", pages " + entryTags["pages"];
         }
         result += ", "+ entryTags["year"] + ".<br/>";
+        result += '[<a href="javascript:void(0)" id="'+linkAbstractId+'">abstract</a>]';
         result += '[<a href="javascript:void(0)" id="'+linkBibtexId+'">bibtex</a>]';
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
@@ -99,6 +102,9 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
         }
         result += ".<br/>";
+        result += '<div id="'+abstractId+'" style="display:none"><p>';
+        result += entryTags["abstract"];
+        result += "</p></div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
             result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
@@ -138,10 +144,17 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
                 var entry = publicationData[i];
                 var bibtexId = "bibtex-" + entry["citationKey"];
                 var linkBibtexId = "a-"+bibtexId;
-                console.log(linkBibtexId);
+                var abstractId = "abstract-"+bibtexId;
+                var linkAbstractId = "a-"+abstractId;
+                
                 var bibtexLink = document.getElementById(linkBibtexId);
                 bibtexLink.addEventListener("click", function(event){
                     toggleBibtex(event.target, event.target.id.replace("a-",""));
+                });
+
+                var abstractLink = document.getElementById(linkAbstractId);
+                abstractLink.addEventListener("click", function(event){
+                    toggleAbstract(event.target, event.target.id.replace("a-",""));
                 });
             }
         }
