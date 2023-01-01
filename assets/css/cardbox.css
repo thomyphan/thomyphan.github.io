@@ -23,6 +23,26 @@
   border-radius: 5px;
 }
 
+/* unvisited link */
+.card a:link {
+  color: black;
+}
+
+/* visited link */
+.card a:visited {
+  color: black;
+}
+
+/* mouse over link */
+.card a:hover {
+  color: gray;
+}
+
+/* selected link */
+.card a:active {
+  color: gray;
+}
+
 .card:hover {
   box-shadow: 0 12px 16px 0 rgba(0,0,0,0.2);
 }
