@@ -62,23 +62,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             result += ", pages " + entryTags["pages"];
         }
         result += ", "+ entryTags["year"] + ".<br/>";
-        var bibtexLinkId = 'a-bibtex-'+entry["citationKey"];
-        result += '[<a id="'+bibtexLinkId+'"></a>]';
-        var bibtexLink = document.getElementById(bibtexLinkId);
-        bibtexLink.textContent = "bibtex";
-        bibtexLink.href = "javascript:void(0)";
-        bibtexLink.addEventListener("click",
-            function handleClick(event){
-                toggleBibtex(bibtexLink, 'bibtex-'+entry["citationKey"]);
-            }
-        );
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
         result += ".<br/>";
-        result += '<div id="bibtex-'+entry["citationKey"]+'" style="display:none"><pre>';
-        result += "bibtexParse.toBibtex(entry, false)";
-        result += '</pre></div>';
         result += "</span></li>";
         return result;
     }
@@ -86,9 +73,21 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     function loadPublications(bibtex) {
         var publicationData = bibtexParse.toJSON(bibtex);
         var result = "";
+        var currentYear = null;
         for (var i = 0; i < publicationData.length; i++) {
-            result += publicationEntry(publicationData[i]);
+            var entry = publicationData[i];
+            var year = entry["entryTags"]["year"];
+            if(currentYear != year) {
+                if(currentYear != null) {
+                    results += "</ul>";
+                }
+                currentYear == year;
+                result += "<h2>" + year + "</h2>";
+                result += "<ul>"
+            }
+            result += publicationEntry(entry);
         }
+        results += "</ul>";
         return result;
     }
 
@@ -96,8 +95,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
     client.onreadystatechange = function() {
         if (this.readyState == 4 && this.status == 200) {
             var mainContainer = document.getElementById("selected_publications_container");
-            var publicationList = loadPublications(this.responseText);
-            mainContainer.innerHTML = "<ul>" + publicationList + "</ul>";
+            mainContainer.innerHTML = loadPublications(this.responseText);
         }
     };
     client.open('GET', '{{ base_path }}/assets/publications.bib');
