@@ -62,8 +62,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             result += ", pages " + entryTags["pages"];
         }
         result += ", "+ entryTags["year"] + ".<br/>";
-        result += '[';
-        var bibtexLink = document.createElement('a');
+        var bibtexLinkId = 'a-bibtex-'+entry["citationKey"];
+        result += '[<a id="'+bibtexLinkId+'"></a>]';
+        var bibtexLink = document.getElementById(bibtexLinkId);
         bibtexLink.textContent = "bibtex";
         bibtexLink.href = "javascript:void(0)";
         bibtexLink.addEventListener("click",
@@ -71,8 +72,6 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
                 toggleBibtex(this, 'bibtex-'+entry["citationKey"]);
             }
         );
-        result += bibtexLink.outerHTML;
-        result += ']';
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
