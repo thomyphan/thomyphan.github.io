@@ -26,21 +26,25 @@
 /* unvisited link */
 .card a:link {
   color: black;
+  text-decoration: none;
 }
 
 /* visited link */
 .card a:visited {
   color: black;
+  text-decoration: none;
 }
 
 /* mouse over link */
 .card a:hover {
   color: gray;
+  text-decoration: underline;
 }
 
 /* selected link */
 .card a:active {
   color: gray;
+  text-decoration: underline;
 }
 
 .card:hover {
