@@ -96,6 +96,9 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
         }
         result += ".<br/>";
+        result += "<div><pre>";
+        result += bibtexParse.toBibtex(entry, false);
+        result += "</pre></div>";
         result += "</span></li>";
         return result;
     }
