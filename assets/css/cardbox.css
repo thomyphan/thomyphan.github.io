@@ -49,3 +49,8 @@
     text-align: center;
     font-weight: normal
 }
+
+.image_display {
+  display: block;
+  width: 100%;
+}
