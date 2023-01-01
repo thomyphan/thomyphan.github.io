@@ -76,21 +76,6 @@
 }
 
 /* unvisited link */
-.box a:link {
-  box-shadow: none;
-}
-
-/* visited link */
-.box a:visited {
-  box-shadow: none;
-}
-
-/* mouse over link */
-.box a:hover {
-  box-shadow: none;
-}
-
-/* selected link */
-.box a:active {
+.box:hover {
   box-shadow: none;
 }
