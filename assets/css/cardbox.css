@@ -44,7 +44,6 @@
 /* selected link */
 .card a:active {
   color: gray;
-  text-decoration: underline;
 }
 
 .card:hover {
@@ -77,4 +76,24 @@
 .image_display {
   display: block;
   width: 100%;
+}
+
+/* unvisited link */
+.box a:link {
+  box-shadow: none;
+}
+
+/* visited link */
+.box a:visited {
+  box-shadow: none;
+}
+
+/* mouse over link */
+.box a:hover {
+  box-shadow: none;
+}
+
+/* selected link */
+.box a:active {
+  box-shadow: none;
 }
