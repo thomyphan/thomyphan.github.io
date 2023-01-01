@@ -27,7 +27,13 @@
   }
 
   function toggleBibtex(target, id) {
-    toggleSomeAction(target, id, "bibtex");
+    if ($('#' + id).css('display') == 'block') {
+          $('#' + id).hide('fast');
+          $(target).text("bibtex");
+      } else {
+          $('#' + id).show('fast');
+          $(target).text('bibtex▲');
+      }
   }
 
   function toggleAbstract(target, id) {

@@ -62,7 +62,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             result += ", pages " + entryTags["pages"];
         }
         result += ", "+ entryTags["year"] + ".<br/>";
-        result += '[<a href="javascript:void(0)">bibtex</a>]';
+        result += '[<a href="javascript:void(0)" onclick="toggleBibtex(this,'+entry["citationKey"]+');">bibtex</a>]';
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
