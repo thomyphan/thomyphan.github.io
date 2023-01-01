@@ -80,6 +80,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         var authorName = '{{ site.name | default: site.title }}';
         var result = "<li><span>";
         var entryTags = entry["entryTags"];
+        var bibtexId = "bibtex-" + entry["citationKey"];
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
         authors = authors.replace(authorName, "<strong>"+authorName+"</strong>");
@@ -96,7 +97,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
         }
         result += ".<br/>";
-        result += "<div><pre>@"+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
+        result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
             result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
         }
