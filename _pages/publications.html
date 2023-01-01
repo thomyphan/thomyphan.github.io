@@ -138,6 +138,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
                 var entry = publicationData[i];
                 var bibtexId = "bibtex-" + entry["citationKey"];
                 var linkBibtexId = "a-"+bibtexId;
+                console.log(linkBibtexId);
                 var bibtexLink = document.getElementById(linkBibtexId);
                 bibtexLink.addEventListener("click", function(){
                     toggleBibtex("#"+linkBibtexId, bibtexId);
