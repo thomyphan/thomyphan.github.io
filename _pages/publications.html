@@ -67,10 +67,10 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
         result += ".<br/>";
-        result += "</span></li>";
         result += '<div id="bibtex-'+entry["citationKey"]+'" style="display:none"><pre>';
         result += "bibtexParse.toBibtex(entry, false)";
         result += '</pre></div>';
+        result += "</span></li>";
         return result;
     }
 
