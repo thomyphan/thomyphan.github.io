@@ -90,6 +90,9 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         if("doi" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
         }
+        if("code" in entryTags) {
+            result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
+        }
         result += ".<br/>";
         result += "</span></li>";
         return result;
