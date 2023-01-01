@@ -98,7 +98,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         result += ".<br/>";
         result += "<div><pre>@"+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
-            result += "\t" + variable + " = {" + entryTags[variable] + "},\n";
+            result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
         }
         result += "}</pre></div>";
         result += "</span></li>";
