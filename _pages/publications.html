@@ -141,7 +141,8 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
                 var bibtexLink = document.getElementById(linkBibtexId);
                 bibtexLink.addEventListener("click", function(){
                     console.log("->" + bibtexId);
-                    $('#' + bibtexId).show('fast');
+                    var bibtex = document.getElementById(bibtexId);
+                    bibtex.style = "display:block";
                     console.log("<-" + bibtexId);
                 });
             }
