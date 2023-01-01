@@ -64,7 +64,7 @@ You can find all my articles on <u><a href="https://scholar.google.de/citations?
         result += ", "+ entryTags["year"] + ".<br/>";
         result += '[';
         var bibtexLink = document.createElement('a');
-        bibtexLink.innerHTML = "bibtex";
+        bibtexLink.textContent = "bibtex";
         bibtexLink.href = "javascript:void(0)";
         bibtexLink.addEventListener("click",
             function handleClick(event){
