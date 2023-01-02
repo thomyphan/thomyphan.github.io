@@ -96,10 +96,10 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         result += '[<a href="javascript:void(0)" id="'+linkAbstractId+'">abstract</a>]';
         result += ' [<a href="javascript:void(0)" id="'+linkBibtexId+'">bibtex</a>]';
         if("doi" in entryTags) {
-            result += ' [<a href="'+entryTags["doi"]+'">DOI</a>]';
+            result += ' [<a href="'+entryTags["doi"]+'">doi</a>]';
         }
         if("eprint" in entryTags) {
-            result += ' [<a href="'+entryTags["eprint"]+'">PDF</a>]';
+            result += ' [<a href="'+entryTags["eprint"]+'">pdf</a>]';
         }
         if("code" in entryTags) {
             result += ' [<a href="'+entryTags["doi"]+'">code</a>]';
@@ -120,6 +120,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
     function loadPublications(publicationData) {
         var result = "";
         var currentYear = null;
+        publicationData.sort(function(a,b) {return b["entryTags"]["year"] - a["entryTags"]["year"]});
         for (var i = 0; i < publicationData.length; i++) {
             var entry = publicationData[i];
             var year = entry["entryTags"]["year"];
