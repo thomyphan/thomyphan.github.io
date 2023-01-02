@@ -50,7 +50,7 @@
 @inproceedings{ritzICAARTBook22,
     author      = {Fabian Ritz and Thomy Phan and Robert Müller and Thomas Gabor and Andreas Sedlmeier and Marc Zeller and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien},
     title       = {Specification Aware Multi-Agent Reinforcement Learning},
-    year        = {2021},
+    year        = {2022},
     isbn        = {978-3-031-10160-1},
     publisher   = {Springer-Verlag},
     doi         = {https://doi.org/10.1007/978-3-031-10161-8_1},
@@ -237,30 +237,41 @@
     eprint      = {https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf}
 }
 
+@inproceedings{schmid2020multi,
+    title     = {Multi-Agent Reinforcement Learning for Bargaining under Risk and Asymmetric Information},
+    author    = {Kyrill Schmid and Lenz Belzner and Thomy Phan and Thomas Gabor and Claudia Linnhoff-Popien},
+    booktitle = {Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART)},
+    pages     = {144–151},
+    year      = {2020},
+    abstract  = {In cooperative game theory bargaining games refer to situations where players can agree to any one of a variety of outcomes but there is a conflict on which specific outcome to choose. However, the players cannot impose a specific outcome on others and if no agreement is reached all players receive a predetermined status quo outcome. Bargaining games have been studied from a variety of fields, including game theory, economics, psychology and simulation based methods like genetic algorithms. In this work we extend the analysis by means of deep multi-agent reinforcement learning (MARL). To study the dynamics of bargaining with reinforcement learning we propose two different bargaining environments which display the following situations: in the first domain two agents have to agree on the division of an asset, e.g., the division of a fixed amount of money between each other. The second domain models a seller-buyer scenario in which agents must agree on a price for a product. We empirica lly demonstrate that the bargaining result under MARL is influenced by agents' risk-aversion as well as information asymmetry between agents.},
+    doi       = {https://doi.org/10.5220/0008913901440151},
+    eprint    = {http://thomyphan.github.io/files/2020-icaart-1.pdf}
+}
+
 @inproceedings{sedlmeierICAART20,
-  author    = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
-  title     = {Uncertainty-based Out-of-Distribution Classification in Deep Reinforcement Learning},
-  booktitle = {Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART)},
-  pages     = {522–529},
-  year      = {2020},
-  abstract  = {Robustness to out-of-distribution (OOD) data is an important goal in building reliable machine learning systems. Especially in autonomous systems, wrong predictions for OOD inputs can cause safety critical situations. As a first step towards a solution, we consider the problem of detecting such data in a value-based deep reinforcement learning (RL) setting. Modelling this problem as a one-class classification problem, we propose a framework for uncertainty-based OOD classification: UBOOD. It is based on the effect that an agent's epistemic uncertainty is reduced for situations encountered during training (in-distribution), and thus lower than for unencountered (OOD) situations. Being agnostic towards the approach used for estimating epistemic uncertainty, combinations with different uncertainty estimation methods, e.g. approximate Bayesian inference methods or ensembling techniques are possible. We further present a first viable solution for calculating a dynamic classification threshold, based on the uncertainty distribution of the training data. Evaluation shows that the framework produces reliable classification results when combined with ensemble-based estimators, while the combination with concrete dropout-based estimators fails to reliably detect OOD situations. In summary, UBOOD presents a viable approach for OOD classification in deep RL settings by leveraging the epistemic uncertainty of the agent's value function.},
-  doi       = {https://doi.org/10.5220/0008949905220529},
-  eprint    = {http://thomyphan.github.io/files/2020-icaart-preprint.pdf}
+    author    = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
+    title     = {Uncertainty-based Out-of-Distribution Classification in Deep Reinforcement Learning},
+    booktitle = {Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART)},
+    pages     = {522–529},
+    year      = {2020},
+    abstract  = {Robustness to out-of-distribution (OOD) data is an important goal in building reliable machine learning systems. Especially in autonomous systems, wrong predictions for OOD inputs can cause safety critical situations. As a first step towards a solution, we consider the problem of detecting such data in a value-based deep reinforcement learning (RL) setting. Modelling this problem as a one-class classification problem, we propose a framework for uncertainty-based OOD classification: UBOOD. It is based on the effect that an agent's epistemic uncertainty is reduced for situations encountered during training (in-distribution), and thus lower than for unencountered (OOD) situations. Being agnostic towards the approach used for estimating epistemic uncertainty, combinations with different uncertainty estimation methods, e.g. approximate Bayesian inference methods or ensembling techniques are possible. We further present a first viable solution for calculating a dynamic classification threshold, based on the uncertainty distribution of the training data. Evaluation shows that the framework produces reliable classification results when combined with ensemble-based estimators, while the combination with concrete dropout-based estimators fails to reliably detect OOD situations. In summary, UBOOD presents a viable approach for OOD classification in deep RL settings by leveraging the epistemic uncertainty of the agent's value function.},
+    doi       = {https://doi.org/10.5220/0008949905220529},
+    eprint    = {http://thomyphan.github.io/files/2020-icaart-preprint.pdf}
 }
 
 @inproceedings{phanIJCAI19,
-  title     = {Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning},
-  author    = {Thomy Phan and Thomas Gabor and Robert Müller and Christoph Roch and Claudia Linnhoff-Popien},
-  booktitle = {Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI)},
-  publisher = {International Joint Conferences on Artificial Intelligence Organization},
-  abstract  = {We propose Stable Yet Memory Bounded Open-Loop (SYMBOL) planning, a general memory bounded approach to partially observable open-loop planning. SYMBOL maintains an adaptive stack of Thompson Sampling bandits, whose size is bounded by the planning horizon and can be automatically adapted according to the underlying domain without any prior domain knowledge beyond a generative model. We empirically test SYMBOL in four large POMDP benchmark problems to demonstrate its effectiveness and robustness w.r.t. the choice of hyperparameters and evaluate its adaptive memory consumption. We also compare its performance with other open-loop planning algorithms and POMCP.},
-  pages     = {5607–5613},
-  year      = {2019},
-  month     = {7},
-  url       = {https://www.ijcai.org/proceedings/2019/0778},
-  eprint    = {http://thomyphan.github.io/files/2019-ijcai-2.pdf},
-  doi       = {https://doi.org/10.24963/ijcai.2019/778},
-  code      = {https://github.com/thomyphan/planning}
+    title     = {Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning},
+    author    = {Thomy Phan and Thomas Gabor and Robert Müller and Christoph Roch and Claudia Linnhoff-Popien},
+    booktitle = {Proceedings of the 28th International Joint Conference on Artificial Intelligence (IJCAI)},
+    publisher = {International Joint Conferences on Artificial Intelligence Organization},
+    abstract  = {We propose Stable Yet Memory Bounded Open-Loop (SYMBOL) planning, a general memory bounded approach to partially observable open-loop planning. SYMBOL maintains an adaptive stack of Thompson Sampling bandits, whose size is bounded by the planning horizon and can be automatically adapted according to the underlying domain without any prior domain knowledge beyond a generative model. We empirically test SYMBOL in four large POMDP benchmark problems to demonstrate its effectiveness and robustness w.r.t. the choice of hyperparameters and evaluate its adaptive memory consumption. We also compare its performance with other open-loop planning algorithms and POMCP.},
+    pages     = {5607–5613},
+    year      = {2019},
+    month     = {7},
+    url       = {https://www.ijcai.org/proceedings/2019/0778},
+    eprint    = {http://thomyphan.github.io/files/2019-ijcai-2.pdf},
+    doi       = {https://doi.org/10.24963/ijcai.2019/778},
+    code      = {https://github.com/thomyphan/planning}
 }
 
 
@@ -283,7 +294,7 @@
     author      = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
     title       = {Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning},
     pages       = {74–78},
-    year        = {2020},
+    year        = {2019},
     booktitle   = {1st International Symposium on Applied Artificial Intelligence (ISAAI)},
     publisher   = {Digitale Welt},
     abstract    = {We consider the problem of detecting out-of-distribution (OOD) samples in deep reinforcement learning. In a value based reinforcement learning setting, we propose to use uncertainty estimation techniques directly on the agent's value estimating neural network to detect OOD samples. The focus of our work lies in analyzing the suitability of approximate Bayesian inference methods and related ensembling techniques that generate uncertainty estimates. Although prior work has shown that dropout-based variational inference techniques and bootstrap-based approaches can be used to model epistemic uncertainty, the suitability for detecting OOD samples in deep reinforcement learning remains an open question. Our results show that uncertainty estimation can be used to differentiate in- from out-of-distribution samples. Over the complete training process of the reinforcement learning agents, bootstrap-based approaches tend to produce more reliable epistemic uncertainty estimates, when compared to dropout-based approaches.},
