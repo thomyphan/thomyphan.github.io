@@ -12,7 +12,8 @@
     location    = {Virtual Event, New Zealand},
     doi         = {https://dl.acm.org/doi/abs/10.5555/3535850.3535967},
     url         = {https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1047.pdf},
-    code        = {https://github.com/thomyphan/emergent-cooperation}
+    code        = {https://github.com/thomyphan/emergent-cooperation},
+    eprint      = {http://thomyphan.github.io/files/2022-aamas.pdf}
 }
 
 @inproceedings{muellerAAMAS22,
@@ -28,7 +29,8 @@
     keywords    = {anomaly detection, AI safety, reinforcement learning},
     location    = {Virtual Event, New Zealand},
     doi         = {https://dl.acm.org/doi/10.5555/3535850.3536113},
-    url         = {https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1799.pdf}
+    url         = {https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1799.pdf},
+    eprint      = {http://thomyphan.github.io/files/2022-aamas-bluesky.pdf}
 }
 
 @inproceedings{ritzISoLA22,
@@ -96,6 +98,7 @@
     volume      = {35},
     url         = {https://ojs.aaai.org/index.php/AAAI/article/view/17348},
     doi         = {https://doi.org/10.1609/aaai.v35i13.17348},
+    eprint      = {http://thomyphan.github.io/files/2021-aaai.pdf},
     abstract    = {We focus on resilience in cooperative multi-agent systems, where agents can change their behavior due to udpates or failures of hardware and software components. Current state-of-the-art approaches to cooperative multi-agent reinforcement learning (MARL) have either focused on idealized settings without any changes or on very specialized scenarios, where the number of changing agents is fixed, e.g., in extreme cases with only one productive agent. Therefore, we propose Resilient Adversarial value Decomposition with Antagonist-Ratios (RADAR). RADAR offers a value decomposition scheme to train competing teams of varying size for improved resilience against arbitrary agent changes. We evaluate RADAR in two cooperative multi-agent domains and show that RADAR achieves better worst case performance w.r.t. arbitrary agent changes than state-of-the-art MARL.},
     number      = {13},
     journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
@@ -191,6 +194,7 @@
     keywords    = {learning and testing, multi-agent learning, adversarial learning},
     location    = {Auckland, New Zealand},
     url         = {https://ifaamas.org/Proceedings/aamas2020/pdfs/p1055.pdf},
+    eprint      = {http://thomyphan.github.io/files/2020-aamas.pdf},
     doi         = {https://dl.acm.org/doi/10.5555/3398761.3398884}
 }
 
@@ -202,7 +206,8 @@
     month        = {May},
     pages        = {9},
     year         = {2020},
-    url          = {https://ala2020.vub.ac.be/papers/ALA2020_paper_36.pdf}
+    url          = {https://ala2020.vub.ac.be/papers/ALA2020_paper_36.pdf},
+    eprint       = {http://thomyphan.github.io/files/2020-ala.pdf}
 }
 
 @inproceedings{rochICCS20,
@@ -253,6 +258,7 @@
   year      = {2019},
   month     = {7},
   url       = {https://www.ijcai.org/proceedings/2019/0778},
+  eprint    = {http://thomyphan.github.io/files/2019-ijcai-2.pdf},
   doi       = {https://doi.org/10.24963/ijcai.2019/778},
   code      = {https://github.com/thomyphan/planning}
 }
@@ -269,6 +275,7 @@
     month     = {7},
     doi       = {https://doi.org/10.24963/ijcai.2019/772},
     url       = {https://www.ijcai.org/proceedings/2019/772},
+    eprint    = {http://thomyphan.github.io/files/2019-ijcai-2.pdf},
     code      = {https://github.com/jnptr/subgoal-mcts}
 }
 
@@ -312,6 +319,7 @@
     keywords    = {coevolution, evolutionary algorithms, adversarial learning, reinforcement learning, automatic test generation},
     location    = {Prague, Czech Republic},
     url         = {http://thomyphan.github.io/files/2019-gecco.pdf},
+    eprint      = {http://thomyphan.github.io/files/2019-gecco.pdf},
     doi         = {https://doi.org/10.1145/3321707.3321831}
 }
 
@@ -328,6 +336,7 @@
     keywords    = {multi-agent learning, policy iteration, multi-agent planning},
     location    = {Montreal QC, Canada},
     url         = {https://www.ifaamas.org/Proceedings/aamas2019/pdfs/p2162.pdf},
+    eprint      = {http://thomyphan.github.io/files/2019-aamas-ea.pdf},
     doi         = {https://dl.acm.org/doi/10.5555/3306127.3332044}
 }
 
@@ -343,7 +352,40 @@
     pages       = {7941-7948},
     url         = {https://ojs.aaai.org/index.php/AAAI/article/view/4794},
     doi         = {https://doi.org/10.1609/aaai.v33i01.33017941},
+    eprint      = {http://thomyphan.github.io/files/2019-aaai.pdf},
     code        = {https://github.com/thomyphan/planning}
+}
+
+@inproceedings{belznerISoLA18,
+    author      = {Lenz Belzner and Kyrill Schmid and Thomy Phan and Thomas Gabor and Martin Wirsing},
+    title       = {The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents},
+    year        = {2018},
+    isbn        = {978-3-030-03423-8},
+    publisher   = {Springer-Verlag},
+    address     = {Berlin, Heidelberg},
+    doi         = {https://doi.org/10.1007/978-3-030-03424-5_16},
+    url         = {https://link.springer.com/chapter/10.1007/978-3-030-03424-5_16},
+    eprint      = {https://arxiv.org/pdf/1804.10781.pdf},
+    abstract    = {In collective adaptive systems (CAS), adaptation can be implemented by optimization wrt. utility. Agents in a CAS may be self-interested, while their utilities may depend on other agents’ choices. Independent optimization of agent utilities may yield poor individual and global reward due to locally interfering individual preferences. Joint optimization may scale poorly, and is impossible if agents cannot expose their preferences due to privacy or security issues.In this paper, we study utility sharing for mitigating this issue. Sharing utility with others may incentivize individuals to consider choices that are locally suboptimal but increase global reward. We illustrate our approach with a utility sharing variant of distributed cross entropy optimization. Empirical results show that utility sharing increases expected individual and global payoff in comparison to optimization without utility sharing.We also investigate the effect of greedy defectors in a CAS of sharing, self-interested agents. We observe that defection increases the mean expected individual payoff at the expense of sharing individuals’ payoff. We empirically show that the choice between defection and sharing yields a fundamental dilemma for self-interested agents in a CAS.},
+    booktitle   = {International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISoLA)},
+    pages       = {241–256},
+    numpages    = {16},
+    location    = {Limassol, Cyprus}
+}
+
+@InProceedings{schmidICANN18,
+    author      = {Kyrill Schmid and Lenz Belzner and Thomas Gabor and Thomy Phan},
+    editor      = {K{\r{u}}rkov{\'a}, V{\v{e}}ra and Manolopoulos, Yannis and Hammer, Barbara and Iliadis, Lazaros and Maglogiannis, Ilias},
+    title       = {Action Markets in Deep Multi-Agent Reinforcement Learning},
+    booktitle   = {Artificial Neural Networks and Machine Learning (ICANN)},
+    year        = {2018},
+    publisher   = {Springer International Publishing},
+    pages       = {240--249},
+    abstract    = {Recent work on learning in multi-agent systems (MAS) is concerned with the ability of self-interested agents to learn cooperative behavior. In many settings such as resource allocation tasks the lack of cooperative behavior can be seen as a consequence of wrong incentives. I.e., when agents can not freely exchange their resources then greediness is not uncooperative but only a consequence of reward maximization. In this work, we show how the introduction of markets helps to reduce the negative effects of individual reward maximization. To study the emergence of trading behavior in MAS we use Deep Reinforcement Learning (RL) where agents are self-interested, independent learners represented through Deep Q-Networks (DQNs). Specifically, we propose Action Traders, referring to agents that can trade their atomic actions in exchange for environmental reward. For empirical evaluation we implemented action trading in the Coin Game -- and find that trading significantly increases social efficiency in terms of overall reward compared to agents without action trading.},
+    isbn        = {978-3-030-01421-6},
+    doi         = {https://doi.org/10.1007/978-3-030-01421-6_24},
+    url         = {https://link.springer.com/chapter/10.1007/978-3-030-01421-6_24},
+    eprint      = {http://thomyphan.github.io/files/2018-icann.pdf}
 }
 
 @inproceedings{phanAAMAS18,
@@ -358,7 +400,8 @@
     keywords    = {online planning, value function approximation, multi-agent planning},
     location    = {Stockholm, Sweden},
     doi         = {https://dl.acm.org/doi/abs/10.5555/3237383.3237491},
-    url         = {https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf}
+    url         = {https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf},
+    eprint      = {http://thomyphan.github.io/files/2018-aamas.pdf}
 }
 
 @article{huangCell16,
