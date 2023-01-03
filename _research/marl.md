@@ -8,7 +8,9 @@ author_profile: true
 {% include base_path %}
 
 ## Cooperative Systems
-- [1] [Variable Agent Sub-Teams](https://openreview.net/forum?id=hyJKKIhfxxT)
+- [1] [Value Function Approximation for Distributed Planning](https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf)
+- [2] [Distributed Planning for Multi-Agent Policy Approximation](https://arxiv.org/pdf/1901.08761.pdf)
+- [3] [Variable Agent Sub-Teams](https://openreview.net/forum?id=hyJKKIhfxxT)
 
 ## Adversarial Learning
 - [1] [Antagonist-Based Learning](https://ifaamas.org/Proceedings/aamas2020/pdfs/p1055.pdf)
