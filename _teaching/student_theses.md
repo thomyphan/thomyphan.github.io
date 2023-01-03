@@ -5,11 +5,14 @@ permalink: /teaching/student_theses/
 author_profile: true
 ---
 
-{% include base_path %}
-
 You can find all student theses that I supervised as primary advisor below. The complete list of co-supervised student theses can be found [here](https://www.mobile.ifi.lmu.de/team/thomy-phan/).
 
-## Master Theses
+{% include base_path %}
+
+[Master Theses](#master_theses) | [Bachelor Theses](#bachelor_theses) | [Project Work](#project_work) |
+
+---
+## <a name="master_theses"></a> Master Theses
 
 ### 2023
 - A Spatial Social Dilemma Environment for Multi-Agent Reinforcement Learning (A. Perzl)
@@ -32,7 +35,8 @@ You can find all student theses that I supervised as primary advisor below. The 
 ### 2018
 - Reinforcement Learning with Graph-Convolutional Neural Networks (D. Gehring)
 
-## Bachelor Theses
+---
+## <a name="bachelor_theses"></a> Bachelor Theses
 
 ### 2022
 - Finding Dominant Strategies and Equilibria in Minority Games Using Reinforcement Learning (C. Göhring)
@@ -54,7 +58,8 @@ You can find all student theses that I supervised as primary advisor below. The 
 - Multi-Step Deep Q-Networks with Stacked Target Networks (E. Terzieva)
 - Pooling of Target Networks in Deep Reinforcement Learning (S. Geffert)
 
-## Project Work
+---
+## <a name="project_work"></a> Project Work
 ### 2021
 - Complex Value-based Deep Learning and Applications to Reinforcement Learning (F. Cuevas)
 
