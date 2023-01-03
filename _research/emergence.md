@@ -23,8 +23,7 @@ author_profile: true
 
 *Publications:*  
 [1] [Action Markets in Multi-Agent Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-030-01421-6_24)  
-[2] [Bargaining under Risk and Asymmetric Information](http://thomyphan.github.io/files/2020-icaart-1.pdf)  
-[3] [Mutual Acknowledgment Exchange](https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1047.pdf)  
+[2] [Mutual Acknowledgment Exchange](https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1047.pdf)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
