@@ -16,5 +16,6 @@ I received my B.Sc. degree in Computer Science in 2015 from [Munich University o
 
 Please, check out the latest info about my
 * [**Research**](https://thomyphan.github.io/research/)
-* [**Teaching**](https://thomyphan.github.io/teaching/)
 * [**Publications**](https://thomyphan.github.io/publications/)
+* [**Teaching**](https://thomyphan.github.io/teaching/)
+

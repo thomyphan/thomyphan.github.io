@@ -16,7 +16,7 @@ author_profile: true
 
 ## Competitive Settings
 
-*Publications:*
+*Publications:*  
 [1] [Coevolutionary Reinforcement Learning](http://thomyphan.github.io/files/2019-gecco.pdf)  
 [2] [Antagonist-Based Learning](https://ifaamas.org/Proceedings/aamas2020/pdfs/p1055.pdf)  
 [3] [Adversarial Value Decomposition](https://ojs.aaai.org/index.php/AAAI/article/view/17348)  
