@@ -13,7 +13,7 @@ author_profile: true
 [1] [Diversity-Aware Planning](http://thomyphan.github.io/files/2018-icac-preprint.pdf)  
 [2] [Productive Fitness in Evolutionary Algorithms](https://link.springer.com/content/pdf/10.1007/s11047-021-09853-3.pdf)  
 
-## Coevolution in Reinforcement Learning Systems
+## Coevolution in Autonomous Systems
 
 *Publications:*  
 [1] [Scenario Coevolution for Reinforcement Learning](http://thomyphan.github.io/files/2019-gecco.pdf)  

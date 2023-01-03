@@ -8,7 +8,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a PhD Student in Computer Science at [LMU Munich](https://www.lmu.de/en/index.html), advised by Professor [Claudia Linnhoff-Popien](https://www.mobile.ifi.lmu.de/team/claudia-linnhoff-popien/). 
+I am a PhD Student in Computer Science at [LMU Munich](https://www.lmu.de/en/index.html), advised by Professor [Claudia Linnhoff-Popien](https://www.mobile.ifi.lmu.de/team/claudia-linnhoff-popien/), and head of the [Technology and Research on Artificial Intelligence Laboratory (TRAIL)](https://www.mobile.ifi.lmu.de/ai-lab/) at LMU Munich. 
 
 My research focuses on **emergence and resilience in multi-agent systems** with industrial applications using planning and reinforcement learning techniques.
 

@@ -12,7 +12,7 @@ author_profile: true
 *Publications:*  
 [1] [Out-of-Distribution Detection](http://thomyphan.github.io/files/2019-isaai-preprint.pdf)  
 [2] [Out-of-Distribution Classification](http://thomyphan.github.io/files/2020-icaart-preprint.pdf)  
-[3] [General Anomaly Detection](https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1799.pdf)  
+[3] [Towards General Anomaly Detection](https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1799.pdf)  
 
 ## Specification Awareness
 
