@@ -17,6 +17,8 @@ The course is divided into two phases:
 1. **Introductory Phase**: The foundations are taught in weekly sessions with accompanying practical assignments, where students can practice the lessons to acquire necessary coding skills for the project phase.
 2. **Project Phase**: The students work independently in groups on individual projects to develop two algorithms to solve a continuous decision making domain. Each group is individually guided by supervising assistants and reports their progress in weekly meetings.
 
+<img src="https://thomyphan.github.io/images/teaching/asp_project_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="ASP Project Example"/>
+
 For more information, check out the course websites (German):
 - [summer semester 2019](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose19/)
 - [winter semester 2019/20](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws1920/)
