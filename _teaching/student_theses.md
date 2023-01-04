@@ -5,9 +5,12 @@ permalink: /teaching/student_theses/
 author_profile: true
 ---
 
-You can find all student theses that I supervised as primary advisor below. The complete list of co-supervised student theses can be found [here](https://www.mobile.ifi.lmu.de/team/thomy-phan/).
-
 {% include base_path %}
+<p style="text-align:center;">
+<img src="https://thomyphan.github.io/images/teaching/triangle.png" style="width:350pt;padding-left:10px;"  alt="AI Triangle"/>
+</p>
+
+You can find all student theses that I supervised as primary advisor below. The complete list of co-supervised student theses can be found [here](https://www.mobile.ifi.lmu.de/team/thomy-phan/).
 
 [Master Theses](#master_theses) | [Bachelor Theses](#bachelor_theses) | [Project Work](#project_work) |
 

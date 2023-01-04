@@ -10,11 +10,11 @@ author_profile: true
 <img src="https://thomyphan.github.io/images/teaching/triangle.png" style="width:350pt;padding-left:10px;"  alt="AI Triangle"/>
 </p>
 
-<img src="https://thomyphan.github.io/images/teaching/AI_robot_teaching.png" style="float:right; width:250pt;padding-left:10px;"  alt="Robot teaching AI at LMU Munich"/>
-
 This working group serves as a platform for scientists and students to discuss about current AI topics in weekly sessions. Scientists typically share their latest work and community experience, while students report their progress on individual projects or theses.
 
 The goal is to connect scientists and students to ease access to the research of our [Technology and Research on Artificial Intelligence Laboratory (TRAIL)](https://www.mobile.ifi.lmu.de/ai-lab/) and to assign thesis topics or individual research projects.
+
+<img src="https://thomyphan.github.io/images/teaching/AI_robot_teaching.png" style="float:right; width:250pt;padding-left:10px;"  alt="Robot teaching AI at LMU Munich"/>
 
 For more information, check out the course websites (German):
 - [summer semester 2019](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/arbeitsgemeinschaft-kuenstliche-intelligenz-sose2019/)
