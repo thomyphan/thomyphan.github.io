@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<img src="https://thomyphan.github.io/images/teaching/asp.jpg" style="float:right; width:150pt;padding-left:10px;"  alt="Autonomous Robots"/>
+
 Modern systems like robots act autonomously by making independent decisions and adapting to their environment.
 
 This practical course focuses on artificial intelligence approaches to autonomous systems based on planning and reinforcement learning techniques. The goal is to enable students to implement planning and reinforcement algorithms to solve basic decision making problems based on [Unity ML agents](https://github.com/Unity-Technologies/ml-agents) or [Google Brax](https://github.com/google/brax).

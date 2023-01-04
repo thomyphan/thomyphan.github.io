@@ -6,11 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-<p>
-<img src="https://thomyphan.github.io/images/teaching/AI_robot_teaching.png" title="Robot teaching AI at LMU Munich" style="width:200pt;padding-left:10px;"  alt="Robot teaching AI at LMU Munich"/>
-<img src="https://thomyphan.github.io/images/teaching/triangle.png" title="AI Triangle" style="width:300pt;padding-left:10px;"  alt="AI Triangle"/>
-<img src="https://thomyphan.github.io/images/teaching/trail_logo.png" title="TRAIL Logo" style="width:200pt;padding-left:10px;"  alt="TRAIL Logo"/>
+<p style="text-align:center;">
+<img src="https://thomyphan.github.io/images/teaching/triangle.png" style="width:350pt;padding-left:10px;"  alt="AI Triangle"/>
 </p>
+
+<img src="https://thomyphan.github.io/images/teaching/AI_robot_teaching.png" style="float:right; width:200pt;padding-left:10px;"  alt="Robot teaching AI at LMU Munich"/>
 
 This working group serves as a platform for scientists and students to discuss about current AI topics in weekly sessions. Scientists typically share their latest work and community experience, while students report their progress on individual projects or theses.
 

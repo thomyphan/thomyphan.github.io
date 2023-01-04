@@ -7,6 +7,8 @@ author_profile: true
 
 {% include base_path %}
 
+<img src="https://thomyphan.github.io/images/teaching/msp.png" style="float:right; width:175pt;padding-left:10px;"  alt="Mobile Network"/>
+
 Mobile and distributed apps are an integral part of everyday life, where people use smart phones, smart watches, and many other devices most of their time to stay connected and up-to-date.
 
 This practical course focuses on Android app programming, client-server architectures, and on-device machine learning with Android. The goal is to enable students to develop their own apps with networking capabilities for, e.g., multi-player mode or web service calls.

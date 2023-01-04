@@ -6,6 +6,9 @@ author_profile: true
 ---
 
 {% include base_path %}
+<p>
+<img src="https://thomyphan.github.io/images/teaching/rooms_domain.png" style="width:300pt;padding-left:10px;"  alt="Rooms Domain and Value Map"/>
+</p>
 
 Coming soon.
 
