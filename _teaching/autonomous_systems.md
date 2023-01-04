@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<img src="https://thomyphan.github.io/images/teaching/asp.jpg" style="float:right; width:150pt;padding-left:10px;"  alt="Autonomous Robots"/>
+<img src="https://thomyphan.github.io/images/teaching/asp.jpg" style="float:right; width:200pt;padding-left:10px;"  alt="Autonomous Robots"/>
 
 Modern systems like robots act autonomously by making independent decisions and adapting to their environment.
 
