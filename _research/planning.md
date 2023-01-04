@@ -12,11 +12,7 @@ author_profile: true
 *Publications:*  
 [1] [Memory Bounded Open-Loop Planning](https://ojs.aaai.org/index.php/AAAI/article/view/4794)  
 [2] [Adaptive Thompson Sampling Stacks](https://www.ijcai.org/proceedings/2019/0778)  
-
-## Temporal Abstraction
-
-*Publications:*  
-[1] [Subgoal-Based Monte Carlo Planning](https://www.ijcai.org/proceedings/2019/772)
+[3] [Subgoal-Based Monte Carlo Planning](https://www.ijcai.org/proceedings/2019/772)
 
 ## Planning and Learning
 
