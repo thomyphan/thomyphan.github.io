@@ -58,19 +58,20 @@ layout: default
         </div>
         <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
             <pre>
-              @inproceedings{{{ page.bibtexid }},
-                author      = {{{ page.author_list }}},
-                title       = {{{ page.title }}},
-                year        = {{{ page.date | default: "1900-01-01" | date: "%Y" }}},
-                publisher   = {{{ page.publisher }}},
-                abstract    = {{{ page.excerpt }}},
-                booktitle   = {{{ page.venue }}},
-                pages       = {{{ page.paper_pages }}},
-                keywords    = {{{ page.keywords }}},
-                location    = {{{ page.venuelocation }}},
-                doi         = {{{ page.paperdoi }}},
-                url         = {{{ page.paperurl }}},
-                eprint      = {{{ page.eprint }}}
+              @inproceedings{
+                {{ page.bibtexid }},
+                author      = "{{ page.author_list }}",
+                title       = "{{ page.title }}",
+                year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
+                publisher   = "{{ page.publisher }}",
+                abstract    = "{{ page.excerpt }}",
+                booktitle   = "{{ page.venue }}",
+                pages       = "{{ page.paper_pages }}",
+                keywords    = "{{ page.keywords }}",
+                location    = "{{ page.venuelocation }}",
+                doi         = "{{ page.paperdoi }}",
+                url         = "{{ page.paperurl }}",
+                eprint      = "{{ page.eprint }}"
             }
             </pre>
           </div>
