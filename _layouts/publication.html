@@ -35,13 +35,7 @@ layout: default
         {% endif %}
         {% if page.venue_short %}
           <em>(<strong>{{ page.venue_short }}</strong>)</em>
-        {% endif %}
-        {% if page.paper_pages %}
-          , pages {{ page.paper_pages }}.
-        {% endif %}
-        {% if page.date %}
-          , {{ page.date | default: "1900-01-01" | date: "%Y" }}.
-        {% endif %}
+        {% endif %}{% if page.paper_pages %}, pages {{ page.paper_pages }}{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.
         <br/>
         [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection-{{ page.bibtexid }}')">abstract</a>]
         [<a href="javascript:void(0)" onclick="toggleBibtex(this, 'bibtexSection-{{ page.bibtexid }}')">bibtex</a>]
@@ -81,6 +75,11 @@ layout: default
 }
             </pre>
           </div>
+          <script>
+            var bibTexField = document.getElementById("bibtexSection-{{ page.bibtexid }}");
+            var clearedField = bibTexField.innerHTML.replace("/^\s*$(?:\r\n?|\n)/gm", "")
+            bibTexField.innerHTML = clearedField;
+          </script>
           {{ content }}
           {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
