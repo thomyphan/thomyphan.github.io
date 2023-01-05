@@ -1,5 +1,5 @@
 ---
-author_list: "T"
+author_list: "Thomas Gabor and Lenz Belzner and Thomy Phan and Kyrill Schmid"
 title: "P"
 collection: publications
 permalink: /publication/2018-09-01-icac-gabor
