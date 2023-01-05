@@ -33,8 +33,7 @@ layout: default
         {% elsif page.journal %}
           <em>{{ page.journal }}</em>
         {% endif %}
-        {% if page.venue_short %}
-          <em>(<strong>{{ page.venue_short }}</strong>)</em>{% endif %}{% if page.paper_pages %}, pages {{ page.paper_pages }}{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.
+        {% if page.venue_short %}<em>(<strong>{{ page.venue_short }}</strong>)</em>{% endif %}{% if page.paper_pages %}, pages {{ page.paper_pages }}{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.
         <br/>
         [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection-{{ page.bibtexid }}')">abstract</a>]
         [<a href="javascript:void(0)" onclick="toggleBibtex(this, 'bibtexSection-{{ page.bibtexid }}')">bibtex</a>]
