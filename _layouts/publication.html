@@ -77,8 +77,10 @@ layout: default
           </div>
           <script>
             var bibTexField = document.getElementById("bibtexSection-{{ page.bibtexid }}");
-            var clearedField = bibTexField.innerHTML.replace("/^\s*[\r\n]/gm", "");
-            bibTexField.innerHTML = clearedField;
+            bibTexField.onload(function(){
+              var clearedField = bibTexField.innerHTML.replace("/^\s*[\r\n]/gm", "");
+              bibTexField.innerHTML = clearedField;
+            });
           </script>
           {{ content }}
           {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
