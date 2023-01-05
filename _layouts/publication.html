@@ -41,8 +41,8 @@ layout: default
           , {{ page.date | default: "1900-01-01" | date: "%Y" }}.
         {% endif %}
         <br/>
-        [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection')">abstract</a>]
-        [<a href="javascript:void(0)" onclick="toggleBibtex(this, 'bibtexSection')">bibtex</a>]
+        [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection-{{ page.bibtexid }}')">abstract</a>]
+        [<a href="javascript:void(0)" onclick="toggleBibtex(this, 'bibtexSection-{{ page.bibtexid }}')">bibtex</a>]
         {% if page.paperdoi %}
             [<a href="{{ page.paperdoi }}">doi</a>]
         {% endif %}
@@ -53,12 +53,26 @@ layout: default
         </header>
       {% endunless %}
       <section class="page__content" itemprop="text">
-        <div id="abstractSection" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">
+        <div id="abstractSection-{{ page.bibtexid }}" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">
             {{ page.excerpt }}
         </div>
-        <div id="bibtexSection" style="display:none;">
+        <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
             <pre>
-              {{ page.bibtex }}
+              @inproceedings{{{ page.bibtexid }},
+                author      = {{{ page.author_list }}},
+                title       = {{{ page.title }}},
+                year        = {{{ page.date | default: "1900-01-01" | date: "%Y" }}},
+                publisher   = {{{ page.publisher }}},
+                abstract    = {{{ page.excerpt }}},
+                booktitle   = {{{ page.venue }}},
+                pages       = {{{ page.paper_pages }}},
+                numpages    = {9},
+                keywords    = {{{ page.keywords }}},
+                location    = {{{ page.venuelocation }}},
+                doi         = {{{ page.paperdoi }}},
+                url         = {{{ page.paperurl }}},
+                eprint      = {{{ page.eprint }}}
+            }
             </pre>
           </div>
         {{ content }}
