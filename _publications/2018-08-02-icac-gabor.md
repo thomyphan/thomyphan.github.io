@@ -10,7 +10,7 @@ paper_pages: "131-140"
 date: "2018-08-02"
 bibtexid: "gaborICAC18"
 paperdoi: "https://doi.org/10.1109/ICAC.2018.00023"
-paperurl: "https://ieeexplore.ieee.org/abstract/document/8498134"
+paperurl: "https://ieeexplore.ieee.org/document/8498134"
 eprint: "https://thomyphan.github.io/files/2018-icac-preprint.pdf"
 #layout: archive
 ---
