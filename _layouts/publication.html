@@ -28,7 +28,7 @@ layout: default
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
         <span id="authorList-{{ page.bibtexid }}">{{ page.author_list }}</span>.<br/>
-        <!--{% if page.booktitle %}
+        {% if page.booktitle %}
           <em>{{ page.booktitle }}</em>
         {% elsif page.journal %}
           <em>{{ page.journal }}</em>
@@ -42,7 +42,7 @@ layout: default
         {% endif %}
         {% if page.paperurl %}
           [<a href="{{ page.paperurl }}">pdf</a>]
-        {% endif %}-->
+        {% endif %}
         <script>
             var authorList = document.getElementById("authorList-{{ page.bibtexid }}");
             var authorName = '{{ site.name | default: site.title }}';
