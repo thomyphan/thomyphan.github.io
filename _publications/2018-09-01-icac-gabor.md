@@ -1,6 +1,6 @@
 ---
 author_list: "B"
-title: "Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms"
+title: "A"
 collection: publications
 permalink: /publication/2018-09-01-icac-gabor
 excerpt: 'C'
