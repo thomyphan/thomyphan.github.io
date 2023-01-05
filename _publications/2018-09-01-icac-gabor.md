@@ -1,9 +1,9 @@
 ---
-author_list: "B"
-title: "A"
+author_list: "T"
+title: "P"
 collection: publications
 permalink: /publication/2018-09-01-icac-gabor
-excerpt: 'C'
+excerpt: "A"
 booktitle: "2018 IEEE International Conference on Autonomic Computing"
 venue_short: "ICAC"
 paper_pages: "131-140"
