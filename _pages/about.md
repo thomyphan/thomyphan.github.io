@@ -1,4 +1,5 @@
 ---
+layout: archive
 permalink: /
 title: "Thomy Phan"
 excerpt: "About me"

@@ -1,4 +1,5 @@
 ---
+layout: archive
 author_list: "Thomy Phan and Kyrill Schmid and Lenz Belzner and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien"
 title: "Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies"
 collection: publications

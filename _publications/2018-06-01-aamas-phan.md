@@ -1,4 +1,5 @@
 ---
+layout: archive
 author_list: "Thomy Phan and Lenz Belzner and Thomas Gabor and Kyrill Schmid"
 title: "Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation"
 collection: publications

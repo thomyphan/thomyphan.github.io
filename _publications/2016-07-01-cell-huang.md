@@ -1,4 +1,5 @@
 ---
+layout: archive
 author_list: "Fang Huang and George Sirinakis and Edward S. Allgeyer and Lena K. Schroeder and Whitney C. Duim and Emil B. Kromann and Thomy Phan and Felix E. Rivera-Molina and Jordan R. Myers and Irnov Irnov and Mark Lessard and Yongdeng Zhang and Mary Ann Handel and Christine Jacobs-Wagner and C. Patrick Lusk and James E. Rothman and Derek Toomre and Martin J. Booth and Joerg Bewersdorf"
 title: "Ultra-High Resolution 3D Imaging of Whole Cells"
 collection: publications
