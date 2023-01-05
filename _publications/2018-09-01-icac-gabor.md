@@ -1,6 +1,6 @@
 ---
-author_list: "Thomas Gabor and Lenz Belzner and Thomy Phan and Kyrill Schmid"
-title: "A"
+author_list: "B"
+title: "Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms"
 collection: publications
 permalink: /publication/2018-09-01-icac-gabor
 excerpt: 'C'
