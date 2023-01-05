@@ -15,7 +15,7 @@ eprint: "https://thomyphan.github.io/files/2019-aamas-ea.pdf"
 keywords: "multi-agent learning, policy iteration, multi-agent planning"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "Montreal QC, Canada"
-layout: archive
+#layout: archive
 ---
 
 {% include base_path %}

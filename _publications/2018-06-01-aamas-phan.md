@@ -15,7 +15,7 @@ eprint: "https://thomyphan.github.io/files/2018-aamas.pdf"
 keywords: "online planning, value function approximation, multi-agent planning"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "Stockholm, Sweden"
-layout: archive
+#layout: archive
 ---
 
 {% include base_path %}
