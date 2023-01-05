@@ -53,27 +53,7 @@ layout: default
         </header>
       {% endunless %}
       <section class="page__content" itemprop="text">
-        <div id="abstractSection-{{ page.bibtexid }}" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">
-            {{ page.excerpt }}
-        </div>
-        <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
-            <pre>
-              <!--@inproceedings{{{ page.bibtexid }},
-                author      = "{{ page.author_list }}",
-                title       = "{{ page.title }}",
-                year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
-                publisher   = "{{ page.publisher }}",
-                abstract    = "{{ page.excerpt }}",
-                booktitle   = "{{ page.venue }}",
-                pages       = "{{ page.paper_pages }}",
-                keywords    = "{{ page.keywords }}",
-                location    = "{{ page.venuelocation }}",
-                doi         = "{{ page.paperdoi }}",
-                url         = "{{ page.paperurl }}",
-                eprint      = "{{ page.eprint }}"
-            }-->
-            </pre>
-          </div>
+        
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
