@@ -19,7 +19,7 @@ author_profile: true
 *Publications:*  
 [1] [Value Function Approximation for Distributed Planning](https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf)  
 [2] [Distributed Planning for Multi-Agent Policy Approximation](https://arxiv.org/pdf/1901.08761.pdf)  
-[3] [Centralized Learning and Decentralized Planning](http://thomyphan.github.io/files/2020-ala.pdf)  
+[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/files/2020-ala.pdf)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
