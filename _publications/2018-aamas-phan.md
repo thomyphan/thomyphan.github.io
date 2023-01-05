@@ -7,8 +7,9 @@ date: 2018-06-01
 venue: 'Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems'
 paperurl: 'http://thomyphan.github.io/files/2018-aamas.pdf'
 citation: 'Thomy Phan, Lenz Belzner, Thomas Gabor, Kyrill Schmid. (2009). &quot;Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation.&quot; <i>Journal 1</i>. 1(1).'
+authorlist: '<strong>Thomy Phan</strong>, Lenz Belzner, Thomas Gabor, Kyrill Schmid'
+pagenum: '730-738'
 ---
-This paper is about the number 1. The number 2 is left for future work.
 
 [Download paper here](https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf)
 
