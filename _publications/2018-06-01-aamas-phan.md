@@ -20,4 +20,5 @@ venuelocation: "Stockholm, Sweden"
 {% include base_path %}
 
 ## Related Articles
-- T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2019-05-01-ala-phan), ALA 2020
+- T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
+- T. Phan et al., ["Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies"](https://thomyphan.github.io/publication/2019-05-01-aamas-phan), AAMAS 2019
