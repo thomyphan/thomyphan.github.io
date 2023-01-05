@@ -58,21 +58,35 @@ layout: default
         </div>
         <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
             <pre>
-              @inproceedings{
-                {{ page.bibtexid }},
-                author      = "{{ page.author_list }}",
-                title       = "{{ page.title }}",
-                year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
-                publisher   = "{{ page.publisher }}",
-                abstract    = "{{ page.excerpt }}",
-                booktitle   = "{{ page.venue }}",
-                pages       = "{{ page.paper_pages }}",
-                keywords    = "{{ page.keywords }}",
-                location    = "{{ page.venuelocation }}",
-                doi         = "{{ page.paperdoi }}",
-                url         = "{{ page.paperurl }}",
-                eprint      = "{{ page.eprint }}"
-            }
+@inproceedings{ {{ page.bibtexid }},
+    author      = "{{ page.author_list }}",
+    title       = "{{ page.title }}",
+    year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
+    abstract    = "{{ page.excerpt }}",
+    {% if page.publisher %}
+    publisher   = "{{ page.publisher }}",
+    {% endif %}
+    {% if page.booktitle %}
+    booktitle   = "{{ page.booktitle }}",
+    {% endif %}
+    {% if page.journal %}
+    journal     = "{{ page.journal }}",
+    {% endif %}
+    {% if page.paper_pages %}
+    pages       = "{{ page.paper_pages }}",
+    {% endif %}
+    {% if page.keywords %}
+    keywords    = "{{ page.keywords }}",
+    {% endif %}
+    {% if page.venuelocation %}
+    location    = "{{ page.venuelocation }}",
+    {% endif %}
+    {% if page.paperdoi %}
+    doi         = "{{ page.paperdoi }}",
+    {% endif %}
+    url         = "{{ page.paperurl }}",
+    eprint      = "{{ page.eprint }}"
+}
             </pre>
           </div>
           {{ content }}
