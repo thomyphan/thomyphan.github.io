@@ -43,18 +43,6 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
 </div>
 
 <script>
-    function escapeRegExp(string) {
-        return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
-    }
-
-    function replaceAll(str, find, replace) {
-        return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
-    }
-
-    function valueInTag(value, tag) {
-        return "<"+tag+">"+value+"</"+tag+">";
-    }
-
     function getEntryURL(entry) {
         var entryTags = entry["entryTags"];
         if("url" in entryTags) {

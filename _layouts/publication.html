@@ -27,7 +27,7 @@ layout: default
       {% unless page.header.overlay_color or page.header.overlay_image %}
         <header>
           {% if page.title %}<h1 class="page__title" itemprop="headline">{{ page.title | markdownify | remove: "<p>" | remove: "</p>" }}</h1>{% endif %}
-        <span id="authorList">{{ page.author_list }}</span>.<br/>
+        <span id="authorList-{{ page.bibtexid }}">{{ page.author_list }}</span>.<br/>
         {% if page.venue %}
           <em>{{ page.venue }}</em>
         {% endif %}
@@ -49,7 +49,11 @@ layout: default
         {% if page.paperurl %}
           [<a href="{{ page.paperurl }}">pdf</a>]
         {% endif %}
-    
+        <script>
+            var authorList = document.getElementById("authorList-{{ page.bibtexid }}");
+            var authorName = '{{ site.name | default: site.title }}';
+            var authorListString = replaceAll(authorList.innerHTML, " and ", ", ").replace(authorName, "<strong>"+authorName+"</strong>");
+        </script>
         </header>
       {% endunless %}
       <section class="page__content" itemprop="text">
@@ -65,12 +69,11 @@ layout: default
     abstract    = "{{ page.excerpt }}",
     url         = "{{ page.paperurl }}",
     eprint      = "{{ page.eprint }}",
+    {% if page.venuelocation %}location    = "{{ page.venuelocation }}",{% endif %}
     {% if page.publisher %}publisher   = "{{ page.publisher }}",{% endif %}
-    {% if page.booktitle %}booktitle   = "{{ page.booktitle }}",{% endif %}
-    {% if page.journal %}journal     = "{{ page.journal }}",{% endif %}
+    {% if page.booktitle %}booktitle   = "{{ page.booktitle }}",{% elsif page.journal %}journal     = "{{ page.journal }}",{% endif %}
     {% if page.paper_pages %}pages       = "{{ page.paper_pages }}",{% endif %}
     {% if page.keywords %}keywords    = "{{ page.keywords }}",{% endif %}
-    {% if page.venuelocation %}location    = "{{ page.venuelocation }}",{% endif %}
     {% if page.paperdoi %}doi         = "{{ page.paperdoi }}"{% endif %}
 }
             </pre>

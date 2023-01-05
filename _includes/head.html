@@ -33,6 +33,18 @@
   function toggleAbstract(target, id) {
     toggleSomeAction(target, id, "abstract");
   }
+
+  function escapeRegExp(string) {
+    return string.replace(/[.*+?^${}()|[\]\\]/g, '\\$&');
+  }
+
+  function replaceAll(str, find, replace) {
+    return str.replace(new RegExp(escapeRegExp(find), 'g'), replace);
+  }
+
+  function valueInTag(value, tag) {
+    return "<"+tag+">"+value+"</"+tag+">";
+  }
 </script>
 
 <!-- For all browsers -->
