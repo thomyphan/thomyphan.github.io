@@ -42,6 +42,7 @@ layout: default
         {% endif %}
         <br/>
         [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection')">abstract</a>]
+        [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractBibtex')">bibtex</a>]
         {% if page.paperdoi %}
             [<a href="{{ page.paperdoi }}">doi</a>]
         {% endif %}
@@ -55,6 +56,11 @@ layout: default
         <div id="abstractSection" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">
             {{ page.excerpt }}
         </div>
+        <div id="bibtexSection" style="display:none;">
+            <pre>
+              {{ page.bibtex }}
+            </pre>
+          </div>
         {{ content }}
         {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
