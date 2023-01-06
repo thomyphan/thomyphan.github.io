@@ -9,7 +9,7 @@ author_profile: true
 
 ## Cooperative Settings
 
-<img src="https://thomyphan.github.io/images/research/cooperative_mas_domains.png" style="float:right; width:250pt;padding-left:10px;"  alt="MAS Domains"/>
+<img src="https://thomyphan.github.io/images/research/cooperative_mas_domains.png" style="float:right; width:300pt;padding-left:10px;"  alt="MAS Domains"/>
 
 Many real-world problems like fleet management, industry 4.0 scenarios, or communication networks can be formulated as cooperative *multi-agent system (MAS)*, where multiple agents have to collaborate to achieve a common goal. *Multi-agent reinforcement learning (MAS)* is a promising approach to solve these problems, which has recently achieved remarkable progress in domains like StarCraft II. However, current MARL is still at an early stage, where many real-world aspects are neglected for simplicity therefore limiting real-world applicability.
 
