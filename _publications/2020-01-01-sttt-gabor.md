@@ -18,3 +18,9 @@ publisher: "Springer"
 
 {% include base_path %}
 
+## Related Articles
+- F. Ritz et al., ["The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline"](https://thomyphan.github.io/publication/2022-10-01-isola-ritz), ISoLA 2022
+- T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
+- T. Gabor et al., ["The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline"](https://thomyphan.github.io/publication/2020-08-01-qse-gabor), QSE 2020
+- T. Gabor et al., ["The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems"](https://thomyphan.github.io/publication/2020-01-01-sttt-gabor), STTT 2020
+- T. Phan et al., ["Learning and Testing Resilience in Cooperative Multi-Agent Systems"](https://thomyphan.github.io/publication/2020-05-01-aamas-phan), AAMAS 2020
