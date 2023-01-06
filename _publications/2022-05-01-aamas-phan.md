@@ -18,6 +18,11 @@ publisher: "International Foundation for Autonomous Agents and Multiagent System
 coderepository: "https://github.com/thomyphan/emergent-cooperation"
 venuelocation: "Virtual Event, New Zealand"
 #layout: archive
+research_emergence: "True"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "False"
 ---
 
 {% include base_path %}

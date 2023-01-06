@@ -15,6 +15,11 @@ paperurl: "https://link.springer.com/chapter/10.1007/978-3-031-19759-8_16"
 eprint: "https://thomyphan.github.io/files/2022-isola-preprint.pdf"
 publisher: "Springer Nature Switzerland"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}
