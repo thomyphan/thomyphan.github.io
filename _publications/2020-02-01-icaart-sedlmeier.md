@@ -17,3 +17,6 @@ eprint: "https://thomyphan.github.io/files/2020-icaart-preprint.pdf"
 
 {% include base_path %}
 
+## Related Articles
+- R. Müller et al., ["Towards Anomaly Detection in Reinforcement Learning"](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller), AAMAS BlueSky Ideas 2022
+- A. Sedlmeier et al., ["Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning"](https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier), ISAAI 2019

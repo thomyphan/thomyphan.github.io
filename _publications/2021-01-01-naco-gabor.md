@@ -20,3 +20,5 @@ publisher: "Kluwer Academic Publishers"
 
 {% include base_path %}
 
+## Related Articles
+- T. Gabor et al., ["Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms"](https://thomyphan.github.io/publication/2018-09-01-icac-gabor), ICAC 2018

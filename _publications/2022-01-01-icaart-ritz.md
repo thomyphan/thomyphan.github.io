@@ -20,5 +20,5 @@ keywords: "reinforcement learning, multi-agent systems, specification compliance
 
 {% include base_path %}
 
-# Related Articles
+## Related Articles
 - F. Ritz et al., ["SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2021-02-01-icaart-ritz), ICAART 2021 (conference version)

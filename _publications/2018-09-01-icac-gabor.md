@@ -18,3 +18,4 @@ eprint: "https://thomyphan.github.io/files/2018-icac-preprint.pdf"
 {% include base_path %}
 
 ## Related Articles
+- T. Gabor et al., ["Productive Fitness in Diversity-Aware Evolutionary Algorithms"](https://thomyphan.github.io/publication/2021-01-01-naco-gabor), NACO 2021

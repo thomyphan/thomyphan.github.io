@@ -17,3 +17,7 @@ coderepository: "https://github.com/instance01/fish-rl-alife"
 
 {% include base_path %}
 
+## Related Articles
+- F. Ritz et al., ["Towards Ecosystem Management from Greedy Reinforcement Learning in a Predator-Prey Setting"](https://thomyphan.github.io/publication/2020-07-01-alife-ritz), ALIFE 2020
+- C. Hahn et al., ["Foraging Swarms using Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2020-07-01-alife-hahn), ALIFE 2020
+- C. Hahn et al., ["Emergent Escape-based Flocking Behavior using Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2019-07-01-alife-hahn), ALIFE 2019

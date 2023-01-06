@@ -16,3 +16,8 @@ eprint: "https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/518/1908444/isa
 ---
 
 {% include base_path %}
+
+## Related Articles
+- F. Ritz et al., ["A Sustainable Ecosystem through Emergent Cooperation in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2021-07-01-alife-ritz), ALIFE 2021
+- C. Hahn et al., ["Foraging Swarms using Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2020-07-01-alife-hahn), ALIFE 2020
+- C. Hahn et al., ["Emergent Escape-based Flocking Behavior using Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2019-07-01-alife-hahn), ALIFE 2019

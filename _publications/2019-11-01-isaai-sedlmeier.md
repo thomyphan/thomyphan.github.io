@@ -20,4 +20,6 @@ venuelocation: "Munich, Germany"
 {% include base_path %}
 
 ## Related Articles
+- R. Müller et al., ["Towards Anomaly Detection in Reinforcement Learning"](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller), AAMAS BlueSky Ideas 2022
+- A. Sedlmeier et al., ["Uncertainty-Based Out-of-Distribution Classification in Deep Reinforcement Learning"](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier), ICAART 2020
 
