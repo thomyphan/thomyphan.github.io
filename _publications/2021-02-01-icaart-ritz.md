@@ -7,7 +7,7 @@ excerpt: 'A characteristic of reinforcement learning is the ability to develop u
 booktitle: "Proceedings of the 13th International Conference on Agents and Artificial Intelligence"
 venue_short: "ICAART"
 isbn: "978-989-758-484-8"
-paper_pages: "28-37"
+paper_pages: "28–37"
 date: "2021-02-01"
 bibtexid: "ritzICAART21"
 paperdoi: "https://doi.org/10.5220/0010189500280037"
