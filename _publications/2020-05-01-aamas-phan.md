@@ -7,7 +7,7 @@ excerpt: 'State-of-the-art multi-agent reinforcement learning has achieved remar
 booktitle: "Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems"
 venue_short: "AAMAS"
 isbn: "9781450375184"
-paper_pages: "1055–1063"
+paper_pages: "1055--1063"
 date: "2020-05-01"
 bibtexid: "phanAAMAS20"
 paperdoi: "https://dl.acm.org/doi/10.5555/3398761.3398884"

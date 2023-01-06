@@ -7,7 +7,7 @@ excerpt: 'The development of Machine Learning (ML) models is more than just a sp
 booktitle: "International Symposium on Leveraging Applications of Formal Methods, Verification and Validation"
 venue_short: "ISoLA"
 isbn: "978-3-031-19759-8"
-paper_pages: "249–265"
+paper_pages: "249--265"
 date: "2022-05-01"
 bibtexid: "ritzISoLA22"
 paperdoi: "https://doi.org/10.1007/978-3-031-19759-8_16"

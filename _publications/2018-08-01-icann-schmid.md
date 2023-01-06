@@ -7,7 +7,7 @@ excerpt: 'Recent work on learning in multi-agent systems (MAS) is concerned with
 booktitle: "Artificial Neural Networks and Machine Learning"
 isbn: "978-3-030-01421-6"
 venue_short: "ICANN"
-paper_pages: "240–249"
+paper_pages: "240--249"
 date: "2018-08-01"
 bibtexid: "schmidICANN18"
 paperdoi: "https://doi.org/10.1007/978-3-030-01421-6_24"

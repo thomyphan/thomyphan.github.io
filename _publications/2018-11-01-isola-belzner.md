@@ -7,7 +7,7 @@ excerpt: 'In collective adaptive systems (CAS), adaptation can be implemented by
 booktitle: "International Symposium on Leveraging Applications of Formal Methods, Verification and Validation"
 isbn: "978-3-030-03423-8"
 venue_short: "ISoLA"
-paper_pages: "241–256"
+paper_pages: "241--256"
 date: "2018-11-01"
 bibtexid: "belznerISoLA18"
 paperdoi: "https://doi.org/10.1007/978-3-030-03424-5_16"

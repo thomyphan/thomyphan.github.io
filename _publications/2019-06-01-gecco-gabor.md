@@ -7,7 +7,7 @@ excerpt: 'Adversarial learning has been established as a successful paradigm in 
 booktitle: "Proceedings of the Genetic and Evolutionary Computation Conference"
 isbn: "9781450361118"
 venue_short: "GECCO"
-paper_pages: "898–906"
+paper_pages: "898--906"
 date: "2019-06-01"
 bibtexid: "gaborGECCO19"
 paperdoi: "https://doi.org/10.1145/3321707.3321831"

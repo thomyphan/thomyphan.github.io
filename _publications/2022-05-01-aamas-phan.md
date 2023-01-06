@@ -7,7 +7,7 @@ excerpt: 'Peer incentivization (PI) is a recent approach, where all agents learn
 booktitle: "Proceedings of the 21st International Conference on Autonomous Agents and MultiAgent Systems"
 venue_short: "AAMAS"
 isbn: "9781450392136"
-paper_pages: "1047–1055"
+paper_pages: "1047--1055"
 date: "2022-05-01"
 bibtexid: "phanAAMAS22"
 paperdoi: "https://dl.acm.org/doi/abs/10.5555/3535850.3535967"

@@ -6,7 +6,7 @@ permalink: /publication/2019-05-01-aamas-phan
 excerpt: "We propose Strong Emergent Policy (STEP) approximation, a scalable approach to learn strong decentralized policies for cooperative MAS with a distributed variant of policy iteration. For that, we use function approximation to learn from action recommendations of a decentralized multi-agent planning algorithm. STEP combines decentralized multi-agent planning with centralized learning, only requiring a generative model for distributed black box optimization. We experimentally evaluate STEP in two challenging and stochastic domains with large state and joint action spaces and show that STEP is able to learn stronger policies than standard multi-agent reinforcement learning algorithms, when combining multi-agent open-loop planning with centralized function approximation. The learned policies can be reintegrated into the multi-agent planning process to further improve performance."
 booktitle: "Proceedings of the 18th International Conference on Autonomous Agents and MultiAgent Systems (Extended Abstract)"
 venue_short: "AAMAS"
-paper_pages: "2162–2164"
+paper_pages: "2162--2164"
 date: "2019-05-01"
 bibtexid: "phanAAMAS19"
 paperdoi: "https://dl.acm.org/doi/abs/10.5555/3237383.3237491"

@@ -6,7 +6,7 @@ permalink: /publication/2020-01-01-sttt-gabor
 excerpt: 'Systems are becoming increasingly more adaptive, using techniques like machine learning to enhance their behavior on their own rather than only through human developers programming them. We analyze the impact the advent of these new techniques has on the discipline of rigorous software engineering, especially on the issue of quality assurance. To this end, we provide a general description of the processes related to machine learning and embed them into a formal framework for the analysis of adaptivity, recognizing that to test an adaptive system a new approach to adaptive testing is necessary. We introduce scenario coevolution as a design pattern describing how system and test can work as antagonists in the process of software evolution. While the general pattern applies to large-scale processes (including human developers further augmenting the system), we show all techniques on a smaller-scale example of an agent navigating a simple smart factory. We point out new aspects in software engineering for adaptive systems that may be tackled naturally using scenario coevolution. This work is a substantially extended take on Gabor et al. (International symposium on leveraging applications of formal methods, Springer, pp 137–154, 2018)'
 journal: "International Journal on Software Tools for Technology Transfer"
 venue_short: "STTT"
-paper_pages: "457–476"
+paper_pages: "457--476"
 date: "2020-01-01"
 bibtexid: "gaborSTTT20"
 paperdoi: "https://doi.org/10.1007/s10009-020-00560-5"
