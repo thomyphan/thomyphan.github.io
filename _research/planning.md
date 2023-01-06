@@ -24,7 +24,7 @@ author_profile: true
 
 ## Optimization
 
-*Publications:*
+*Publications:*  
 [1] [Diversity-Aware Optimization](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
 [3] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
