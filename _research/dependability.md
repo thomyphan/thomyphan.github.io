@@ -17,7 +17,7 @@ author_profile: true
 
 ## Specification Awareness
 
-
+<img src="https://thomyphan.github.io/images/research/crashing_robots.png" style="float:right; width:200pt;padding-left:10px;"  alt="Crashing Robots"/>
 *Publications:*  
 [1] [Specification Aware Learning](https://thomyphan.github.io/publication/2021-02-01-icaart-ritz)  
 [2] [Specification Aware Multi-Agent Training](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz)  
