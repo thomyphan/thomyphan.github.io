@@ -88,14 +88,14 @@ layout: default
           </script>
           {{ content }}
           {% if page.research_emergence == "True" or page.research_resilience == "True" or page.research_dependability == "True" or page.research_marl == "True" or page.research_planning == "True" %}
-          <h2>Relevant For</h2>
+          <h2>Relevant Research Areas</h2>
           <div class="flex-container is-flex-wrap">
             <!-- Emergence in Multi-Agent Systems -->
             {% if page.research_emergence == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
+            <div class="flex-child card">
               <a href="/research/emergence/">
                 <p class="box_title">Emergence in Multi-Agent Systems</p>
-                <div class="box" style="width:150px">
+                <div class="box" style="width:50%; max-width: 50%;">
                   <img class="image_display" src="/images/research/emergence_research.png" alt="Emergence in Multi-Agent Systems" />
                 </div>
               </a>
@@ -103,10 +103,10 @@ layout: default
             {% endif %}
             <!-- Resilience in Autonomous Systems -->
             {% if page.research_resilience == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
+            <div class="flex-child card">
               <a href="/research/resilience/">
                 <p class="box_title">Resilience in Autonomous Systems</p>
-                <div class="box" style="width:150px">
+                <div class="box" style="width:50%; max-width: 50%;">
                   <img class="image_display" src="/images/research/resilience_research.png" alt="Resilience in Autonomous Systems" />
                 </div>
               </a>
@@ -114,10 +114,10 @@ layout: default
             {% endif %}
             <!-- Dependability in Machine Learning Systems -->
             {% if page.research_dependability == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
+            <div class="flex-child card">
               <a href="/research/dependability/">
                 <p class="box_title">Dependability in Machine Learning Systems</p>
-                <div class="box" style="width:150px">
+                <div class="box" style="width:50%; max-width: 50%;">
                   <img class="image_display" src="/images/research/dependability_research.png" alt="Dependability in Machine Learning Systems" />
                 </div>
               </a>
@@ -125,10 +125,10 @@ layout: default
             {% endif %}
             <!-- Multi-Agent Reinforcement Learning -->
             {% if page.research_marl == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
+            <div class="flex-child card">
                 <a href="/research/marl/">
                   <p class="box_title">Multi-Agent Reinforcement Learning</p>
-                  <div class="box" style="width:150px">
+                  <div class="box" style="width:50%; max-width: 50%;">
                     <img class="image_display" src="/images/research/marl_research.png" alt="Multi-Agent Reinforcement Learning" />
                   </div>
                 </a>
@@ -136,10 +136,10 @@ layout: default
               {% endif %}
             <!-- Planning under Uncertainty -->
             {% if page.research_planning == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
+            <div class="flex-child card">
               <a href="/research/planning/">
                 <p class="box_title">Planning and Optimization</p>
-                <div class="box" style="width:150px">
+                <div class="box" style="width:50%; max-width: 50%;">
                   <img class="image_display" src="/images/research/planning_research.png" alt="Planning under Uncertainty" />
                 </div>
               </a>
