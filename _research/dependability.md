@@ -9,7 +9,7 @@ author_profile: true
 
 ## Anomaly Detection
 
-<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:150pt;padding-left:10px;"  alt="OOD Example"/>
+<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:200pt;padding-left:10px;"  alt="OOD Example"/>
 *Publications:*  
 [1] [Uncertainty-Based Detection](https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier)  
 [2] [Out-of-Distribution Classification Methods](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier)  
@@ -17,13 +17,14 @@ author_profile: true
 
 ## Specification Awareness
 
-<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:200pt;padding-left:10px;"  alt="Dependability in Machine Learning Systems"/>
+
 *Publications:*  
 [1] [Specification Aware Learning](https://thomyphan.github.io/publication/2021-02-01-icaart-ritz)  
 [2] [Specification Aware Multi-Agent Training](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz)  
 
 ## Engineering and Operation
 
+<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:200pt;padding-left:10px;"  alt="Dependability in Machine Learning Systems"/>
 *Publications:*  
 [1] [Scenario Coevolution Paradigm](https://thomyphan.github.io/publication/2020-01-01-sttt-gabor)  
 [2] [Process Model for ML Engineering](https://thomyphan.github.io/publication/2020-08-01-qse-gabor)  
