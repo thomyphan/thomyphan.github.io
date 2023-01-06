@@ -26,7 +26,7 @@ author_profile: true
 
 ## Optimization
 
-<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
+<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:200pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 *Publications:*  
 [1] [Diversity-Aware Optimization](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
