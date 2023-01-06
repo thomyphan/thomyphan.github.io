@@ -19,5 +19,4 @@ coderepository: "https://github.com/thomyphan/messy_smac"
 
 {% include base_path %}
 
-## Related Articles
 
