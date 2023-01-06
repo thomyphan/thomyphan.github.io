@@ -34,8 +34,12 @@ a:visited {
 }
 
 /* mouse over link */
-a:hover:not(.masthead__menu) {
+a:hover {
   text-decoration: underline;
+}
+
+.masthead__menu a:hover:not(.masthead__menu) {
+  text-decoration: none;
 }
 
 /* selected link */
