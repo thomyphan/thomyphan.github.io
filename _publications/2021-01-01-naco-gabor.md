@@ -15,7 +15,6 @@ paperurl: "https://link.springer.com/article/10.1007/s11047-021-09853-3"
 eprint: "https://link.springer.com/content/pdf/10.1007/s11047-021-09853-3.pdf"
 keywords: "evolutionary algorithm, diversity, adaptive fitness"
 publisher: "Kluwer Academic Publishers"
-coderepository: "https://github.com/thomyphan/emergent-cooperation"
 #layout: archive
 ---
 
