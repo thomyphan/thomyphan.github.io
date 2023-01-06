@@ -9,7 +9,7 @@ author_profile: true
 
 ## Monte Carlo Planning
 
-<img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:250pt;padding-left:10px;"  alt="Closed-Loop vs. Open-Loop"/>
+<img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;"  alt="Closed-Loop vs. Open-Loop"/>
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
