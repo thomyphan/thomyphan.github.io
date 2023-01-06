@@ -20,6 +20,4 @@ venuelocation: "Munich, Germany"
 {% include base_path %}
 
 ## Related Articles
-- T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
-- T. Phan et al., ["Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation"](https://thomyphan.github.io/publication/2018-06-01-aamas-phan), AAMAS 2018
 
