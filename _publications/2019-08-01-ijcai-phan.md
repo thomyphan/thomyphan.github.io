@@ -20,3 +20,7 @@ coderepository: "https://github.com/thomyphan/planning"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
+- T. Phan et al., ["Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies"](https://thomyphan.github.io/publication/2019-05-01-aamas-phan), AAMAS 2019
+- T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
+- T. Gabor et al., ["Subgoal-Based Temporal Abstraction in Monte-Carlo Tree Search"](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor), IJCAI 2019

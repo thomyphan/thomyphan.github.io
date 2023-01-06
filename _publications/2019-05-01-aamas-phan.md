@@ -23,5 +23,6 @@ venuelocation: "Montreal QC, Canada"
 
 ## Related Articles
 - T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
+- T. Phan et al., ["Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning"](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan), IJCAI 2019
+- T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
 - T. Phan et al., ["Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation"](https://thomyphan.github.io/publication/2018-06-01-aamas-phan), AAMAS 2018
-
