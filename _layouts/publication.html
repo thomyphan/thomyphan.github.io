@@ -41,6 +41,9 @@ layout: default
         {% endif %}
         {% if page.paperurl %}
           [<a href="{{ page.eprint }}">pdf</a>]
+          {% if page.extendedversion %}
+            [<a href="{{ page.extendedversion }}">extended pdf</a>]
+          {% endif %}
         {% endif %}
         {% if page.coderepository %}
           [<a href="{{ page.coderepository }}">code</a>]
