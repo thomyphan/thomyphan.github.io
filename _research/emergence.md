@@ -9,7 +9,7 @@ author_profile: true
 
 ## Emerging Swarms
 
-<img src="https://thomyphan.github.io/images/research/emergence_research.png" style="float:right; width:250pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
+<img src="https://thomyphan.github.io/images/research/emergence_research.png" style="float:right; width:150pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
 *Publications:*  
 [1] [Emergent Flocking](https://thomyphan.github.io/publication/2019-07-01-alife-hahn)  
 [2] [Foraging Swarms](https://thomyphan.github.io/publication/2020-07-01-alife-hahn)  
