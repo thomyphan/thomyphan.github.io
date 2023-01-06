@@ -19,3 +19,5 @@ publisher: "Springer Nature Switzerland"
 
 {% include base_path %}
 
+## Related Articles
+- T. Gabor et al., ["The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline"](https://thomyphan.github.io/publication/2020-08-01-qse-gabor), QSE 2020
