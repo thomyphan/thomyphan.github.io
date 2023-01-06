@@ -10,10 +10,8 @@ author_profile: true
 ## Cooperative Settings
 
 *Publications:*  
-[1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
-[2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
-[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
-[4] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
+[1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
+[2] [State Uncertainty](https://thomyphan.github.io/publication/2023-05-01-aamas-phan)  
 
 ## Competitive Settings
 
@@ -27,6 +25,13 @@ author_profile: true
 *Publications:*  
 [1] [Action Markets for Emergent Cooperation](https://thomyphan.github.io/publication/2018-08-01-icann-schmid)  
 [2] [Mutual Acknowledgment Exchange for Reciprocity](https://thomyphan.github.io/publication/2022-05-01-aamas-phan)  
+
+## Planning and Learning
+
+*Publications:*  
+[1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
+[2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
+[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
