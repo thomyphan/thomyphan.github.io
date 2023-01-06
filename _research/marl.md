@@ -9,7 +9,7 @@ author_profile: true
 
 ## Cooperative Settings
 
-<img src="https://thomyphan.github.io/images/research/smac_vs_messysmac.png" style="float:right; width:250pt;padding-left:10px;"  alt="SMAC vs. MessySMAC"/>
+<img src="https://thomyphan.github.io/images/research/cooperative_mas_domains.png" style="float:right; width:250pt;padding-left:10px;"  alt="MAS Domains"/>
 *Publications:*  
 [1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
 [2] [State Uncertainty](https://thomyphan.github.io/publication/2023-05-01-aamas-phan)  
