@@ -54,7 +54,7 @@ layout: default
         </div>
         <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
             <pre>
-@inproceedings{ {{ page.bibtexid }},
+{% if page.booktitle %}@inproceedings{% elsif page.journal %}@article{% endif %}{ {{ page.bibtexid }},
     author      = "{{ page.author_list }}",
     title       = "{{ page.title }}",
     year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
