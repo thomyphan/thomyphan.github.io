@@ -40,6 +40,9 @@ layout: default
         {% if page.paperurl %}
           [<a href="{{ page.paperurl }}">pdf</a>]
         {% endif %}
+        {% if page.coderepository %}
+          [<a href="{{ page.coderepository }}">code</a>]
+        {% endif %}
         <script>
             var authorList = document.getElementById("authorList-{{ page.bibtexid }}");
             var authorName = '{{ site.name | default: site.title }}';
