@@ -9,6 +9,7 @@ author_profile: true
 
 ## Monte Carlo Planning
 
+<img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:250pt;padding-left:10px;"  alt="Closed-Loop vs. Open-Loop"/>
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
@@ -17,6 +18,7 @@ author_profile: true
 
 ## Planning and Learning
 
+<img src="https://thomyphan.github.io/images/research/planning_value_function.png" style="float:right; width:250pt;padding-left:10px;"  alt="Planning with Value Function"/>
 *Publications:*  
 [1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
 [2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
