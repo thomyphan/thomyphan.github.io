@@ -21,6 +21,7 @@ author_profile: true
 
 ## Resilience in Multi-Agent Systems
 
+<img src="https://thomyphan.github.io/images/research/resilience_research.png" style="float:right; width:250pt;padding-left:10px;"  alt="Antagonists in MAS"/>
 *Publications:*  
 [1] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
 [2] [Adversarial Value Decomposition](https://thomyphan.github.io/publication/2021-02-01-aaai-phan)  
