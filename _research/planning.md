@@ -10,9 +10,10 @@ author_profile: true
 ## Monte Carlo Planning
 
 *Publications:*  
-[1] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
-[2] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
-[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)
+[1] [Diversity-Aware Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
+[2] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
+[3] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
+[4] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)  
 
 ## Planning and Learning
 

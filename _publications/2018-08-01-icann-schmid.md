@@ -19,7 +19,7 @@ research_emergence: "True"
 research_resilience : "False"
 research_dependability : "False"
 research_marl : "True"
-research_planning : "True"
+research_planning : "False"
 ---
 
 {% include base_path %}
