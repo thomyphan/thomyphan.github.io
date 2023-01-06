@@ -9,7 +9,7 @@ venue_short: "ALIFE"
 paper_pages: "598--605"
 date: "2019-07-01"
 bibtexid: "hahnALIFE19"
-paperdoi: "https://doi.org/10.1162/isal\_a\_00226"
+paperdoi: "https://doi.org/10.1162/isal_a_00226"
 paperurl: "https://direct.mit.edu/isal/proceedings/isal2019/598/99238"
 eprint: "https://direct.mit.edu/isal/proceedings-pdf/isal2019/31/598/1903589/isal\_a\_00226.pdf"
 #layout: archive
