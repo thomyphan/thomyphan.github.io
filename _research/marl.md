@@ -20,7 +20,7 @@ author_profile: true
 [2] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
 [3] [Adversarial Value Decomposition](https://thomyphan.github.io/publication/2021-02-01-aaai-phan)  
 
-## General-Sum Settings
+## Self-Interested Settings
 
 *Publications:*  
 [1] [Action Markets for Emergent Cooperation](https://thomyphan.github.io/publication/2018-08-01-icann-schmid)  

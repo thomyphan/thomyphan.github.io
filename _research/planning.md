@@ -10,7 +10,7 @@ author_profile: true
 ## Monte Carlo Planning
 
 *Publications:*  
-[1] [Diversity-Aware Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
+[1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
 [3] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
 [4] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)  
@@ -24,10 +24,11 @@ author_profile: true
 
 ## Optimization
 
-*Publications:*  
-[1] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
-[2] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
-[3] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
+*Publications:*
+[1] [Diversity-Aware Optimization](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
+[2] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
+[3] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
+[4] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
