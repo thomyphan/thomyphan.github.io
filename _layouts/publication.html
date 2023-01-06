@@ -87,14 +87,12 @@ layout: default
             bibTexField.innerHTML = clearedField;
           </script>
           {{ content }}
+          {% if page.research_emergence == "True" or page.research_resilience == "True" or page.research_dependability == "True" or page.research_marl == "True" or page.research_planning == "True" %}
           <h2>Relevant For</h2>
           <div class="flex-container is-flex-wrap">
             <!-- Emergence in Multi-Agent Systems -->
-            {% if page.research_emergence == "False" and page.research_resilience == "False" and page.research_dependability == "False" and page.research_marl == "False" and page.research_planning == "False" %}
-              No research field found.
-            {% endif %}
             {% if page.research_emergence == "True" %}
-            <div class="flex-child card" style="width:50%">
+            <div class="flex-child card" style="width:50%; max-width: 50%;">
               <a href="/research/emergence/">
                 <p class="box_title">Emergence in Multi-Agent Systems</p>
                 <div class="box">
@@ -105,7 +103,7 @@ layout: default
             {% endif %}
             <!-- Resilience in Autonomous Systems -->
             {% if page.research_resilience == "True" %}
-            <div class="flex-child card" style="width:50%">
+            <div class="flex-child card" style="width:50%; max-width: 50%;">
               <a href="/research/resilience/">
                 <p class="box_title">Resilience in Autonomous Systems</p>
                 <div class="box">
@@ -116,7 +114,7 @@ layout: default
             {% endif %}
             <!-- Dependability in Machine Learning Systems -->
             {% if page.research_dependability == "True" %}
-            <div class="flex-child card" style="width:50%">
+            <div class="flex-child card" style="width:50%; max-width: 50%;">
               <a href="/research/dependability/">
                 <p class="box_title">Dependability in Machine Learning Systems</p>
                 <div class="box">
@@ -127,7 +125,7 @@ layout: default
             {% endif %}
             <!-- Multi-Agent Reinforcement Learning -->
             {% if page.research_marl == "True" %}
-            <div class="flex-child card" style="width:50%">
+            <div class="flex-child card" style="width:50%; max-width: 50%;">
                 <a href="/research/marl/">
                   <p class="box_title">Multi-Agent Reinforcement Learning</p>
                   <div class="box">
@@ -138,7 +136,7 @@ layout: default
               {% endif %}
             <!-- Planning under Uncertainty -->
             {% if page.research_planning == "True" %}
-            <div class="flex-child card" style="width:50%">
+            <div class="flex-child card" style="width:50%; max-width: 50%;">
               <a href="/research/planning/">
                 <p class="box_title">Planning and Optimization</p>
                 <div class="box">
@@ -148,6 +146,7 @@ layout: default
             </div>
             {% endif %}
         </div>
+        {% endif %}
           {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}
       </section>
       <footer class="page__meta">
