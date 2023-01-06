@@ -7,7 +7,7 @@ excerpt: "We propose an approach to general subgoal-based temporal abstraction i
 booktitle: "Proceedings of the 28th International Joint Conference on Artificial Intelligence"
 venue_short: "IJCAI"
 paper_pages: "5562--5568"
-date: "2019-08–01"
+date: "2019-08-01"
 bibtexid: "gaborIJCAI19"
 paperdoi: "https://doi.org/10.24963/ijcai.2019/772"
 paperurl: "https://www.ijcai.org/proceedings/2019/772"
