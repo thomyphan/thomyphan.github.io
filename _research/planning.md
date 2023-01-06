@@ -1,13 +1,13 @@
 ---
 layout: archive
-title: "Planning under Uncertainty"
+title: "Planning and Optimization"
 permalink: /research/planning/
 author_profile: true
 ---
 
 {% include base_path %}
 
-## Efficiency
+## Monte Carlo Planning
 
 *Publications:*  
 [1] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
@@ -20,6 +20,13 @@ author_profile: true
 [1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
 [2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
 [3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
+
+## Optimization
+
+*Publications:*  
+[1] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
+[2] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
+[3] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
