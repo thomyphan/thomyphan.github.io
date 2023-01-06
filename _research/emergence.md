@@ -24,6 +24,11 @@ author_profile: true
 ## Peer Incentivization
 
 <img src="https://thomyphan.github.io/images/research/peer_incentivization.png" style="float:right; width:200pt;padding-left:10px;"  alt="Peer Incentivization"/>
+
+As self-learning agents become more and more omnipresent in the real world, they will inevitably learn to interact with each other. In self-interested MAS, where multiple autonomous systems with individual goals coexist in a shared environment, conflict and competition may arise due to opposing goals or shared resources. Naive RL approaches commonly fail to cooperate in such scenarios, possibly leading to undesirable emergent results.
+
+To incentivize cooperative behavior in self-interested MAS, we study decentralized mechanisms, where agents learn to reward or penalize each other. These mechanisms are based on market mechanisms [1] or social behavior like acknowledgments [3], which are well studied in other fields [2]. We also consider real-world aspects like locality of information, defectors, as well as limited and noisy communication channels [3].
+
 *Publications:*  
 [1] [Action Markets](https://thomyphan.github.io/publication/2018-08-01-icann-schmid)  
 [2] [The Sharer's Dilemma](https://thomyphan.github.io/publication/2018-11-01-isola-belzner)  
