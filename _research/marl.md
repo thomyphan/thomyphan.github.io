@@ -9,13 +9,14 @@ author_profile: true
 
 ## Cooperative Settings
 
+<img src="https://thomyphan.github.io/images/research/smac_vs_messysmac.png" style="float:right; width:250pt;padding-left:10px;"  alt="SMAC vs. MessySMAC"/>
 *Publications:*  
 [1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
 [2] [State Uncertainty](https://thomyphan.github.io/publication/2023-05-01-aamas-phan)  
 
 ## Competitive Settings
 
-<img src="https://thomyphan.github.io/images/research/resilience_research.png" style="float:right; width:250pt;padding-left:10px;"  alt="Antagonists in MAS"/>
+<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" style="float:right; width:250pt;padding-left:10px;"  alt="Antagonists in MAS"/>
 *Publications:*  
 [1] [Coevolutionary Reinforcement Learning](https://thomyphan.github.io/publication/2019-06-01-gecco-gabor)  
 [2] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
