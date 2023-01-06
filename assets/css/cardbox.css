@@ -38,7 +38,7 @@ a:hover {
   text-decoration: underline;
 }
 
-a.masthead:hover {
+.masthead__menu-item a:hover {
   text-decoration: none;
 }
 
