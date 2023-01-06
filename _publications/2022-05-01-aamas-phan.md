@@ -22,3 +22,6 @@ venuelocation: "Virtual Event, New Zealand"
 
 {% include base_path %}
 
+## Related Articles
+- L. Belzner et al., ["The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents"](https://thomyphan.github.io/publication/2018-11-01-isola-belzner), ISoLA 2018
+- K. Schmid et al., ["Action Markets in Deep Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2018-08-01-icann-schmid), ICANN 2018
