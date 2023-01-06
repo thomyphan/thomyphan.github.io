@@ -87,10 +87,13 @@ layout: default
             bibTexField.innerHTML = clearedField;
           </script>
           {{ content }}
-          <h2>Relevant Research Fields</h2>
+          <h2>Relevant For</h2>
           <div class="flex-container is-flex-wrap">
             <!-- Emergence in Multi-Agent Systems -->
-            {% if page.research_emergence %}
+            {% if page.research_emergence == "False" and page.research_resilience == "False" and page.research_dependability == "False" and page.research_marl == "False" and page.research_planning == "False" %}
+              Nothing found.
+            {% endif %}
+            {% if page.research_emergence == "True" %}
             <div class="flex-child card">
               <a href="/research/emergence/">
                 <p class="box_title">Emergence in Multi-Agent Systems</p>
@@ -101,7 +104,7 @@ layout: default
             </div>
             {% endif %}
             <!-- Resilience in Autonomous Systems -->
-            {% if page.research_resilience %}
+            {% if page.research_resilience == "True" %}
             <div class="flex-child card">
               <a href="/research/resilience/">
                 <p class="box_title">Resilience in Autonomous Systems</p>
@@ -112,7 +115,7 @@ layout: default
             </div>
             {% endif %}
             <!-- Dependability in Machine Learning Systems -->
-            {% if page.research_dependability %}
+            {% if page.research_dependability == "True" %}
             <div class="flex-child card">
               <a href="/research/dependability/">
                 <p class="box_title">Dependability in Machine Learning Systems</p>
@@ -123,7 +126,7 @@ layout: default
             </div>
             {% endif %}
             <!-- Multi-Agent Reinforcement Learning -->
-            {% if page.research_dependability %}
+            {% if page.research_marl == "True" %}
             <div class="flex-child card">
                 <a href="/research/marl/">
                   <p class="box_title">Multi-Agent Reinforcement Learning</p>
@@ -134,7 +137,7 @@ layout: default
               </div>
               {% endif %}
             <!-- Planning under Uncertainty -->
-            {% if page.research_planning %}
+            {% if page.research_planning == "True" %}
             <div class="flex-child card">
               <a href="/research/planning/">
                 <p class="box_title">Planning and Optimization</p>

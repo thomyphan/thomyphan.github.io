@@ -15,6 +15,11 @@ keywords: "Dec-POMDP, state uncertainty, multi-agent learning, recurrency, self-
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "London, UK"
 coderepository: "https://github.com/thomyphan/messy_smac"
+research_emergence: "True"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "False"
 #layout: archive
 ---
 
