@@ -10,20 +10,21 @@ author_profile: true
 ## Emerging Swarms
 
 *Publications:*  
-[1] [Emergent Flocking through Independent Learning](https://direct.mit.edu/isal/proceedings/isal2020/333/98496)  
-[2] [Foraging Swarms through Independent Learning](https://direct.mit.edu/isal/proceedings/isal2020/333/98496)  
+[1] [Emergent Flocking](https://thomyphan.github.io/publication/2019-07-01-alife-hahn)  
+[2] [Foraging Swarms](https://thomyphan.github.io/publication/2020-07-01-alife-hahn)  
 
-## Emergent Cooperation
+## Emergent Sustainability
 
 *Publications:*  
-[1] [Ecosystem Management in a Predator-Prey Setting](https://direct.mit.edu/isal/proceedings/isal2020/518/98475)  
-[2] [Sustainable Ecosystem Management with Multiple Predators](https://direct.mit.edu/isal/proceedings/isal/74/102891)  
+[1] [Ecosystem Management](https://thomyphan.github.io/publication/2020-07-01-alife-ritz)  
+[2] [Multi-Agent Ecosystem Management](https://thomyphan.github.io/publication/2021-07-01-alife-ritz)  
 
 ## Peer Incentivization
 
 *Publications:*  
-[1] [Action Markets in Multi-Agent Reinforcement Learning](https://link.springer.com/chapter/10.1007/978-3-030-01421-6_24)  
-[2] [Mutual Acknowledgment Exchange](https://www.ifaamas.org/Proceedings/aamas2022/pdfs/p1047.pdf)  
+[1] [Action Markets](https://thomyphan.github.io/publication/2018-08-01-icann-schmid)  
+[2] [The Sharer's Dilemma](https://thomyphan.github.io/publication/2018-11-01-isola-belzner)  
+[3] [Mutual Acknowledgment Exchange](https://thomyphan.github.io/publication/2022-05-01-aamas-phan)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>

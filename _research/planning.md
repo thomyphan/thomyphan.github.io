@@ -10,16 +10,16 @@ author_profile: true
 ## Efficiency
 
 *Publications:*  
-[1] [Memory Bounded Open-Loop Planning](https://ojs.aaai.org/index.php/AAAI/article/view/4794)  
-[2] [Adaptive Thompson Sampling Stacks](https://www.ijcai.org/proceedings/2019/0778)  
-[3] [Subgoal-Based Monte Carlo Planning](https://www.ijcai.org/proceedings/2019/772)
+[1] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
+[2] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
+[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)
 
 ## Planning and Learning
 
 *Publications:*  
-[1] [Value Function Approximation for Distributed Planning](https://ifaamas.org/Proceedings/aamas2018/pdfs/p730.pdf)  
-[2] [Distributed Planning for Multi-Agent Policy Approximation](https://arxiv.org/pdf/1901.08761.pdf)  
-[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/files/2020-ala.pdf)  
+[1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
+[2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
+[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
