@@ -13,6 +13,11 @@ paperdoi: "https://doi.org/10.5220/0008949905220529"
 paperurl: "https://www.scitepress.org/Link.aspx?doi=10.5220/0008949905220529"
 eprint: "https://thomyphan.github.io/files/2020-icaart-preprint.pdf"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

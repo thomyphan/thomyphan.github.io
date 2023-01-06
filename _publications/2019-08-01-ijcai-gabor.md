@@ -15,6 +15,11 @@ eprint: "https://thomyphan.github.io/files/2019-ijcai-2.pdf"
 publisher: "International Joint Conferences on Artificial Intelligence Organization"
 coderepository: "https://github.com/jnptr/subgoal-mcts"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "True"
 ---
 
 {% include base_path %}

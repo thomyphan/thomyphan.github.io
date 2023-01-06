@@ -16,6 +16,11 @@ eprint: "https://arxiv.org/pdf/2012.07949.pdf"
 publisher: "Springer-Verlag"
 keywords: "reinforcement learning, multi-agent systems, specification compliance, AI safety"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

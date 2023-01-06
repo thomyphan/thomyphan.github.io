@@ -13,6 +13,11 @@ paperurl: "https://direct.mit.edu/isal/proceedings/isal/74/102891"
 eprint: "https://direct.mit.edu/isal/proceedings-pdf/isal/33/74/1930024/isal\_a\_00399.pdf"
 coderepository: "https://github.com/instance01/fish-rl-alife"
 #layout: archive
+research_emergence: "True"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

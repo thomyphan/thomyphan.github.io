@@ -16,6 +16,11 @@ eprint: "https://link.springer.com/content/pdf/10.1007/s11047-021-09853-3.pdf"
 keywords: "evolutionary algorithm, diversity, adaptive fitness"
 publisher: "Kluwer Academic Publishers"
 #layout: archive
+research_emergence: "False"
+research_resilience : "True"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "True"
 ---
 
 {% include base_path %}

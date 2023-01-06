@@ -15,6 +15,11 @@ paperurl: "https://www.scitepress.org/Papers/2021/101895/101895.pdf"
 eprint: "https://thomyphan.github.io/files/2021-icaart-preprint.pdf"
 publisher: "SciTePress"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

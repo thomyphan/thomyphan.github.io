@@ -17,6 +17,11 @@ keywords: "anomaly detection, AI safety, reinforcement learning"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "Virtual Event, New Zealand"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

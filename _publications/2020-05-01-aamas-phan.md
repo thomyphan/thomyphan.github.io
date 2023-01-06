@@ -17,6 +17,11 @@ keywords: "learning and testing, multi-agent learning, adversarial learning"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "Virtual Event, New Zealand"
 #layout: archive
+research_emergence: "False"
+research_resilience : "True"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "False"
 ---
 
 {% include base_path %}

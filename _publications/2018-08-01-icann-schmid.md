@@ -15,6 +15,11 @@ paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-01421-6_24"
 eprint: "https://thomyphan.github.io/files/2018-icann.pdf"
 publisher: "Springer International Publishing"
 #layout: archive
+research_emergence: "True"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "True"
 ---
 
 {% include base_path %}

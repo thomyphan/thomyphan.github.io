@@ -17,6 +17,11 @@ keywords: "coevolution, evolutionary algorithms, adversarial learning, reinforce
 publisher: "Association for Computing Machinery"
 venuelocation: "Prague, Czech Republic"
 #layout: archive
+research_emergence: "False"
+research_resilience : "True"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

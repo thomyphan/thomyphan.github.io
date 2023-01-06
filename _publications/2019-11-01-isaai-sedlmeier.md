@@ -15,6 +15,11 @@ eprint: "https://thomyphan.github.io/files/2019-isaai-preprint.pdf"
 publisher: "Digitale Welt"
 venuelocation: "Munich, Germany"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

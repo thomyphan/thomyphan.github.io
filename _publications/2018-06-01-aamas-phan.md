@@ -16,6 +16,11 @@ keywords: "online planning, value function approximation, multi-agent planning"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
 venuelocation: "Stockholm, Sweden"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "True"
 ---
 
 {% include base_path %}

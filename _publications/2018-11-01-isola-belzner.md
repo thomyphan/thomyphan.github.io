@@ -16,6 +16,11 @@ eprint: "https://arxiv.org/pdf/1804.10781.pdf"
 publisher: "Springer-Verlag"
 venuelocation: "Limassol, Cyprus"
 #layout: archive
+research_emergence: "True"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

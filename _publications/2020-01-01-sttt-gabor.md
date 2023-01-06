@@ -14,6 +14,11 @@ paperurl: "https://link.springer.com/article/10.1007/s10009-020-00560-5"
 eprint: "https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf"
 publisher: "Springer"
 #layout: archive
+research_emergence: "False"
+research_resilience : "True"
+research_dependability : "True"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}

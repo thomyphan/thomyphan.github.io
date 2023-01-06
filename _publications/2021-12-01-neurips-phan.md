@@ -14,6 +14,11 @@ eprint: "https://proceedings.neurips.cc/paper/2021/file/c97e7a5153badb6576d89394
 publisher: "Curran Associates, Inc."
 coderepository: "https://github.com/thomyphan/scalable-marl"
 #layout: archive
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "False"
 ---
 
 {% include base_path %}

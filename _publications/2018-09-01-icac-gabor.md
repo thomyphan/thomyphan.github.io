@@ -13,6 +13,11 @@ paperdoi: "https://doi.org/10.1109/ICAC.2018.00023"
 paperurl: "https://ieeexplore.ieee.org/document/8498134"
 eprint: "https://thomyphan.github.io/files/2018-icac-preprint.pdf"
 #layout: archive
+research_emergence: "False"
+research_resilience : "True"
+research_dependability : "False"
+research_marl : "False"
+research_planning : "False"
 ---
 
 {% include base_path %}
