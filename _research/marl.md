@@ -16,7 +16,7 @@ author_profile: true
 
 ## Competitive Settings
 
-<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" style="float:right; width:250pt;padding-left:10px;"  alt="Antagonists in MAS"/>
+<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" style="float:right; width:300pt;padding-left:10px;"  alt="Antagonists in MAS"/>
 *Publications:*  
 [1] [Coevolutionary Reinforcement Learning](https://thomyphan.github.io/publication/2019-06-01-gecco-gabor)  
 [2] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
