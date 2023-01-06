@@ -24,22 +24,22 @@
 }
 
 /* unvisited link */
-.card a:link {
+a:link {
   text-decoration: none;
 }
 
 /* visited link */
-.card a:visited {
+a:visited {
   text-decoration: none;
 }
 
 /* mouse over link */
-.card a:hover {
+a:hover {
   text-decoration: underline;
 }
 
 /* selected link */
-.card a:active {
+a:active {
   text-decoration: none;
 }
 
