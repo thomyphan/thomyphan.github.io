@@ -10,6 +10,7 @@ paper_pages: "522--529"
 date: "2020-02-01"
 bibtexid: "sedlmeierICAART20"
 paperdoi: "https://doi.org/10.5220/0008949905220529"
+paperurl: "https://www.scitepress.org/Link.aspx?doi=10.5220/0008949905220529"
 eprint: "https://thomyphan.github.io/files/2020-icaart-preprint.pdf"
 #layout: archive
 ---
