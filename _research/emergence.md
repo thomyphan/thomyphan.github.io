@@ -10,6 +10,11 @@ author_profile: true
 ## Emerging Swarms
 
 <img src="https://thomyphan.github.io/images/research/emergence_research.png" style="float:right; width:200pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
+
+Animals and human tend to form swarms to collectively forage and protect each other from predators. Such swarms emerge based on local interaction of hundreds or thousands of individuals without any centralized controller. Due to the vast scale of such systems, the emergence and characteristics of swarms are hard to understand and anticipate.
+
+Using RL techniques, we can study and quantify the effect of emerging swarms under controlled conditions. We built a large-scale predator-prey simulation, where all preys must learn to survive independently [1]. We also adapted the simulation to a foraging scenario, where multiple agents independently find and follow some target under partial observability [2].
+
 *Publications:*  
 [1] [Emergent Flocking](https://thomyphan.github.io/publication/2019-07-01-alife-hahn)  
 [2] [Foraging Swarms](https://thomyphan.github.io/publication/2020-07-01-alife-hahn)  
@@ -17,6 +22,11 @@ author_profile: true
 ## Emergent Sustainability
 
 <img src="https://thomyphan.github.io/images/research/domain_harvest.png" style="float:right; width:200pt;padding-left:10px;"  alt="Harvest Domain"/>
+
+Common resources can lead to competitive behavior in self-interested MAS, where agents learn to greedily deplete resources without leaving any chance for regeneration. Such behavior is typicaly not desirable for real-world applications like autonomous driving or network communication, where limited resources should be used in a sustainable way.
+
+We study environment factors of existing domains, e.g., the predator-prey domain mentioned above, that are needed to enable the emergence of sustainable behavior in self-interested MAS [1]. We also evaluate the effect of the number of agents on emergent sustainability [2]. 
+
 *Publications:*  
 [1] [Ecosystem Management](https://thomyphan.github.io/publication/2020-07-01-alife-ritz)  
 [2] [Multi-Agent Ecosystem Management](https://thomyphan.github.io/publication/2021-07-01-alife-ritz)  

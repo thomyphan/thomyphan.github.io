@@ -11,9 +11,9 @@ author_profile: true
 
 <img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:200pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
-Many optimization approaches aim for a single optimum in the solution landscape, which makes them vulnerable for changes in the solution landscape, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to obstacles or accidents. Diverse optimization can address that problem by searching for multiple optima to provide more flexible solutions.
+Many optimization approaches aim for a single optimum in the solution landscape, which makes them vulnerable for changes in the solution landscape, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to obstacles or accidents. Diverse optimization can address that problem by searching for multiple optima to provide flexible solutions for better resilience in autonomous systems.
 
-We study diversity-aware optimization in evolutionary algorithms and use the concepts for planning to demonstrate improved resilience through diversity [1]. We also devise diversity-based objectives to ease optimization, which may be useful for reinforcement learning and planning algorithms [2].
+We study diversity-aware optimization in evolutionary algorithms and use the concepts for planning to demonstrate improved resilience through diversity [1]. We also devise diversity-based objectives to ease optimization, which may be useful for resilient reinforcement learning and planning algorithms [2].
 
 *Publications:*  
 [1] [Diversity-Aware Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
@@ -21,9 +21,9 @@ We study diversity-aware optimization in evolutionary algorithms and use the con
 
 ## Coevolution in Autonomous Systems
 
-RL agents are commonly trained under idealized condition by assuming a stationary environment. In complex domains, such agents can be vulnerable to rare events that are not (frequently) encountered during training thus potentially causing unintended behavior. To learn safe behavior, the agent needs to be exposed to such rare events more frequently during training.
+RL agents are commonly trained under idealized condition by assuming a stationary environment. In complex domains, such agents can be vulnerable to rare events that are not (frequently) encountered during training thus potentially causing unintended behavior. To learn resilient behavior, the agent needs to be exposed to such rare events more frequently during training.
 
-We devise coevolutionary RL algorithms, where the environment is modeled as an adversary which is optimized with evolutionary algorithms to minimize the original RL objective. The adversarial environment can be used to train robust agents [1] and evolve in an open-ended manner to provide adequate test cases for self-adaptive systems [2].
+We devise coevolutionary RL algorithms, where the environment is modeled as an adversary and optimized with evolutionary algorithms to minimize the original RL objective. The adversarial environment can be used to train resilient agents [1] and evolve in an open-ended manner to provide adequate test cases for self-adaptive systems [2].
 
 *Publications:*  
 [1] [Coevolutionary Reinforcement Learning](https://thomyphan.github.io/publication/2019-06-01-gecco-gabor)  
