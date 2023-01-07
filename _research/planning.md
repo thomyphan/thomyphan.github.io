@@ -23,7 +23,7 @@ We devise algorithms that address various real-world challenges regarding MCP li
 
 ## Planning and Learning
 
-<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:250pt;padding-left:10px;"  alt="Planning with Value Function"/>
+<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:300pt;padding-left:10px;"  alt="Planning with Value Function"/>
 
 Cooperative MARL commonly exploits global information like states and joint actions during training to produce coordinated strategies for decentralized decision making. However, emergent phenomena can dynamically occur in various forms and levels which are difficult to deduce from mere states and joint actions therefore limiting performance and scalability in large-scale domains.
 
@@ -36,7 +36,7 @@ We propose to explicitly consider emergent behavior via distributed planning to 
 
 ## Stochastic Optimization
 
-<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:200pt;padding-left:10px;"  alt="Solution Landscape Example"/>
+<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
 Optimization is the basis of machine learning and planning, where some objective function has to be maximized or minimized, e.g., a differential loss function or the expected return of a sequential problem.
 

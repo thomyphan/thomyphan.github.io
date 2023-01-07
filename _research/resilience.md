@@ -9,7 +9,7 @@ author_profile: true
 
 ## Diverse Evolutionary Optimization
 
-<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:200pt;padding-left:10px;"  alt="Solution Landscape Example"/>
+<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
 Many optimization approaches aim for a single optimum in the solution landscape, which makes them vulnerable for changes in the solution landscape, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to obstacles or accidents. Diverse optimization can address that problem by searching for multiple optima to provide flexible solutions for better resilience in autonomous systems.
 
