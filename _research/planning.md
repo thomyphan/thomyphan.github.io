@@ -11,9 +11,9 @@ author_profile: true
 
 <img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;"  alt="Closed-Loop vs. Open-Loop"/>
 
-*Monte Carlo Planning (MCP)* is a sampling-based approach to online decision making in complex domains with enormous branching factors. MCP requires very limited domain knowledge in form of a black box simulator to optimize plans.
+*Monte Carlo Planning (MCP)* is a sampling-based approach to decision making in complex domains with enormous branching factors. Given a fixed computation budget per decision, MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget to optimize plans.
 
-We devise algorithms that address various real-world challenges regarding MCP like domain shifts [1], resource restrictions [2,3], and temporal abstraction [4].
+We devise algorithms that address various real-world challenges regarding MCP like domain shifts [1], resource restrictions [2,3], and temporal abstraction [4]. Our algorithms are commonly based on open-loop planning using evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions with restricted resources.
 
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
@@ -38,7 +38,9 @@ We propose to explicitly consider emergent behavior via distributed planning to 
 
 <img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:200pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
-Optimization forms the basis for all machine learning and planning algorithms. We focus on stochastic optimization approaches like evolutionary algorithms [1] and quantum optimization [2] to solve problems in planning [3] and polymatrix game theory [4].
+Optimization is the basis of machine learning and planning, where some objective function has to be maximized or minimized, e.g., a differential loss function or the expected return of a sequential problem.
+
+We focus on stochastic optimization approaches like diversity-aware evolutionary algorithms [1] and hybrid quantum-classical algorithms [2] to solve problems in planning [3] and polymatrix game theory [4].
 
 *Publications:*  
 [1] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  

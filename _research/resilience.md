@@ -23,7 +23,7 @@ We study diversity-aware optimization in evolutionary algorithms and use the con
 
 RL agents are commonly trained under idealized condition by assuming a stationary environment. In complex domains, such agents can be vulnerable to rare events that are not (frequently) encountered during training thus potentially causing unintended behavior. To learn safe behavior, the agent needs to be exposed to such rare events more frequently during training.
 
-We devise coevolutionary RL algorithms, where the environment is modeled as an adversary which is optimized with evolutionary algorithms to minimize the original RL objective [1]. The adversarial environment can be used to train robust agents or to test agents of different training processes [2].
+We devise coevolutionary RL algorithms, where the environment is modeled as an adversary which is optimized with evolutionary algorithms to minimize the original RL objective. The adversarial environment can be used to train robust agents [1] and evolve in an open-ended manner to provide adequate test cases for self-adaptive systems [2].
 
 *Publications:*  
 [1] [Coevolutionary Reinforcement Learning](https://thomyphan.github.io/publication/2019-06-01-gecco-gabor)  
@@ -35,7 +35,7 @@ We devise coevolutionary RL algorithms, where the environment is modeled as an a
 
 Cooperative MARL agents are commonly trained under idealized condition, assuming that nothing can fail. However, (partially) adversarial behavior may still occur due to flaws in hardware and software, potentially leading to catastrophic failure. Thus, even cooperative MAS need to be prepared for adversarial change as each agent may be a potential source of failure.
 
-We devise algorithms to improve resilience in MARL systems. During training, we randomly replace productive agents by antagonist agents to expose the system to partial adversarial change [1]. We also devise evaluation methods to compare resilience of different MARL algorithms in a fair way [2].
+We devise algorithms to improve resilience in MARL systems. During training, we randomly replace productive agents by antagonists to expose the system to partial adversarial change [1]. We also devise evaluation methods to compare resilience of different MARL algorithms in a fair way [2].
 
 *Publications:*  
 [1] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
