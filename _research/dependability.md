@@ -34,7 +34,7 @@ We investigate such solutions by proposing specification-aware algorithms that a
 
 ## Engineering and Operation
 
-<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:250pt;padding-left:10px;"  alt="Dependability in Machine Learning Systems"/>
+<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:200pt;padding-left:10px;"  alt="Dependability in Machine Learning Systems"/>
 
 Similar to software and system engineering, *machine learning (ML)* requires suitable tools, e.g., for design, validation, monitoring, root cause analysis, etc., beyond mere data to build and operate dependable systems. Such tools can improve safety, trust, and acceptance to deploy such systems in the real-world.
 
