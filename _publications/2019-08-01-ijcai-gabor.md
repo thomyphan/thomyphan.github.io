@@ -27,3 +27,4 @@ research_planning : "True"
 ## Related Articles
 - T. Phan et al., ["Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning"](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan), IJCAI 2019
 - T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
+- T. Gabor et al., ["Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms"](https://thomyphan.github.io/publication/2018-09-01-icac-gabor), ICAC 2018

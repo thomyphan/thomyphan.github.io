@@ -24,3 +24,6 @@ research_planning : "True"
 
 ## Related Articles
 - T. Gabor et al., ["Productive Fitness in Diversity-Aware Evolutionary Algorithms"](https://thomyphan.github.io/publication/2021-01-01-naco-gabor), NACO 2021
+- T. Gabor et al., ["Subgoal-Based Temporal Abstraction in Monte-Carlo Tree Search"](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor), IJCAI 2019
+- T. Phan et al., ["Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning"](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan), IJCAI 2019
+- T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
