@@ -11,7 +11,7 @@ author_profile: true
 
 <img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" title="Optimization Problem with Multiple Optima" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
-Many optimization algorithms only search for a single optimum in complex solution landscapes, which makes them vulnerable to *dynamic changes*, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to emerging obstacles or sudden accidents. *Diverse optimization* can address that problem by simultaneously searching for multiple optima to provide alternative solutions to respond without restarting the optimization.
+Many optimization algorithms only search for a single optimum in complex solution landscapes, which makes them vulnerable to *dynamic changes*, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to emerging obstacles or sudden accidents. *Diverse optimization* can address this problem by simultaneously searching for multiple optima to provide alternative solutions without restarting the optimization.
 
 We study diversity-aware optimization in evolutionary algorithms and use the concepts for planning to improve resilience against dynamic environment changes [1]. We also devise diversity-based objectives to ease optimization, which may be a promising foundation for resilient *reinforcement learning (RL)* and planning [2].
 

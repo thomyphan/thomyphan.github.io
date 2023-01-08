@@ -13,7 +13,7 @@ author_profile: true
 
 Optimization forms the basis of machine learning and planning algorithms, e.g., to minimize a loss function or maximize the expected cumulative reward of a sequential problem.
 
-We focus on stochastic optimization based on cross entropy [1,5], evolutionary [2,3] or quantum optimization algorithms [4,5] to solve problems in planning [3] and (polymatrix) game theory [1,4].
+We focus on stochastic optimization based on cross entropy [1,5], evolutionary [2,3] or quantum optimization algorithms [4,5] to solve complex problems in planning [3] and (polymatrix) game theory [1,4].
 
 *Publications:*  
 [1] [Distributed Cross Entropy Optimization](https://thomyphan.github.io/publication/2018-11-01-isola-belzner)  
@@ -28,7 +28,7 @@ We focus on stochastic optimization based on cross entropy [1,5], evolutionary [
 
 *Monte Carlo Planning (MCP)* is a sampling-based approach to sequential decision making suitable for domains with enormous branching factors. MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget for stochastic optimization of decisions.
 
-We devise algorithms that address various real-world challenges regarding MCP like domain shift [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions under limited resources.
+We devise algorithms that address various real-world challenges regarding MCP like domain shift [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop, based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions under limited resources.
 
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
@@ -42,7 +42,7 @@ We devise algorithms that address various real-world challenges regarding MCP li
 
 Cooperative MARL commonly exploits global information like states and joint actions during training to produce coordinated strategies for decentralized decision making. However, emergent phenomena can dynamically occur in various forms and levels which are difficult to deduce from mere states and joint actions therefore limiting performance and scalability in large-scale domains.
 
-We propose to explicitly consider emergent behavior via distributed Monte Carlo planning to overcome these limitations. To support the distributed planning process, we provide learned value [1] and policy functions [2,3] to narrow the search beam to improve efficiency.
+We propose to explicitly consider emergent behavior via distributed Monte Carlo planning to overcome these limitations. To support the distributed planning process, we provide learned value [1] and policy functions [2,3] to narrow down the search beam for improved efficiency.
 
 *Publications:*  
 [1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
