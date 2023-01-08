@@ -8,5 +8,8 @@ main:
     url: /publications/  
 
   - title: "Teaching"
-    url: /teaching/    
+    url: /teaching/
+
+  - title: "CV"
+    url: /files/CV-ThomyPhan.pdf    
 
