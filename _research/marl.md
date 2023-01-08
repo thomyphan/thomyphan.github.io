@@ -19,6 +19,19 @@ We address current weaknesses in MARL with respect to the real world beyond clas
 [1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
 [2] [State Uncertainty](https://thomyphan.github.io/publication/2023-05-01-aamas-phan)  
 
+## Planning and Learning
+
+<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:250pt;padding-left:10px;"  alt="Planning with Value Function"/>
+
+Cooperative MARL commonly exploits global information like states and joint actions during training to produce coordinated strategies for decentralized decision making. However, emergent phenomena can dynamically occur in various forms and levels which are difficult to deduce from mere states and joint actions therefore limiting performance and scalability in large-scale domains.
+
+We propose to explicitly consider emergent behavior via distributed planning to overcome these limitations. To support the distributed planning process, we provide learned value [1] and policy functions [2,3] to narrow the search beam for higher efficiency.
+
+*Publications:*  
+[1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
+[2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
+[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
+
 ## Adversarial Settings
 
 <img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" style="float:right; width:300pt;padding-left:10px;"  alt="Antagonists in MAS"/>
@@ -42,19 +55,6 @@ To incentivize cooperative behavior in self-interested MAS, we study *decentrali
 *Publications:*  
 [1] [Action Markets for Emergent Cooperation](https://thomyphan.github.io/publication/2018-08-01-icann-schmid)  
 [2] [Mutual Acknowledgment Exchange for Reciprocity](https://thomyphan.github.io/publication/2022-05-01-aamas-phan)  
-
-## Planning and Learning
-
-<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:250pt;padding-left:10px;"  alt="Planning with Value Function"/>
-
-Cooperative MARL commonly exploits global information like states and joint actions during training to produce coordinated strategies for decentralized decision making. However, emergent phenomena can dynamically occur in various forms and levels which are difficult to deduce from mere states and joint actions therefore limiting performance and scalability in large-scale domains.
-
-We propose to explicitly consider emergent behavior via distributed planning to overcome these limitations. To support the distributed planning process, we provide learned value [1] and policy functions [2,3] to narrow the search beam for higher efficiency.
-
-*Publications:*  
-[1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
-[2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
-[3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
