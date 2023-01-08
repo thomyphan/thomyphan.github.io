@@ -22,7 +22,7 @@ We investigate methods to measure an agent's uncertainty regarding a particular 
 
 ## Specification Awareness
 
-<img src="https://thomyphan.github.io/images/research/crashing_robots.png" style="float:right; width:200pt;padding-left:10px;"  alt="Crashing Robots"/>
+<img src="https://thomyphan.github.io/images/research/crashing_robots.png" style="float:right; width:250pt;padding-left:10px;"  alt="Crashing Robots"/>
 
 RL agents are often trained and evaluated with respect to a single objective. In the real-world, a system typically has to comply with a *specification* consisting of functional and non-functional *requirements* though. These requirements may be aligned or in conflict with the original objective, e.g., finding a shortest path or maximizing throughput in a factory. Therefore, a *tradeoff solution* is needed which is hard to find for classic RL methods that preferrably stick to easy requirements while neglecting harder ones.
 
