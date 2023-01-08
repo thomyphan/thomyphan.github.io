@@ -83,3 +83,7 @@ a:active {
 .box:hover {
   box-shadow: none;
 }
+
+.archive a:hover img {
+  box-shadow: none;
+}
