@@ -22,8 +22,7 @@ Using RL techniques, we can study and quantify the effect of emerging swarms und
 ## Emergent Sustainability
 
 <span style="float:right">
-<img src="https://thomyphan.github.io/images/research/sustainable_hunting1.gif" title="Sutstainable Hunting with Multiple Predators" style="width:125pt;padding-left:10px;" alt="Sutstainable Hunting 1"/>
-<img src="https://thomyphan.github.io/images/research/sustainable_hunting2.gif" title="Sutstainable Hunting with Multiple Predators" style="width:125pt;padding-left:10px;" alt="Sutstainable Hunting 2"/>
+<img src="https://thomyphan.github.io/images/research/sustainable_hunting1.gif" title="Sutstainable Hunting with Multiple Predators" style="width:125pt;padding-left:10px;" alt="Sutstainable Hunting 1"/> <img src="https://thomyphan.github.io/images/research/sustainable_hunting2.gif" title="Sutstainable Hunting with Multiple Predators" style="width:125pt;padding-left:10px;" alt="Sutstainable Hunting 2"/>
 </span>
 
 Common resources can lead to greedy behavior in self-interested *multi-agent system (MAS)*, where agents learn to deplete all resources without any chance for regeneration. Such behavior known as *tradegy of the commons* is not desirable for real-world applications like autonomous driving or network communication, where limited resources should be used in a sustainable way.
