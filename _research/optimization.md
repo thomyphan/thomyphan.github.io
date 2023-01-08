@@ -13,14 +13,14 @@ author_profile: true
 
 Optimization forms the basis of machine learning and planning algorithms, e.g., to minimize a loss function or maximize the expected cumulative reward of a sequential problem.
 
-We focus on stochastic optimization based on cross entropy [1,4], evolutionary [2,3] or quantum optimization algorithms [4,5] to solve problems in planning [2] and (polymatrix) game theory [1,3].
+We focus on stochastic optimization based on cross entropy [1,5], evolutionary [2,3] or quantum optimization algorithms [4,5] to solve problems in planning [3] and (polymatrix) game theory [1,4].
 
 *Publications:*  
 [1] [Distributed Cross Entropy Optimization](https://thomyphan.github.io/publication/2018-11-01-isola-belzner)  
-[1] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
-[2] [Diversity-Aware Optimization](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
-[3] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
-[4] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
+[2] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
+[3] [Diversity-Aware Optimization](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
+[4] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
+[5] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
 
 ## Monte Carlo Planning
 
