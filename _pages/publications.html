@@ -64,7 +64,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         } else {
             venue = entryTags["booktitle"];
         }
-        return venue.replace(/^\((.+)\)$/,"(<strong>$1</strong>)");
+        return venue.replace(/\(/g, "(<strong>").replace(/\)/g, "</strong>)");
     }
 
     function publicationEntry(entry) {
