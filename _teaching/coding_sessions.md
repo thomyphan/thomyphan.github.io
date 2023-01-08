@@ -6,9 +6,11 @@ author_profile: true
 ---
 
 {% include base_path %}
-<p style="text-align:center;">
+<!--<p style="text-align:center;">
 <img src="https://thomyphan.github.io/images/teaching/rooms_domain.png" title="Navigation with Value Map" style="width:400pt;padding-left:10px;"  alt="Rooms Domain and Value Map"/>
-</p>
+</p>-->
+
+<img src="https://thomyphan.github.io/images/teaching/rooms_domain.png" title="Navigation with Value Map" style="float:right; width:300pt;padding-left:10px;"  alt="Rooms Domain and Value Map"/>
 
 Coding skills are important for successful AI research to implement algorithms, conduct experiments, analyze data, etc. To bridge the gap between abstract formulas and executable code, I occasionally organize voluntary coding sessions as an onboarding opportunity for students and fellow scientists.
 
