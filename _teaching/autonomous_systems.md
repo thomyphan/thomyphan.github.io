@@ -11,11 +11,11 @@ author_profile: true
 
 Modern systems like robots act autonomously by making independent decisions and adapting to their environment.
 
-This practical course focuses on artificial intelligence approaches to autonomous systems based on planning and reinforcement learning techniques. The goal is to enable students to implement planning and reinforcement algorithms to solve basic decision making problems based on [Unity ML agents](https://github.com/Unity-Technologies/ml-agents) or [Google Brax](https://github.com/google/brax).
+This practical course focuses on autonomous system concepts based on artificial intelligence. The goal is to enable students to implement planning and reinforcement algorithms to solve simple decision making problems using [Unity ML agents](https://github.com/Unity-Technologies/ml-agents) or [Google Brax](https://github.com/google/brax).
 
-The course is divided into two phases:
+The course is divided in two phases:
 1. **Introductory Phase**: The foundations are taught in weekly sessions with accompanying practical assignments, where students can practice the lessons to acquire necessary coding skills for the project phase.
-2. **Project Phase**: The students work independently in groups on individual projects to develop two algorithms to solve a continuous decision making domain. Each group is individually guided by supervising assistants and reports their progress in weekly meetings.
+2. **Project Phase**: The students work independently in groups on individual projects to develop two decision making algorithms to solve a continuous problem. All groups are guided by supervising assistants and report their progress in separate weekly meetings.
 
 <img src="https://thomyphan.github.io/images/teaching/asp_project_example.gif" title="Student Project Example" style="float:right; width:300pt;padding-left:10px;"  alt="ASP Project Example"/>
 

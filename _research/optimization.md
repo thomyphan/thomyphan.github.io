@@ -11,9 +11,9 @@ author_profile: true
 
 <img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" title="Optimization Problem with Multiple Optima" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
-Optimization forms the basis of machine learning and planning algorithms, where one or more objective functions must be maximized or minimized, e.g., a differential loss function or the expected cumulative reward of a sequential problem.
+Optimization forms the basis of machine learning and planning algorithms, e.g., to minimize a loss function or maximize the expected cumulative reward of a sequential problem.
 
-We focus on stochastic optimization based on diversity-aware evolutionary algorithms [1,2] and hybrid quantum-classical algorithms [3,4] to solve problems in planning [2] and polymatrix game theory [3].
+We focus on stochastic optimization based on evolutionary [1,2] or quantum optimization algorithms [3,4] to solve problems in planning [2] and polymatrix game theory [3].
 
 *Publications:*  
 [1] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
@@ -25,9 +25,9 @@ We focus on stochastic optimization based on diversity-aware evolutionary algori
 
 <img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;" title="Closed-Loop and Open-Loop Planning" alt="Closed-Loop and Open-Loop Planning"/>
 
-*Monte Carlo Planning (MCP)* is a sampling-based approach to decision making in complex domains with enormous branching factors. Given a fixed computation budget per decision, MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget for stochastic optimization of plans.
+*Monte Carlo Planning (MCP)* is a sampling-based approach to sequential decision making suitable for domains with enormous branching factors. MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget for stochastic optimization of decisions.
 
-We devise algorithms that address various real-world challenges regarding MCP like domain shifts [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop and based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions under limited resources.
+We devise algorithms that address various real-world challenges regarding MCP like domain shift [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions under limited resources.
 
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  

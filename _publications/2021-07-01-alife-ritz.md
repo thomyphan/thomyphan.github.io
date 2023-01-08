@@ -7,6 +7,7 @@ excerpt: 'This paper applies reinforcement learning to train a predator to hunt 
 booktitle: "Conference on Artificial Life"
 venue_short: "ALIFE"
 date: "2021-07-01"
+paper_pages: "74--83"
 bibtexid: "ritzALIFE21"
 paperdoi: "https://doi.org/10.1162/isal_a_00399"
 paperurl: "https://direct.mit.edu/isal/proceedings/isal/74/102891"

@@ -12,7 +12,7 @@ author_profile: true
 
 This working group serves as a platform for scientists and students to discuss about current AI topics in weekly sessions. Scientists typically share their latest work and community experience, while students report their progress on individual projects or theses.
 
-The goal is to connect scientists and students to ease access to the research of our [Technology and Research on Artificial Intelligence Laboratory (TRAIL)](https://www.mobile.ifi.lmu.de/ai-lab/) and to assign thesis topics or individual research projects.
+The goal is to connect scientists and students to ease access to the research of our [Technology and Research on Artificial Intelligence Laboratory (TRAIL)](https://www.mobile.ifi.lmu.de/ai-lab/) and to assign thesis topics or individual research projects to selected students.
 
 <img src="https://thomyphan.github.io/images/teaching/AI_robot_teaching.png" title="Teaching AI at LMU" style="float:right; width:250pt;padding-left:10px;"  alt="Robot teaching AI at LMU Munich"/>
 
