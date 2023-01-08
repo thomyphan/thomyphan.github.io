@@ -19,7 +19,7 @@ We study diversity-aware optimization in evolutionary algorithms and use the con
 [1] [Diversity-Aware Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  
 [2] [Productive Fitness](https://thomyphan.github.io/publication/2021-01-01-naco-gabor)  
 
-## Coevolution in Autonomous Systems
+## Scenario Coevolution
 
 RL agents are commonly trained under idealized condition, assuming a stationary environment. In complex domains, such agents can be vulnerable to rare events that are not (frequently) encountered during training, potentially performing poorly or causing catastrophic failure. To learn resilient behavior, the RL agent needs to be exposed to such rare events more frequently during training.
 
