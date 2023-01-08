@@ -9,7 +9,7 @@ author_profile: true
 
 ## Emerging Swarms
 
-<img src="https://thomyphan.github.io/images/research/emergence_research.png" title="Predator-Prey Domain" style="float:right; width:225pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
+<img src="https://thomyphan.github.io/images/research/emergence_research.png" title="Predator-Prey Domain" style="float:right; width:250pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
 
 Animals like birds and fishes tend to form swarms to collectively forage or protect each other from predators. Swarms emerge from *local interaction* of thousands of individuals without a centralized controller. Due to the vast scale of such systems, the emergence and characteristics of swarms are hard to interpret and anticipate.
 

@@ -33,7 +33,7 @@ We devise *coevolutionary* RL algorithms, where the environment is modeled as an
 
 ## Resilience in Multi-Agent Systems
 
-<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" title="Smart Factory with Antagonists" style="float:right; width:300pt;padding-left:10px;"  alt="Antagonists in MAS"/>
+<img src="https://thomyphan.github.io/images/research/resilience_research.png" title="Smart Factory with Antagonists" style="float:right; width:250pt;padding-left:10px;"  alt="Antagonists in MAS"/>
 
 Cooperative *multi-agent RL (MARL)* agents are commonly trained under idealized condition, assuming that agents will always exhibit cooperative behavior. However, (partial) *adversarial behavior* may occur nevertheless due to flaws in hardware and software, potentially leading to catastrophic failure. Thus, even cooperative *multi-agent system (MAS)* need to be prepared for adversarial change as each agent may be a potential *source of failure*.
 
