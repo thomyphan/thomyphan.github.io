@@ -9,7 +9,7 @@ author_profile: true
 
 ## Anomaly Detection
 
-<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:250pt;padding-left:10px;"  title="Uncertainty Measurement" alt="OOD Example"/>
+<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:225pt;padding-left:10px;"  title="Uncertainty Measurement" alt="OOD Example"/>
 
 Generalization is an important concern in *reinforcement learning (RL)* since agents are typically trained and evaluated in a simulation with limited scope. As the real-world is complex and messy, it is likely that RL agents will encounter *novel situations* which are different from samples seen during training. Such *anomalies* or *out-of-distribution* samples can cause undesired behavior thus need to be considered carefully in safety-critical domains.
 

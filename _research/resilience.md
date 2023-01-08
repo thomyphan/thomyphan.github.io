@@ -37,7 +37,7 @@ We devise *coevolutionary* RL algorithms, where the environment is modeled as an
 
 Cooperative *multi-agent RL (MARL)* agents are commonly trained under idealized condition, assuming that agents will always exhibit cooperative behavior. However, (partial) *adversarial behavior* may occur nevertheless due to flaws in hardware and software, potentially leading to catastrophic failure. Thus, even cooperative *multi-agent system (MAS)* need to be prepared for adversarial change as each agent may be a potential *source of failure*.
 
-We devise algorithms to improve resilience in MAS. During training, we randomly replace productive agents by antagonists to expose the system to partial adversarial change [1]. We also devise evaluation methods to compare resilience of different MARL algorithms in a fair way [2].
+We devise adversarial algorithms to improve resilience in MAS. During training, we randomly replace productive agents by antagonists to expose the system to partial adversarial change [1]. We also devise evaluation methods to compare resilience of different MARL algorithms in a fair way [2].
 
 *Publications:*  
 [1] [Antagonist-Based Learning](https://thomyphan.github.io/publication/2020-05-01-aamas-phan)  
