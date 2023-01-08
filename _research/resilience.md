@@ -23,7 +23,7 @@ We study diversity-aware optimization in evolutionary algorithms and use the con
 
 <img src="https://thomyphan.github.io/images/research/scenario_coevolution.png" title="Scenario Coevolution Process" style="float:right; width:300pt;padding-left:10px;"  alt="Scenario Coevolution Process"/>
 
-RL agents are commonly trained under idealized condition, assuming a stationary environment. In complex domains, such agents can be vulnerable to *rare events* that are not (frequently) encountered during training, potentially performing poorly or causing catastrophic failure. To learn resilient behavior, the RL agent needs to be exposed to such rare events more often during training.
+RL agents are commonly trained under idealized condition, assuming a stationary environment. In complex domains, such agents are typically vulnerable to *rare events* that are not (frequently) encountered during training, potentially performing poorly or causing catastrophic failure. To learn resilient behavior, the RL agent needs to be exposed to such rare events more often during training.
 
 We devise *coevolutionary* RL algorithms, where the environment is modeled as an adversary and optimized with evolutionary algorithms to minimize the original RL objective. The adversarial environment can be used to train resilient agents [1] and evolve in an open-ended manner to provide adaptive test cases for continuously evolving systems [2].
 
