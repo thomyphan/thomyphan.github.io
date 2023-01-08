@@ -21,10 +21,6 @@ We focus on stochastic optimization based on diversity-aware evolutionary algori
 [3] [Quantum Annealing for Nash Equilibria Search](https://thomyphan.github.io/publication/2020-08-01-iccs-roch)  
 [4] [Quantum Approximate Optimization](https://thomyphan.github.io/publication/2020-10-01-icrc-roch)  
 
-<div style="float: right;">
-    <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
-</div>
-
 ## Monte Carlo Planning
 
 <img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;" title="Closed-Loop and Open-Loop Planning" alt="Closed-Loop and Open-Loop Planning"/>
@@ -51,3 +47,7 @@ We propose to explicitly consider emergent behavior via distributed Monte Carlo 
 [1] [Value Function Approximation for Distributed Planning](https://thomyphan.github.io/publication/2018-06-01-aamas-phan)  
 [2] [Distributed Planning for Multi-Agent Policy Approximation](https://thomyphan.github.io/publication/2019-05-01-aamas-phan)  
 [3] [Centralized Learning and Decentralized Planning](https://thomyphan.github.io/publication/2020-05-01-ala-phan)  
+
+<div style="float: right;">
+    <a href="https://thomyphan.github.io/research/"><strong>Back to Research</strong></a>
+</div>
