@@ -13,6 +13,7 @@ bibtexid: "belznerISoLA18"
 paperdoi: "https://doi.org/10.1007/978-3-030-03424-5_16"
 paperurl: "https://link.springer.com/chapter/10.1007/978-3-030-03424-5_16"
 eprint: "https://arxiv.org/pdf/1804.10781.pdf"
+coderepository: "https://github.com/lenzbelzner/sharers_dilemma"
 publisher: "Springer-Verlag"
 venuelocation: "Limassol, Cyprus"
 #layout: archive
