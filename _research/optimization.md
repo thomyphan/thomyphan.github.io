@@ -1,7 +1,7 @@
 ---
 layout: archive
-title: "Planning and Optimization"
-permalink: /research/planning/
+title: "Optimization and Planning"
+permalink: /research/optimization/
 author_profile: true
 ---
 
