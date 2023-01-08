@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-<img src="https://thomyphan.github.io/images/teaching/msp.png" style="float:right; width:225pt;padding-left:10px;"  alt="Mobile Network"/>
+<img src="https://thomyphan.github.io/images/teaching/msp.png" title="Mobile Network" style="float:right; width:225pt;padding-left:10px;"  alt="Mobile Network"/>
 
 Mobile and distributed apps are an integral part of everyday life, where people use smart phones, smart watches, and many other devices most of their time to stay connected and up-to-date.
 

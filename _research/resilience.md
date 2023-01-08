@@ -9,9 +9,9 @@ author_profile: true
 
 ## Diverse Evolutionary Optimization
 
-<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
+<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" title="Optimization Problem with Multiple Optima" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
-Many optimization algorithms only search for a single optimum in the solution landscape, which makes them vulnerable for dynamic changes, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to obstacles or accidents. Diverse optimization can address that problem by simultaneously searching for multiple optima to provide alternative solutions in case of dynamic changes without restarting the optimization.
+Many optimization algorithms only search for a single optimum in complex solution landscapes, which makes them vulnerable for dynamic changes, where some optima are removed or changed, e.g., when some paths are removed from a navigation graph due to obstacles or accidents. Diverse optimization can address that problem by simultaneously searching for multiple optima to provide alternative solutions in case of dynamic changes without restarting the optimization.
 
 We study diversity-aware optimization in evolutionary algorithms and use the concepts for planning to improve resilience against dynamic environment changes [1]. We also devise diversity-based objectives to ease optimization, which may be a promising foundation for resilient reinforcement learning and planning [2].
 
@@ -31,7 +31,7 @@ We devise coevolutionary RL algorithms, where the environment is modeled as an a
 
 ## Resilience in Multi-Agent Systems
 
-<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" style="float:right; width:300pt;padding-left:10px;"  alt="Antagonists in MAS"/>
+<img src="https://thomyphan.github.io/images/research/antagonist_in_MAS.png" title="Smart Factory with Antagonists" style="float:right; width:300pt;padding-left:10px;"  alt="Antagonists in MAS"/>
 
 Cooperative MARL agents are commonly trained under idealized condition, assuming that agents will always exhibit cooperative behavior. However, (partially) adversarial behavior may still occur due to flaws in hardware and software, potentially leading to catastrophic failure. Thus, even cooperative MAS need to be prepared for adversarial change as each agent may be a potential source of failure.
 

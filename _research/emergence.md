@@ -9,7 +9,7 @@ author_profile: true
 
 ## Emerging Swarms
 
-<img src="https://thomyphan.github.io/images/research/emergence_research.png" style="float:right; width:250pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
+<img src="https://thomyphan.github.io/images/research/emergence_research.png" title="Predator-Prey Domain" style="float:right; width:250pt;padding-left:10px;"  alt="Swarming vs. Independent Escape"/>
 
 Animals like birds and fishes tend to form swarms to collectively forage or protect each other from predators. The emergence of such swarms is based on local interaction of thousands of individuals without any centralized controller. Due to the vast scale of such systems, the emergence and characteristics of swarms are hard to interpret and anticipate.
 
@@ -21,7 +21,8 @@ Using RL techniques, we can study and quantify the effect of emerging swarms und
 
 ## Emergent Sustainability
 
-<img src="https://thomyphan.github.io/images/research/domain_harvest.png" style="float:right; width:250pt;padding-left:10px;"  alt="Harvest Domain"/>
+<img src="https://thomyphan.github.io/images/research/sustainable_hunting1.gif" title="Sutstainable Hunting with Multiple Predators" style="float:right; width:100pt;padding-left:10px;" alt="Sutstainable Hunting 1"/>
+<img src="https://thomyphan.github.io/images/research/sustainable_hunting2.gif" title="Sutstainable Hunting with Multiple Predators" style="float:right; width:100pt;padding-left:10px;" alt="Sutstainable Hunting 2"/>
 
 Common resources can lead to greedy behavior in self-interested *multi-agent system (MAS)*, where agents learn to deplete all resources without any chance for regeneration. Such behavior known as *tradegy of the commons* is not desirable for real-world applications like autonomous driving or network communication, where limited resources should be used in a sustainable way.
 
@@ -33,7 +34,7 @@ We study different environment factors of existing domains, e.g., the predator-p
 
 ## Peer Incentivization
 
-<img src="https://thomyphan.github.io/images/research/peer_incentivization.png" style="float:right; width:250pt;padding-left:10px;"  alt="Peer Incentivization"/>
+<img src="https://thomyphan.github.io/images/research/peer_incentivization.png" title="Peer Incentivization" style="float:right; width:250pt;padding-left:10px;" alt="Peer Incentivization"/>
 
 As self-learning agents become more and more omnipresent in the real world, they will inevitably learn to interact with each other. In self-interested MAS, conflict and competition may arise due to opposing goals or shared resources. Naive RL approaches commonly fail to cooperate in such scenarios, leading to undesirable emergent results.
 

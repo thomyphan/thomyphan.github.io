@@ -9,7 +9,7 @@ author_profile: true
 
 ## Anomaly Detection
 
-<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:250pt;padding-left:10px;"  alt="OOD Example"/>
+<img src="https://thomyphan.github.io/images/research/out_of_distribution.png" style="float:right; width:250pt;padding-left:10px;"  title="Uncertainty Measurement" alt="OOD Example"/>
 
 Generalization is an important concern in RL since agents are typically trained in a simulation with a limited scope. As the real-world is complex and messy, it is likely that RL agents encounter *novel situations* which are different from samples seen during training. Such *anomalies* or *out-of-distribution* samples can cause undesired behavior thus need to be considered carefully in safety-critical domains.
 
@@ -22,7 +22,7 @@ We investigate methods to measure an agent's uncertainty regarding a particular 
 
 ## Specification Awareness
 
-<img src="https://thomyphan.github.io/images/research/crashing_robots.png" style="float:right; width:250pt;padding-left:10px;"  alt="Crashing Robots"/>
+<img src="https://thomyphan.github.io/images/research/crashing_robots.png" style="float:right; width:250pt;padding-left:10px;"  title="Failing Robots" alt="Crashing Robots"/>
 
 RL agents are often trained and evaluated with respect to a single objective. In the real-world, a system typically has to comply with a *specification* consisting of functional and non-functional *requirements* though. These requirements may be aligned or in conflict with the original objective, e.g., finding a shortest path or maximizing throughput in a factory. Therefore, a *tradeoff solution* is needed which is hard to find for classic RL methods that preferrably stick to easy requirements while neglecting harder ones.
 
@@ -34,7 +34,7 @@ We investigate such solutions by proposing specification-aware (MA)RL which atte
 
 ## Engineering and Operation
 
-<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:200pt;padding-left:10px;"  alt="Smart Grid Simulation"/>
+<img src="https://thomyphan.github.io/images/research/dependability_research.png" style="float:right; width:200pt;padding-left:10px;" title="Smart Grid with Overloaded Links" alt="Smart Grid Simulation"/>
 
 Similar to software and system engineering, *machine learning (ML)* requires suitable tools, e.g., for design, validation, monitoring, root cause analysis, etc., beyond mere data to build and operate dependable systems. Such tools would help to improve safety, trust, and acceptance to deploy such systems in the real-world.
 

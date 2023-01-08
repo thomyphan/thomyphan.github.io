@@ -9,7 +9,7 @@ author_profile: true
 
 ## Monte Carlo Planning
 
-<img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;"  alt="Closed-Loop vs. Open-Loop"/>
+<img src="https://thomyphan.github.io/images/research/open_loop_planning.png" style="float:right; width:300pt;padding-left:10px;" title="Closed-Loop and Open-Loop Planning" alt="Closed-Loop and Open-Loop Planning"/>
 
 *Monte Carlo Planning (MCP)* is a sampling-based approach to decision making in complex domains with enormous branching factors. Given a fixed computation budget per decision, MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget to optimize plans.
 
@@ -23,7 +23,7 @@ We devise algorithms that address various real-world challenges regarding MCP li
 
 ## Planning and Learning
 
-<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:300pt;padding-left:10px;"  alt="Planning with Value Function"/>
+<img src="https://thomyphan.github.io/images/research/planning_value_function_2.png" style="float:right; width:300pt;padding-left:10px;" title="Planning with Value Function" alt="Planning with Value Function"/>
 
 Cooperative MARL commonly exploits global information like states and joint actions during training to produce coordinated strategies for decentralized decision making. However, emergent phenomena can dynamically occur in various forms and levels which are difficult to deduce from mere states and joint actions therefore limiting performance and scalability in large-scale domains.
 
@@ -36,7 +36,7 @@ We propose to explicitly consider emergent behavior via distributed planning to 
 
 ## Stochastic Optimization
 
-<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
+<img src="https://thomyphan.github.io/images/research/solution_landscape_example.png" title="Optimization Problem with Multiple Optima" style="float:right; width:250pt;padding-left:10px;"  alt="Solution Landscape Example"/>
 
 Optimization forms the basis of machine learning and planning algorithms, where one or more objective functions must be maximized or minimized, e.g., a differential loss function or the expected cumulative reward of a sequential problem.
 
