@@ -25,4 +25,5 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- R. Müller et al., ["Towards Anomaly Detection in Reinforcement Learning"](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller), AAMAS BlueSky Ideas 2022
 - F. Ritz et al., ["Specification Aware Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz), Book of ICAART (journal version)

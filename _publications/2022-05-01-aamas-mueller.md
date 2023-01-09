@@ -27,5 +27,6 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- F. Ritz et al., ["Specification Aware Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz), Book of ICAART (journal version)
 - A. Sedlmeier et al., ["Uncertainty-Based Out-of-Distribution Classification in Deep Reinforcement Learning"](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier), ICAART 2020
 - A. Sedlmeier et al., ["Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning"](https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier), ISAAI 2019
