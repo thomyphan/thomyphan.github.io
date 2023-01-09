@@ -28,7 +28,7 @@ We focus on stochastic optimization based on cross entropy [1,5], evolutionary [
 
 *Monte Carlo Planning (MCP)* is a sampling-based approach to sequential decision making suitable for domains with enormous branching factors. MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget for stochastic optimization of decisions.
 
-We devise algorithms that address various real-world challenges regarding MCP like domain shift [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop, based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions under limited resources.
+We devise algorithms that address various real-world challenges regarding MCP like domain shift [1], resource restrictions [2,3], and temporal abstraction [4]. Most of our algorithms are open-loop, based on evolutionary algorithms [1] or stacks of multi-armed bandits [2,3] to reduce the search space, while still being able to make good decisions despite limited resources.
 
 *Publications:*  
 [1] [Evolutionary Planning](https://thomyphan.github.io/publication/2018-09-01-icac-gabor)  

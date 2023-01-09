@@ -25,4 +25,5 @@ research_planning : "False"
 
 {% include base_path %}
 
-
+## Related Articles
+- T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021

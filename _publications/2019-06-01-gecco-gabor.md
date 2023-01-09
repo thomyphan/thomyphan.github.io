@@ -20,7 +20,7 @@ venuelocation: "Prague, Czech Republic"
 research_emergence: "False"
 research_resilience : "True"
 research_dependability : "False"
-research_marl : "True"
+research_marl : "False"
 research_planning : "False"
 ---
 

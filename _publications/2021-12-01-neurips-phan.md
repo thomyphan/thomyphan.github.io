@@ -24,4 +24,5 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Attention-Based Recurrency for Multi-Agent Reinforcement Learning under State Uncertainty"](https://thomyphan.github.io/publication/2023-05-01-aamas-phan), AAMAS 2023
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
