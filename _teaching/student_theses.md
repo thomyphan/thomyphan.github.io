@@ -20,6 +20,7 @@ You can find all student theses that I supervised as primary advisor below. The 
 ### 2023
 - A Spatial Social Dilemma Environment for Multi-Agent Reinforcement Learning (A. Perzl)
 - Generalization in Multi-Agent Reinforcement Learning using Minimax Learning (A. Feimer)
+- Generalizing Agents in the Starcraft Multi-Agent Challenge (B. Schüss)
 - Hidden Attacks in Multi-Agent Reinforcement Learning (A. Unterauer)
 
 ### 2022
