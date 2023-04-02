@@ -13,12 +13,13 @@ author_profile: true
 
 Generalization is an important concern in *reinforcement learning (RL)* since agents are typically trained and evaluated in a simulation with limited scope. As the real-world is complex and messy, it is likely that RL agents will encounter *novel situations* which are different from samples seen during training. Such *anomalies* or *out-of-distribution* samples can cause undesired behavior thus need to be considered carefully in safety-critical domains.
 
-We investigate methods to measure an agent's uncertainty regarding a particular situation which can be used for monitoring or as warning system [1,2]. We also regard anomaly detection in a wider scope proposing desiderata for future problems like modeling of normalcy, absence of rewards during deployment, suitable response strategies, etc. [3].
+We investigate methods to measure an agent's uncertainty regarding a particular situation which can be used for monitoring or as warning system [1,2]. We also regard anomaly detection in a wider scope proposing desiderata for future problems like modeling of normalcy, absence of rewards during deployment, suitable response strategies, etc. [3]. Finally, we work on methods to improve generalization and cope with domain shifts [4].
 
 *Publications:*  
 [1] [Uncertainty-Based Detection](https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier)  
 [2] [Out-of-Distribution Classification Methods](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier)  
 [3] [Anomaly Detection in Reinforcement Learning](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller)  
+[4] [Discriminative Reward Co-Training](https://thomyphan.github.io/publication/2023-05-01-ala-altmann) 
 
 ## Specification Awareness
 
