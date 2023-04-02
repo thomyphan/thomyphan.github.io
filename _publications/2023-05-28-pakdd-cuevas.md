@@ -7,7 +7,7 @@ excerpt: 'Traditional real-valued neural networks can suppress neural inputs by 
 booktitle: "The 27th Pacific-Asia Conference on Knowledge Discovery and Data Mining"
 venue_short: "PAKDD"
 date: "2023-05-28"
-bibtexid: "cuevasPAKDD2023"
+bibtexid: "cuevasPAKDD23"
 paperurl: "https://thomyphan.github.io/publication/2023-05-28-pakdd-cuevas"
 keywords: "deep learning"
 publisher: "Springer"
