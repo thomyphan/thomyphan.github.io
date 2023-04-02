@@ -10,10 +10,10 @@ date: "2023-05-01"
 bibtexid: "altmannALA23"
 paperurl: "https://thomyphan.github.io/publication/2023-05-01-pakdd-cuevas"
 keywords: "reinforcement learning, curriculum learning, exploration"
-venuelocation: "London, UK"
+venuelocation: "Osaka, Japan"
 research_emergence: "False"
 research_resilience : "False"
-research_dependability : "True"
+research_dependability : "False"
 research_marl : "False"
 research_planning : "False"
 #layout: archive
@@ -21,7 +21,3 @@ research_planning : "False"
 
 {% include base_path %}
 
-## Related Articles
-- R. Müller et al., ["Towards Anomaly Detection in Reinforcement Learning"](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller), AAMAS BlueSky Ideas 2022
-- F. Ritz et al., ["Specification Aware Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz), Book of ICAART 2021 (journal version)
-- F. Ritz et al., ["SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2021-02-01-icaart-ritz), ICAART 2021 (conference version)
