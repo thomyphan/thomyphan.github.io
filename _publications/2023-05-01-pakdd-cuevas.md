@@ -1,5 +1,5 @@
 ---
-author_list: "Philipp Altmann and Thomy Phan and Fabian Ritz and Thomas Gabor and Claudia Linnhof-Popien"
+author_list: "Felip Guimerà Cuevas and Thomy Phan and Helmut Schmid"
 title: "DIRECT: Learning from Sparse and Shifting Rewards using Discriminative Reward Co-Training"
 collection: publications
 permalink: /publication/2023-05-01-pakdd-cuevas
