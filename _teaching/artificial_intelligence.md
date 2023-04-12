@@ -25,6 +25,7 @@ For more information, check out the course websites (German):
 - [winter semester 2021/22](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/arbeitsgemeinschaft-ai-ws2122/)
 - [summer semester 2022](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/arbeitsgemeinschaft-ai-sose22/)
 - [winter semester 2022/23](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/arbeitsgemeinschaft-ai-ws2223/)
+- [summer semester 2023](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/arbeitsgemeinschaft-ai-sose23/)
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/teaching/"><strong>Back to Teaching</strong></a>
