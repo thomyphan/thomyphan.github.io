@@ -27,6 +27,7 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- P. Altmann et al., ["CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann), IJCAI 2023
 - P. Altmann et al., ["DIRECT: Learning from Sparse and Shifting Rewards using Discriminative Reward Co-Training"](https://thomyphan.github.io/publication/2023-05-01-ala-altmann), ALA 2023
 - F. Ritz et al., ["Specification Aware Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz), Book of ICAART 2021
 - A. Sedlmeier et al., ["Uncertainty-Based Out-of-Distribution Classification in Deep Reinforcement Learning"](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier), ICAART 2020
