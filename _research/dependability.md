@@ -19,8 +19,8 @@ We investigate methods to measure an agent's uncertainty regarding a particular 
 [1] [Uncertainty-Based Detection](https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier)  
 [2] [Out-of-Distribution Classification Methods](https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier)  
 [3] [Anomaly Detection in Reinforcement Learning](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller)  
-[4] [Discriminative Reward Co-Training](https://thomyphan.github.io/publication/2023-05-01-ala-altmann) 
-[5] [Compact Reshaped Observation Processing](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann) 
+[4] [Discriminative Reward Co-Training](https://thomyphan.github.io/publication/2023-05-01-ala-altmann)  
+[5] [Compact Reshaped Observation Processing](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann)  
 
 ## Specification Awareness
 
