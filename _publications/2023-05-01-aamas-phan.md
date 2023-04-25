@@ -8,8 +8,8 @@ booktitle: "Extended Abstracts of the 22nd International Conference on Autonomou
 venue_short: "AAMAS"
 date: "2023-05-01"
 bibtexid: "phanAAMAS23"
-paperurl: "https://arxiv.org/abs/2301.01649"
-extendedversion: "https://thomyphan.github.io/files/2023-aamas-preprint.pdf"
+paperurl: "https://thomyphan.github.io/files/2023-aamas-preprint.pdf"
+extendedversion: "https://thomyphan.github.io/files/2023-icml-preprint.pdf"
 eprint: "https://thomyphan.github.io/files/2023-aamas-preprint.pdf"
 keywords: "Dec-POMDP, state uncertainty, multi-agent learning, recurrence, self-attention"
 publisher: "International Foundation for Autonomous Agents and Multiagent Systems"
@@ -26,4 +26,5 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023 (extended version)
 - T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
