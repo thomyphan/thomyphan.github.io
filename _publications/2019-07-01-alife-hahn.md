@@ -23,6 +23,7 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- Zorn et al., ["Social Neural Network Soups with Surprise Minimization"](https://thomyphan.github.io/publication/2023-07-01-alife-zorn), ALIFE 2023
 - F. Ritz et al., ["A Sustainable Ecosystem through Emergent Cooperation in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2021-07-01-alife-ritz), ALIFE 2021
 - F. Ritz et al., ["Towards Ecosystem Management from Greedy Reinforcement Learning in a Predator-Prey Setting"](https://thomyphan.github.io/publication/2020-07-01-alife-ritz), ALIFE 2020
 - C. Hahn et al., ["Foraging Swarms using Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2020-07-01-alife-hahn), ALIFE 2020

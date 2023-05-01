@@ -23,4 +23,4 @@ research_planning : "True"
 {% include base_path %}
 
 ## Related Articles
-- Zorn et al., ["Social Neural Network Soups with Surprise Minimization"](https://thomyphan.github.io/publication/2023-07-01-alife-zorn), PAKDD 2023
+- Zorn et al., ["Social Neural Network Soups with Surprise Minimization"](https://thomyphan.github.io/publication/2023-07-01-alife-zorn), ALIFE 2023

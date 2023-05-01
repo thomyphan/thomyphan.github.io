@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Emergence in Multi-Agent Systems"
+title: "Emergence in Learning Systems"
 permalink: /research/emergence/
 author_profile: true
 ---
@@ -27,11 +27,14 @@ Using *reinforcement learning (RL)* techniques, we can study and quantify the ef
 
 Common resources can lead to greedy behavior in self-interested *multi-agent system (MAS)*, where agents learn to deplete all resources without any chance for regeneration. Such behavior known as *tradegy of the commons* is not desirable for real-world applications like autonomous driving or network communication, where limited resources should be used in a sustainable way.
 
-We study different environment factors of existing domains, e.g., the predator-prey domain mentioned above, to enable the emergence of sustainable behavior in self-interested MAS [1]. We also evaluate how the number of self-interested agents affects emergent sustainability [2]. 
+We study different environment factors of existing domains, e.g., the predator-prey domain mentioned above, to enable the emergence of sustainable behavior in self-interested MAS [1]. We also evaluate how the number of self-interested agents affects emergent sustainability [2].
+
+Furthermore, we study the emergence of stability in neural artificial chemistry systems, where several neural network evolve via local interaction, self-replication, and surprise minimization [3].
 
 *Publications:*  
 [1] [Ecosystem Management](https://thomyphan.github.io/publication/2020-07-01-alife-ritz)  
 [2] [Multi-Agent Ecosystem Management](https://thomyphan.github.io/publication/2021-07-01-alife-ritz)  
+[3] [Neural Artificial Chemistry Systems](https://thomyphan.github.io/publication/2023-07-01-alife-zorn)
 
 ## Peer Incentivization
 
