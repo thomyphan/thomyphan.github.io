@@ -12,7 +12,7 @@ bibtexid: "ritzALIFE20"
 paperdoi: "https://doi.org/10.1162/isal_a_00273"
 paperurl: "https://direct.mit.edu/isal/proceedings/isal2020/518/98475"
 eprint: "https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/518/1908444/isal\_a\_00273.pdf"
-#layout: archive
+publisher: "MIT Press Direct"
 research_emergence: "True"
 research_resilience : "False"
 research_dependability : "False"

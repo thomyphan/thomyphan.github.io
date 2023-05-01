@@ -16,9 +16,11 @@ research_emergence: "False"
 research_resilience : "False"
 research_dependability : "False"
 research_marl : "False"
-research_planning : "False"
+research_planning : "True"
 #layout: archive
 ---
 
 {% include base_path %}
 
+## Related Articles
+- Zorn et al., ["Social Neural Network Soups with Surprise Minimization"](https://thomyphan.github.io/publication/2023-07-01-alife-zorn), PAKDD 2023

@@ -12,7 +12,7 @@ bibtexid: "hahnALIFE20"
 paperdoi: "https://doi.org/10.1162/isal_a_00267"
 paperurl: "https://direct.mit.edu/isal/proceedings/isal2020/333/98496"
 eprint: "https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/333/1908570/isal\_a\_00267.pdf"
-#layout: archive
+publisher: "MIT Press Direct"
 research_emergence: "True"
 research_resilience : "False"
 research_dependability : "False"
