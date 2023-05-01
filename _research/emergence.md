@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Emergence in Learning Systems"
+title: "Emergence in Multi-Agent Systems"
 permalink: /research/emergence/
 author_profile: true
 ---
