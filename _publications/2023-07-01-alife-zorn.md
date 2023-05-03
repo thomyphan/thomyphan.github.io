@@ -1,5 +1,5 @@
 ---
-author_list: "Maximilian Zorn and Steffen Illium and Thomy Phan and Tanja Kaiser and Claudia Linnhoff-Popien and Thomas Gabor"
+author_list: "Maximilian Zorn and Steffen Illium and Thomy Phan and Tanja Katharina Kaiser and Claudia Linnhoff-Popien and Thomas Gabor"
 title: "Social Neural Network Soups with Surprise Minimization"
 collection: publications
 permalink: /publication/2023-07-01-alife-zorn
