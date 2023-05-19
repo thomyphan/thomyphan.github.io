@@ -13,7 +13,7 @@ author_profile: true
 
 Many real-world problems like fleet management, industry 4.0 scenarios, or communication networks can be formulated as cooperative *multi-agent system (MAS)*, where multiple agents have to collaborate to achieve a common goal. *Multi-agent reinforcement learning (MARL)* is a promising approach to solve these problems, which has recently achieved remarkable progress in challenging domains like [StarCraft II](https://github.com/oxwhirl/smac). However, current MARL is still at a preliminary stage, where many real-world aspects are neglected for simplicity therefore limiting practicability.
 
-We address current weaknesses in MARL with respect to the real world beyond classic benchmark optimization like scalability and state uncertainty. Our algorithms are based on value function factorization and use agent hierarchies [1] or attention-based recurrency [2]. In addition, we provide a [new benchmark](https://github.com/thomyphan/messy_smac) that exhibit higher degrees of state uncertainty through stochastic initial states and noisy observations, which is commonly neglected in MARL research [2].
+We address common weaknesses in MARL with respect to the real world beyond classic benchmark optimization like scalability and state uncertainty. Our algorithms are based on value function factorization and use agent hierarchies [1] or attention-based recurrency [2]. In addition, we provide a [new benchmark](https://github.com/thomyphan/messy_smac) that exhibit higher degrees of state uncertainty through stochastic initial states and noisy observations, which is widely neglected in MARL research [2].
 
 *Publications:*  
 [1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
