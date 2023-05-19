@@ -67,6 +67,15 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         return venue.replace(/\(/g, "(<strong>").replace(/\)/g, "</strong>)");
     }
 
+    function getVenueFromNote(entry) {
+        var entryTags = entry["entryTags"];
+        var venue = "";
+        if("note" in entryTags) {
+            venue = entryTags["note"];
+        }
+        return venue.replace(/\(/g, "(<strong>").replace(/\)/g, "</strong>)");
+    }
+
     function publicationEntry(entry) {
         var authorName = '{{ site.name | default: site.title }}';
         var result = "<li><span>";
@@ -84,6 +93,10 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
             result += ", pages " + entryTags["pages"].replace("--", "–");
         }
         result += ", "+ entryTags["year"] + ".<br/>";
+        if("note" in entryTags) {
+            result += getVenueFromNote(entry) + ".<br/>";
+        }
+
         result += '[<a href="javascript:void(0)" id="'+linkAbstractId+'">abstract</a>]';
         result += ' [<a href="javascript:void(0)" id="'+linkBibtexId+'">bibtex</a>]';
         if("doi" in entryTags) {
@@ -101,7 +114,9 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         result += "</div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
-            result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
+            if(variable != "note") {
+                result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
+            }
         }
         result += "}</pre></div>";
         result += "</span></li>";
