@@ -1,5 +1,5 @@
 ---
-author_list: "Philipp Altmann and Leonard Feuchtinger and Fabian Ritz and Jonas Nüßlein and Thomy Phan and Claudia Linnhof-Popien"
+author_list: "Philipp Altmann and Leonard Feuchtinger and Fabian Ritz and Jonas Nüßlein and Claudia Linnhof-Popien and Thomy Phan"
 title: "CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"
 collection: publications
 permalink: /publication/2023-08-01-ijcai-altmann
