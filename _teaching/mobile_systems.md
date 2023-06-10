@@ -18,8 +18,8 @@ The course is divided in two phases:
 2. **Project Phase**: The students work independently in groups on individual projects to develop an Android app. All groups are guided by supervising assistants and report their progress in separate weekly meetings.
 
 For more information, check out the course websites (German):
-- [summer semester 2018](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/praktikum-mobile-und-verteilte-systeme-sose18/)
 - [winter semester 2018/19](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/msp-ws1819/)
+- [summer semester 2018](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/praktikum-mobile-und-verteilte-systeme-sose18/)
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/teaching/"><strong>Back to Teaching</strong></a>

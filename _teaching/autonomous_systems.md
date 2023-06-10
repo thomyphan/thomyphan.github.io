@@ -20,15 +20,15 @@ The course is divided in two phases:
 <img src="https://thomyphan.github.io/images/teaching/asp_project_example.gif" title="Student Project Example" style="float:right; width:300pt;padding-left:10px;"  alt="ASP Project Example"/>
 
 For more information, check out the course websites (German):
-- [summer semester 2019](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose19/)
-- [winter semester 2019/20](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws1920/)
-- [summer semester 2020](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose20/)
-- [winter semester 2020/21](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/praktikum-autonome-systeme-wise2020/)
-- [summer semester 2021](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose21/)
-- [winter semester 2021/22](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws2122/)
-- [summer semester 2022](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose22/)
+- [summer semester 2023](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose23/) (guest lecture)
 - [winter semester 2022/23](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws2223/)
-- [summer semester 2023](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose23/)
+- [summer semester 2022](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose22/)
+- [winter semester 2021/22](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws2122/)
+- [summer semester 2021](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose21/)
+- [winter semester 2020/21](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/praktikum-autonome-systeme-wise2020/)
+- [summer semester 2020](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose20/)
+- [winter semester 2019/20](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-ws1920/)
+- [summer semester 2019](https://www.mobile.ifi.lmu.de/lehrveranstaltungen/autonomesysteme-sose19/)
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/teaching/"><strong>Back to Teaching</strong></a>
