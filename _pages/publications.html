@@ -158,7 +158,7 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         result += "</div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
-            if(variable != "note" && variable != "url" && variable != "doi" ) {
+            if(variable != "note" && variable != "url" && variable != "doi" && variable != "eprint") {
                 result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
             }
         }
