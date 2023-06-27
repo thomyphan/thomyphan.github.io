@@ -17,7 +17,7 @@ research_emergence: "True"
 research_resilience : "True"
 research_dependability : "False"
 research_marl : "True"
-research_planning : "True"
+research_planning : "False"
 #layout: archive
 ---
 
