@@ -154,11 +154,11 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         }
         result += "<br/>";
         result += '<div id="'+abstractId+'" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">';
-        result += entryTags["abstract"];
+        result += "None";
         result += "</div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
-            if(variable != "note") {
+            if(variable != "note" && variable != "url" && variable != "doi" ) {
                 result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
             }
         }
