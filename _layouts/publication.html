@@ -72,15 +72,15 @@ layout: default
     title       = "{{ page.title }}",
     year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
     {% if page.school %}school      = "{{ page.school }}",{% endif %}
-    {% if !page.school %}abstract    = "{{ page.excerpt }}",{% endif %}
-    {% if !page.school %}url         = "{{ page.paperurl }}",{% endif %}
-    {% if !page.school %}eprint      = "{{ page.eprint }}",{% endif %}
+    {% if not page.school %}abstract    = "{{ page.excerpt }}",{% endif %}
+    {% if not page.school %}url         = "{{ page.paperurl }}",{% endif %}
+    {% if not page.school %}eprint      = "{{ page.eprint }}",{% endif %}
     {% if page.venuelocation %}location    = "{{ page.venuelocation }}",{% endif %}
     {% if page.publisher %}publisher   = "{{ page.publisher }}",{% endif %}
     {% if page.booktitle %}booktitle   = "{{ page.booktitle }}",{% elsif page.journal %}journal     = "{{ page.journal }}",{% endif %}
     {% if page.paper_pages %}pages       = "{{ page.paper_pages }}",{% endif %}
-    {% if page.keywords %}keywords    = "{{ page.keywords }}",{% endif %}
-    {% if page.paperdoi %}doi         = "{{ page.paperdoi }}"{% endif %}
+    {% if page.keywords and not page.school %}keywords    = "{{ page.keywords }}",{% endif %}
+    {% if page.paperdoi and not page.school %}doi         = "{{ page.paperdoi }}"{% endif %}
 }
             </pre>
           </div>
