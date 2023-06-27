@@ -32,6 +32,8 @@ layout: default
           <em>{{ page.booktitle }}</em>{% if page.venue_short %}<em> (<strong>{{ page.venue_short }}</strong>)</em>{% endif %}{% if page.paper_pages %}, pages <span id="pages-{{ page.bibtexid }}">{{ page.paper_pages }}</span>{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.
         {% elsif page.journal %}
           <em>{{ page.journal }}</em>{% if page.venue_short %}<em> (<strong>{{ page.venue_short }}</strong>)</em>{% endif %}{% if page.paper_pages %}, pages <span id="pages-{{ page.bibtexid }}">{{ page.paper_pages }}</span>{% endif %}{% if page.date %}, {{ page.date | default: "1900-01-01" | date: "%Y" }}{% endif %}.
+        {% elsif page.school %}
+          <em>PhD Thesis, LMU Munich, 2023</em>.
         {% endif %}
         <br/>
         [<a href="javascript:void(0)" onclick="toggleAbstract(this, 'abstractSection-{{ page.bibtexid }}')">abstract</a>]
@@ -65,7 +67,7 @@ layout: default
         </div>
         <div id="bibtexSection-{{ page.bibtexid }}" style="display:none;">
             <pre>
-{% if page.booktitle %}@inproceedings{% elsif page.journal %}@article{% endif %}{ {{ page.bibtexid }},
+{% if page.booktitle %}@inproceedings{% elsif page.journal %}@article{% elsif page.school %}@phdthesis{% endif %}{ {{ page.bibtexid }},
     author      = "{{ page.author_list }}",
     title       = "{{ page.title }}",
     year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
