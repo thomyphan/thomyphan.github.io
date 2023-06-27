@@ -71,9 +71,10 @@ layout: default
     author      = "{{ page.author_list }}",
     title       = "{{ page.title }}",
     year        = "{{ page.date | default: "1900-01-01" | date: "%Y" }}",
-    abstract    = "{{ page.excerpt }}",
-    url         = "{{ page.paperurl }}",
-    eprint      = "{{ page.eprint }}",
+    {% if page.school %}school      = "{{ page.school }}",{% endif %}
+    {% if !page.school %}abstract    = "{{ page.excerpt }}",{% endif %}
+    {% if !page.school %}url         = "{{ page.paperurl }}",{% endif %}
+    {% if !page.school %}eprint      = "{{ page.eprint }}",{% endif %}
     {% if page.venuelocation %}location    = "{{ page.venuelocation }}",{% endif %}
     {% if page.publisher %}publisher   = "{{ page.publisher }}",{% endif %}
     {% if page.booktitle %}booktitle   = "{{ page.booktitle }}",{% elsif page.journal %}journal     = "{{ page.journal }}",{% endif %}
