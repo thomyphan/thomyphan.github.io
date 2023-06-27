@@ -154,11 +154,11 @@ You can find all my articles on <a href="https://scholar.google.de/citations?use
         }
         result += "<br/>";
         result += '<div id="'+abstractId+'" style="display:none; border-radius: 15px; background: #f2f2f2; padding: 15px; ">';
-        result += entryTags["abstract"];
+        result += 'Our world represents an enormous multi-agent system (MAS), consisting of a plethora of agents that make decisions under uncertainty to achieve certain goals. The interaction of agents constantly affects our world in various ways, leading to the emergence of interesting phenomena like life forms and civilizations that can last for many years while withstanding various kinds of disturbances. Building artificial MAS that are able to adapt and survive similarly to natural MAS is a major goal in artificial intelligence as a wide range of potential real-world applications like autonomous driving, multi-robot warehouses, and cyber-physical production systems can be straightforwardly modeled as MAS. Multi-agent reinforcement learning (MARL) is a promising approach to build such systems which has achieved remarkable progress in recent years.  However, state-of-the-art MARL commonly assumes very idealized conditions to optimize performance in best-case scenarios while neglecting further aspects that are relevant to the real world.<br>In this thesis, we address emergence and resilience in MARL which are important aspects to build artificial MAS that adapt and survive as effectively as natural MAS do. We first focus on emergent cooperation from local interaction of self-interested agents and introduce a peer incentivization approach based on mutual acknowledgments. We then propose to exploit emergent phenomena to further improve coordination in large cooperative MAS via decentralized planning or hierarchical value function factorization. To maintain multi-agent coordination in the presence of partial changes similar to classic distributed systems, we present adversarial methods to improve and evaluate resilience in MARL. Finally, we briefly cover a selection of further topics that are relevant to advance MARL towards real-world applicability.';
         result += "</div>";
         result += '<div id="'+bibtexId+'" style="display:none"><pre>@'+entry["entryType"]+"{" + entry["citationKey"] + ",\n";
         for(let variable in entryTags) {
-            if(variable != "note") {
+            if(variable != "note" && variable != "url" && variable != "doi") {
                 result += "    " + variable + "\t= {" + entryTags[variable] + "},\n";
             }
         }
