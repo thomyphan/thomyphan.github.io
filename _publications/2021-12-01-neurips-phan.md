@@ -26,4 +26,4 @@ research_planning : "False"
 ## Related Articles
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
-- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis

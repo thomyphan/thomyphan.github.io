@@ -31,4 +31,4 @@ research_planning : "True"
 - T. Phan et al., ["Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning"](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan), IJCAI 2019
 - T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
 - T. Phan et al., ["Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation"](https://thomyphan.github.io/publication/2018-06-01-aamas-phan), AAMAS 2018
-- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis

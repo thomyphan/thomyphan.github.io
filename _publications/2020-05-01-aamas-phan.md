@@ -30,4 +30,4 @@ research_planning : "False"
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
 - T. Gabor et al., ["The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems"](https://thomyphan.github.io/publication/2020-01-01-sttt-gabor), STTT 2020
 - T. Gabor et al., ["Scenario Co-Evolution for Reinforcement Learning on a Grid World Smart Factory Domain"](https://thomyphan.github.io/publication/2019-06-01-gecco-gabor), GECCO 2019
-- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis

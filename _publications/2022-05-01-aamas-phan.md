@@ -30,4 +30,4 @@ research_planning : "False"
 ## Related Articles
 - L. Belzner et al., ["The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents"](https://thomyphan.github.io/publication/2018-11-01-isola-belzner), ISoLA 2018
 - K. Schmid et al., ["Action Markets in Deep Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2018-08-01-icann-schmid), ICANN 2018
-- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis

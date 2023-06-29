@@ -30,4 +30,4 @@ research_planning : "True"
 - T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
 - T. Gabor et al., ["Subgoal-Based Temporal Abstraction in Monte-Carlo Tree Search"](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor), IJCAI 2019
 - T. Gabor et al., ["Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms"](https://thomyphan.github.io/publication/2018-09-01-icac-gabor), ICAC 2018
-- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis
