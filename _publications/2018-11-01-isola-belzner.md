@@ -31,3 +31,4 @@ research_planning : "True"
 - R. Roch et al., ["Cross Entropy Hyperparameter Optimization for Constrained Problem Hamiltonians Applied to QAOA"](https://thomyphan.github.io/publication/2020-10-01-icrc-roch), ICRC 2020
 - R. Roch et al., ["A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games"](https://thomyphan.github.io/publication/2020-08-01-iccs-roch), ICCS 2020
 - K. Schmid et al., ["Action Markets in Deep Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2018-08-01-icann-schmid), ICANN 2018
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023

@@ -9,7 +9,6 @@ redirect_from:
   - /about.html
 ---
 
-
 I am an incoming Postdoctoral Scholar at [University of Southern California](https://www.usc.edu), advised by Professor [Sven Koenig](http://idm-lab.org/index.html).
 
 My areas of interests are artificial intelligence and multi-agent systems. My current research focuses on **emergence and resilience in multi-agent systems** based on planning and reinforcement learning techniques.

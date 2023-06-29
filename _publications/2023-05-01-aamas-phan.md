@@ -31,3 +31,4 @@ research_planning : "False"
 ## Related Articles
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023 (extended version)
 - T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
+- T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis, 2023
