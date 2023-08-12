@@ -8,6 +8,7 @@ booktitle: "Proceedings of the 32nd International Joint Conference on Artificial
 venue_short: "IJCAI"
 date: "2023-08-01"
 bibtexid: "altmannIJCAI23"
+paper_pages: "3414--3422"
 paperurl: "https://thomyphan.github.io/files/2023-ijcai-preprint.pdf"
 eprint: "https://thomyphan.github.io/files/2023-ijcai-preprint.pdf"
 keywords: "deep learning, reinforcement learning, robustness"
