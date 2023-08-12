@@ -17,7 +17,7 @@ We address common weaknesses in MARL with respect to the real world beyond class
 
 *Publications:*  
 [1] [Variable Agent Sub-Teams](https://thomyphan.github.io/publication/2021-12-01-neurips-phan)  
-[2] [State Uncertainty](https://thomyphan.github.io/publication/2023-07-01-icml-phan)   
+[2] [State Uncertainty](https://thomyphan.github.io/publication/2023-07-25-icml-phan)   
 
 ## Adversarial Settings
 
