@@ -10,7 +10,7 @@ author_profile: true
 <img src="https://thomyphan.github.io/images/teaching/triangle.png" title="TRAILangle" style="width:350pt;padding-left:10px;"  alt="AI Triangle"/>
 </p>
 
-You can find all student theses that I supervised as primary advising assistant below. The complete list of co-supervised student theses can be found [**here**](https://www.mobile.ifi.lmu.de/team/thomy-phan/).
+You can find all student theses that I mentored as primary advising assistant below. The complete list of co-mentored student theses can be found [**here**](https://www.mobile.ifi.lmu.de/team/thomy-phan/).
 
 [Master Theses](#master_theses) | [Bachelor Theses](#bachelor_theses) | [Project Work](#project_work) |
 
