@@ -23,4 +23,5 @@ research_planning : "True"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Confidence-Based Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2024-05-01-aamas-phan), AAMAS 2024
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024

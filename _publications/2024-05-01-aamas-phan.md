@@ -23,6 +23,7 @@ research_planning : "True"
 {% include base_path %}
 
 ## Related Articles
+- S. Chan et al., ["Anytime Multi-Agent Path Finding using Operator Parallelism in Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-05-01-aamas-chan), AAMAS 2024
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
 - T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
