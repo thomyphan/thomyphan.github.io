@@ -27,6 +27,7 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-05-01-aamas-altmann), AAMAS 2024
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
 - T. Phan et al., ["Learning and Testing Resilience in Cooperative Multi-Agent Systems"](https://thomyphan.github.io/publication/2020-05-01-aamas-phan), AAMAS 2020
 - T. Gabor et al., ["The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems"](https://thomyphan.github.io/publication/2020-01-01-sttt-gabor), STTT 2020

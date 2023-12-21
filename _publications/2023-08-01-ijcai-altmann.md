@@ -26,6 +26,7 @@ research_planning : "False"
 {% include base_path %}
 
 ## Related Articles
+- P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-05-01-aamas-altmann), AAMAS 2024
 - P. Altmann et al., ["DIRECT: Learning from Sparse and Shifting Rewards using Discriminative Reward Co-Training"](https://thomyphan.github.io/publication/2023-05-01-ala-altmann), ALA 2023
 - R. Müller et al., ["Towards Anomaly Detection in Reinforcement Learning"](https://thomyphan.github.io/publication/2022-05-01-aamas-mueller), AAMAS BlueSky Ideas 2022
 - F. Ritz et al., ["Specification Aware Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2022-01-01-icaart-ritz), Book of ICAART 2021 (journal version)
