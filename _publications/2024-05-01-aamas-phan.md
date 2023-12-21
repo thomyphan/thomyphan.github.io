@@ -25,6 +25,7 @@ research_planning : "True"
 ## Related Articles
 - S. Chan et al., ["Anytime Multi-Agent Path Finding using Operator Parallelism in Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-05-01-aamas-chan), AAMAS 2024
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024
+- P. Altmann et al., ["CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann), IJCAI 2023
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
 - T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
 - T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
