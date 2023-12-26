@@ -9,15 +9,15 @@ author_profile: true
 
 ## Learning-Guided Search
 
-<img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:250pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
+<img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:200pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
 
 Heuristic search is important for a variety of real-world applications such as routing, robot motion planning, and multi-agent coordination. Hand-crafted heuristics are often used to exploit structural properties of the underlying problem to speed up the search.
 
 We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms such as using multi-armed bandits for online adaptation [1]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [2].
 
 *Publications:*  
-[1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan) 
-[2] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan) 
+[1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)  
+[2] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan)  
 
 ## Multi-Agent Planning and Learning
 
