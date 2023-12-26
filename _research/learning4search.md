@@ -9,7 +9,7 @@ author_profile: true
 
 ## Learning-Guided Search
 
-<img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:200pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
+<img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:150pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
 
 Heuristic search is important for a variety of real-world applications such as routing, robot motion planning, and multi-agent coordination. Hand-crafted heuristics are often used to exploit structural properties of the underlying problem to speed up the search.
 
