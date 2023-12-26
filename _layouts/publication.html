@@ -94,6 +94,39 @@ layout: default
           {% if page.research_emergence == "True" or page.research_resilience == "True" or page.research_dependability == "True" or page.research_marl == "True" or page.research_planning == "True" %}
           <h2>Relevant Research Areas</h2>
           <div class="flex-container is-flex-wrap">
+            <!-- Multi-Agent Reinforcement Learning -->
+            {% if page.research_marl == "True" %}
+            <div class="flex-child card">
+              <a href="/research/marl/">
+                <p class="box_title">Multi-Agent Learning</p>
+                <div class="box">
+                  <img class="image_display" src="/images/research/marl_research.png" title="Peer Incentivization" alt="Multi-Agent Reinforcement Learning" />
+                </div>
+              </a>
+            </div>
+            {% endif %}
+            <!-- Stochastic Optimization -->
+            {% if page.research_planning == "True" %}
+            <div class="flex-child card">
+              <a href="/research/optimization/">
+                <p class="box_title">Stochastic Optimization</p>
+                <div class="box">
+                  <img class="image_display" src="/images/research/solution_landscape_example.png" title="Optimization Problem with Multiple Optima" alt="Stochastic Optimization" />
+                </div>
+              </a>
+            </div>
+            {% endif %}
+            <!-- Learning-Based Search -->
+            {% if page.research_learning4search == "True" %}
+            <div class="flex-child card">
+              <a href="/research/learning4search/">
+                <p class="box_title">Learning-Based Search</p>
+                <div class="box">
+                  <img class="image_display" src="/images/research/planning_value_function.png" title="Planning with Value Function" alt="Learning-Based Search" />
+                </div>
+              </a>
+            </div>
+            {% endif %}
             <!-- Emergence in Multi-Agent Systems -->
             {% if page.research_emergence == "True" %}
             <div class="flex-child card" style="width:50%; max-width: 50%;">
@@ -116,7 +149,7 @@ layout: default
               </a>
             </div>
             {% endif %}
-            <!-- Dependability in Machine Learning Systems -->
+            <!-- Dependability in Machine Learning Systems
             {% if page.research_dependability == "True" %}
             <div class="flex-child card" style="width:50%; max-width: 50%;">
               <a href="/research/dependability/">
@@ -127,28 +160,7 @@ layout: default
               </a>
             </div>
             {% endif %}
-            <!-- Multi-Agent Reinforcement Learning -->
-            {% if page.research_marl == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
-              <a href="/research/marl/">
-                <p class="box_title">Multi-Agent Reinforcement Learning</p>
-                <div class="box">
-                  <img class="image_display" src="/images/research/marl_research.png" title="Peer Incentivization" alt="Multi-Agent Reinforcement Learning" />
-                </div>
-              </a>
-            </div>
-            {% endif %}
-            <!-- Planning under Uncertainty -->
-            {% if page.research_planning == "True" %}
-            <div class="flex-child card" style="width:50%; max-width: 50%;">
-              <a href="/research/optimization/">
-                <p class="box_title">Optimization and Planning</p>
-                <div class="box">
-                  <img class="image_display" src="/images/research/planning_value_function.png" title="Planning with Value Function" alt="Planning under Uncertainty" />
-                </div>
-              </a>
-            </div>
-            {% endif %}
+             -->
         </div>
         {% endif %}
           {% if page.link %}<div><a href="{{ page.link }}" class="btn">{{ site.data.ui-text[site.locale].ext_link_label | default: "Direct Link" }}</a></div>{% endif %}

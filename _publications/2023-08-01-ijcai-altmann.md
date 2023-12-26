@@ -20,7 +20,7 @@ research_resilience : "False"
 research_dependability : "True"
 research_marl : "False"
 research_planning : "False"
-#layout: archive
+research_learning4search: "False"
 ---
 
 {% include base_path %}
