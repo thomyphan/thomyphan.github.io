@@ -264,20 +264,6 @@
     keywords    = {Evolutionary algorithm, Diversity, Adaptive fitness}
 }
 
-@article{rochICRC2020,
-    pages       = {50--57},
-    author      = {Christoph Roch and Alexander Impertro and Thomy Phan and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien},
-    title       = {Cross Entropy Hyperparameter Optimization for Constrained Problem Hamiltonians Applied to QAOA},
-    publisher   = {IEEE},
-    abstract    = {Hybrid quantum-classical algorithms such as the Quantum Approximate Optimization Algorithm (QAOA) are considered as one of the most encouraging approaches for taking advantage of near-term quantum computers in practical applications. Such algorithms are usually implemented in a variational form, combining a classical optimization method with a quantum machine to find good solutions to an optimization problem. The solution quality of QAOA depends to a high degree on the parameters chosen by the classical optimizer at each iteration. However, the solution landscape of those parameters is highly multi-dimensional and contains many low-quality local optima. In this study we apply a Cross-Entropy method to shape this landscape, which allows the classical optimizer to find better parameter more easily and hence results in an improved performance. We empirically demonstrate that this approach can reach a significant better solution quality for the Knapsack Problem.},
-    journal     = {International Conference on Rebooting Computing (ICRC)},
-    year        = {2020},
-    url         = {https://thomyphan.github.io/publication/2020-10-01-icrc-roch},
-    doi         = {https://doi.org/10.1109/ICRC2020.2020.00009},
-    eprint      = {https://arxiv.org/pdf/2003.05292.pdf}
-}
-
-
 @inproceedings{gaborQSE20,
     author      = {Thomas Gabor and Leo Sünkel and Fabian Ritz and Thomy Phan and Lenz Belzner and Christoph Roch and Sebastian Feld and Claudia Linnhoff-Popien},
     title       = {The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline},
@@ -364,18 +350,6 @@
     doi         = {https://dl.acm.org/doi/10.5555/3398761.3398884}
 }
 
-@inproceedings{sedlmeierICAART20,
-    author    = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
-    title     = {Uncertainty-Based Out-of-Distribution Classification in Deep Reinforcement Learning},
-    booktitle = {Proceedings of the 12th International Conference on Agents and Artificial Intelligence (ICAART)},
-    pages     = {522--529},
-    year      = {2020},
-    abstract  = {Robustness to out-of-distribution (OOD) data is an important goal in building reliable machine learning systems. Especially in autonomous systems, wrong predictions for OOD inputs can cause safety critical situations. As a first step towards a solution, we consider the problem of detecting such data in a value-based deep reinforcement learning (RL) setting. Modelling this problem as a one-class classification problem, we propose a framework for uncertainty-based OOD classification: UBOOD. It is based on the effect that an agent's epistemic uncertainty is reduced for situations encountered during training (in-distribution), and thus lower than for unencountered (OOD) situations. Being agnostic towards the approach used for estimating epistemic uncertainty, combinations with different uncertainty estimation methods, e.g. approximate Bayesian inference methods or ensembling techniques are possible. We further present a first viable solution for calculating a dynamic classification threshold, based on the uncertainty distribution of the training data. Evaluation shows that the framework produces reliable classification results when combined with ensemble-based estimators, while the combination with concrete dropout-based estimators fails to reliably detect OOD situations. In summary, UBOOD presents a viable approach for OOD classification in deep RL settings by leveraging the epistemic uncertainty of the agent's value function.},
-    doi       = {https://doi.org/10.5220/0008949905220529},
-    url       = {https://thomyphan.github.io/publication/2020-02-01-icaart-sedlmeier},
-    eprint    = {https://thomyphan.github.io/files/2020-icaart-preprint.pdf}
-}
-
 @article{gaborSTTT20,
     title       = {The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems},
     author      = {Thomas Gabor and Andreas Sedlmeier and Thomy Phan and Fabian Ritz and Marie Kiermeier and Lenz Belzner and Bernhard Kempter and Cornel Klein and Horst Sauer and Reiner Schmid and Jan Wieghardt and Marc Zeller and Claudia Linnhoff-Popien},
@@ -389,19 +363,6 @@
     doi         = {https://doi.org/10.1007/s10009-020-00560-5},
     url         = {https://thomyphan.github.io/publication/2020-01-01-sttt-gabor},
     eprint      = {https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf}
-}
-
-@inproceedings{sedlmeierISAAI19,
-    author      = {Andreas Sedlmeier and Thomas Gabor and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
-    title       = {Uncertainty-Based Out-of-Distribution Detection in Deep Reinforcement Learning},
-    pages       = {74--78},
-    year        = {2019},
-    booktitle   = {1st International Symposium on Applied Artificial Intelligence (ISAAI)},
-    publisher   = {Digitale Welt},
-    abstract    = {We consider the problem of detecting out-of-distribution (OOD) samples in deep reinforcement learning. In a value based reinforcement learning setting, we propose to use uncertainty estimation techniques directly on the agent's value estimating neural network to detect OOD samples. The focus of our work lies in analyzing the suitability of approximate Bayesian inference methods and related ensembling techniques that generate uncertainty estimates. Although prior work has shown that dropout-based variational inference techniques and bootstrap-based approaches can be used to model epistemic uncertainty, the suitability for detecting OOD samples in deep reinforcement learning remains an open question. Our results show that uncertainty estimation can be used to differentiate in- from out-of-distribution samples. Over the complete training process of the reinforcement learning agents, bootstrap-based approaches tend to produce more reliable epistemic uncertainty estimates, when compared to dropout-based approaches.},
-    doi         = {https://doi.org/10.1007/s42354-019-0238-z},
-    url         = {https://thomyphan.github.io/publication/2019-11-01-isaai-sedlmeier},
-    eprint      = {https://thomyphan.github.io/files/2019-isaai-preprint.pdf}
 }
 
 @inproceedings{phanIJCAI19,
@@ -496,23 +457,6 @@
     doi         = {https://doi.org/10.1609/aaai.v33i01.33017941},
     eprint      = {https://thomyphan.github.io/files/2019-aaai.pdf},
     code        = {https://github.com/thomyphan/planning}
-}
-
-@inproceedings{belznerISoLA18,
-    author      = {Lenz Belzner and Kyrill Schmid and Thomy Phan and Thomas Gabor and Martin Wirsing},
-    title       = {The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents},
-    year        = {2018},
-    isbn        = {978-3-030-03423-8},
-    publisher   = {Springer-Verlag},
-    doi         = {https://doi.org/10.1007/978-3-030-03424-5_16},
-    url         = {https://thomyphan.github.io/publication/2018-11-01-isola-belzner},
-    eprint      = {https://arxiv.org/pdf/1804.10781.pdf},
-    code        = {https://github.com/lenzbelzner/sharers_dilemma},
-    abstract    = {In collective adaptive systems (CAS), adaptation can be implemented by optimization wrt. utility. Agents in a CAS may be self-interested, while their utilities may depend on other agents’ choices. Independent optimization of agent utilities may yield poor individual and global reward due to locally interfering individual preferences. Joint optimization may scale poorly, and is impossible if agents cannot expose their preferences due to privacy or security issues.In this paper, we study utility sharing for mitigating this issue. Sharing utility with others may incentivize individuals to consider choices that are locally suboptimal but increase global reward. We illustrate our approach with a utility sharing variant of distributed cross entropy optimization. Empirical results show that utility sharing increases expected individual and global payoff in comparison to optimization without utility sharing.We also investigate the effect of greedy defectors in a CAS of sharing, self-interested agents. We observe that defection increases the mean expected individual payoff at the expense of sharing individuals’ payoff. We empirically show that the choice between defection and sharing yields a fundamental dilemma for self-interested agents in a CAS.},
-    booktitle   = {International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISoLA)},
-    pages       = {241--256},
-    numpages    = {16},
-    location    = {Limassol, Cyprus}
 }
 
 @inproceedings{gaborICAC18,
