@@ -36,11 +36,11 @@ Furthermore, we study the emergence of stability in neural artificial chemistry 
 [2] [Multi-Agent Ecosystem Management](https://thomyphan.github.io/publication/2021-07-01-alife-ritz)  
 [3] [Neural Artificial Chemistry Systems](https://thomyphan.github.io/publication/2023-07-01-alife-zorn)
 
-## Peer Incentivization
+## Emergent Cooperation
 
 <img src="https://thomyphan.github.io/images/research/peer_incentivization.png" title="Peer Incentivization" style="float:right; width:250pt;padding-left:10px;" alt="Peer Incentivization"/>
 
-As self-learning agents become more and more omnipresent in the real world, they will inevitably learn to interact with each other. In self-interested MAS, conflict and competition may arise due to opposing goals or shared resources. Naive RL approaches commonly fail to cooperate in such scenarios, leading to undesirable emergent results.
+As self-learning agents become more and more omnipresent in the real world, they will inevitably learn to interact with each other. In self-interested MAS, conflict and competition may arise due to opposing goals or shared resources. Naive RL approaches commonly fail to cooperate in such scenarios, leading to undesirable emergent behavior.
 
 To incentivize cooperative behavior in self-interested MAS, we study *decentralized mechanisms*, where agents learn to reward or penalize each other. These mechanisms are based on market theory [1] or social behavior like acknowledgments [2]. We also consider real-world aspects like defectors, locality of information, and noisy communication [2].
 
