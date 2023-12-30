@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Multi-Agent Reinforcement Learning"
+title: "Multi-Agent Learning"
 permalink: /research/marl/
 author_profile: true
 ---
