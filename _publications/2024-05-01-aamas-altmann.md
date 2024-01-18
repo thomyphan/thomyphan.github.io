@@ -1,6 +1,6 @@
 ---
 author_list: "Philipp Altmann and Adelina Bärligea and Jonas Stein and Michael Kölle and Thomas Gabor and Thomy Phan and Claudia Linnhof-Popien"
-title: "Challenges for Reinforcement Learning in Quantum Computing"
+title: "Quantum Circuit Design: A Reinforcement Learning Challenge"
 collection: publications
 permalink: /publication/2024-05-01-aamas-altmann
 excerpt: "Quantum computing (QC) in the current NISQ-era is still limited. To gain early insights and advantages, hybrid applications are widely considered mitigating those shortcomings. Hybrid quantum machine learning (QML) comprises both the application of QC to improve machine learning (ML), and the application of ML to improve QC architectures. This work considers the latter, focusing on leveraging reinforcement learning (RL) to improve current QC approaches. We therefore introduce various generic challenges arising from quantum architecture search and quantum circuit optimization that RL algorithms need to solve to provide benefits for more complex applications and combinations of those. Building upon these challenges we propose a concrete framework, formalized as a Markov decision process, to enable to learn policies that are capable of controlling a universal set of quantum gates. Furthermore, we provide benchmark results to assess shortcomings and strengths of current state-of-the-art algorithms."
