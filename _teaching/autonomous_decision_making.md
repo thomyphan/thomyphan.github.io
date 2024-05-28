@@ -1,6 +1,6 @@
 ---
 layout: archive
-title: "Autonomous Decision-Making"
+title: "CSCI 599: Autonomous Decision-Making"
 permalink: /teaching/autonomous_decision_making/
 author_profile: true
 ---
