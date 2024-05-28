@@ -7,7 +7,7 @@ author_profile: true
 
 {% include base_path %}
 
-## Learning-Guided Search
+## Machine Learning-Guided Search
 
 <img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:150pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
 
