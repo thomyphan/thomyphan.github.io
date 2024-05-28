@@ -13,7 +13,7 @@ Recent advances in Artificial Intelligence (AI) have enabled the development of 
 
 This [CSCI 599 course (special topcis)](https://classes.usc.edu/term-20241/course/csci-599/) gives an introduction to the techniques used to realize such agents ranging from Automated Planning to Reinforcement Learning. The lecture covers autonomous decision-making for single- and multi-agent systems. Students have the opportunity to implement planning and reinforcement learning algorithms and test them in some [toy problems](https://github.com/thomyphan/autonomous-decision-making) to gain a deeper understanding of the challenges and concepts.
 
-For more information, check out the [Syllabus (Spring 2024)](https://web-app.usc.edu/soc/syllabus/20241/30026.pdf) and my [Course Evaluation (Spring 2024)](https://github.com/thomyphan/files/csci599_evaluation_spring2024).
+For more information, check out the [Syllabus (Spring 2024)](https://web-app.usc.edu/soc/syllabus/20241/30026.pdf) and my [Course Evaluation (Spring 2024)](https://thomyphan.github.io/files/csci599_evaluation_spring2024.pdf).
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/teaching/"><strong>Back to Teaching</strong></a>
