@@ -26,6 +26,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- M. Koelle et al., ["Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://thomyphan.github.io/publication/2024-02-01-icaart-koelle), ICAART 2024
 - T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange"](https://thomyphan.github.io/publication/2022-05-01-aamas-phan), AAMAS 2022
 - L. Belzner et al., ["The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents"](https://thomyphan.github.io/publication/2018-11-01-isola-belzner), ISoLA 2018
 - T. Phan, ["Emergence and Resilience in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2023-06-26-phd-thesis-phan), PhD Thesis

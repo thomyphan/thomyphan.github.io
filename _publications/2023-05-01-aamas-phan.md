@@ -29,6 +29,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- M. Koelle et al., ["Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://thomyphan.github.io/publication/2024-02-01-icaart-koelle), ICAART 2024
 - T. Phan et al., ["Confidence-Based Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2024-05-01-aamas-phan), AAMAS 2024
 - P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-05-01-aamas-altmann), AAMAS 2024
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023 (extended version)
