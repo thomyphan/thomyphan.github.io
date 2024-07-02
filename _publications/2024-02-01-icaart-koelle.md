@@ -13,6 +13,7 @@ bibtexid: "koelleICAART24"
 paperdoi: "https://doi.org/10.5220/0012382800003636"
 paperurl: "https://www.scitepress.org/Papers/2024/123828/123828.pdf"
 eprint: "https://thomyphan.github.io/files/2024-icaart-preprint.pdf"
+coderepository: "https://github.com/michaelkoelle/qmarl-evo"
 publisher: "SciTePress"
 #layout: archive
 research_emergence: "False"
