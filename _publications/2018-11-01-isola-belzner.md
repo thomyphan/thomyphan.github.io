@@ -28,6 +28,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2024-07-01-jaamas-phan), JAAMAS 2024
 - M. Koelle et al., ["Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://thomyphan.github.io/publication/2024-02-01-icaart-koelle), ICAART 2024
 - T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange"](https://thomyphan.github.io/publication/2022-05-01-aamas-phan), AAMAS 2022
 - R. Roch et al., ["Cross Entropy Hyperparameter Optimization for Constrained Problem Hamiltonians Applied to QAOA"](https://thomyphan.github.io/publication/2020-10-01-icrc-roch), ICRC 2020

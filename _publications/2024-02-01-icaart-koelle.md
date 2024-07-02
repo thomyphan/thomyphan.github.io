@@ -27,6 +27,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange in Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2024-07-01-jaamas-phan), JAAMAS 2024
 - T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange"](https://thomyphan.github.io/publication/2022-05-01-aamas-phan), AAMAS 2022
 - R. Roch et al., ["A Quantum Annealing Algorithm for Finding Pure Nash Equilibria in Graphical Games"](https://thomyphan.github.io/publication/2020-08-01-iccs-roch), ICCS 2020
 - L. Belzner et al., ["The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents"](https://thomyphan.github.io/publication/2018-11-01-isola-belzner), ISoLA 2018
