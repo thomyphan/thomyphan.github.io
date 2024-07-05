@@ -1,5 +1,5 @@
 ---
-author_list: "Michael Kölle, Felix Topp, Thomy Phan, Philipp Altmann, Jonas Nüßlein, Claudia Linnhoff-Popien"
+author_list: "Michael Kölle and Felix Topp and Thomy Phan and Philipp Altmann and Jonas Nüßlein and Claudia Linnhoff-Popien"
 title: "Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization"
 collection: publications
 permalink: /publication/2024-02-01-icaart-koelle

@@ -1,5 +1,5 @@
 ---
-author_list: "Thomy Phan, Felix Sommer, Fabian Ritz, Philipp Altmann, Jonas Nüßlein, Michael Kölle, Lenz Belzner, Claudia Linnhoff-Popien"
+author_list: "Thomy Phan and Felix Sommer and Fabian Ritz and Philipp Altmann and Jonas Nüßlein and Michael Kölle and Lenz Belzner and Claudia Linnhoff-Popien"
 title: "Emergent Cooperation from Mutual Acknowledgment Exchange in Multi-Agent Reinforcement Learning"
 collection: publications
 permalink: /publication/2024-07-01-jaamas-phan
