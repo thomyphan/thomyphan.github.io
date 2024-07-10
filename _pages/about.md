@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Scholar at the [University of Southern California](https://www.usc.edu), advised by Professor [Sven Koenig](http://idm-lab.org/index.html).
+I am a Postdoctoral Scholar at the [University of Southern California](https://www.usc.edu), advised by Professor [Sven Koenig](https://ics.uci.edu/~svenk/index.html).
 
 My areas of interest are artificial intelligence and multi-agent systems. My current research focuses on **multi-agent learning for optimization** of large-scale distributed and intelligent systems such as warehouse automation, fleet management, and drone delivery.
 
