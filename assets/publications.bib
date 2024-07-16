@@ -150,21 +150,6 @@
     eprint      = {https://thomyphan.github.io/files/2023-alife-preprint.pdf}
 }
 
-@inproceedings{ritzISoLA22,
-    author      = {Fabian Ritz and Thomy Phan and Andreas Sedlmeier and Philipp Altmann and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien and Thomas Gabor},
-    editor      = {Margaria, Tiziana and Steffen, Bernhard},
-    title       = {Capturing Dependencies Within Machine Learning via a Formal Process Model},
-    booktitle   = {International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISoLA)},
-    year        = {2022},
-    publisher   = {Springer Nature Switzerland},
-    pages       = {249--265},
-    isbn        = {978-3-031-19759-8},
-    doi         = {https://doi.org/10.1007/978-3-031-19759-8_16},
-    url         = {https://thomyphan.github.io/publication/2022-10-01-isola-ritz},
-    eprint      = {https://thomyphan.github.io/files/2022-isola-preprint.pdf},
-    abstract    = {The development of Machine Learning (ML) models is more than just a special case of software development (SD): ML models acquire properties and fulfill requirements even without direct human interaction in a seemingly uncontrollable manner. Nonetheless, the underlying processes can be described in a formal way. We define a comprehensive SD process model for ML that encompasses most tasks and artifacts described in the literature in a consistent way. In addition to the production of the necessary artifacts, we also focus on generating and validating fitting descriptions in the form of specifications. We stress the importance of further evolving the ML model throughout its life-cycle even after initial training and testing. Thus, we provide various interaction points with standard SD processes in which ML often is an encapsulated task. Further, our SD process model allows to formulate ML as a (meta-) optimization problem. If automated rigorously, it can be used to realize self-adaptive autonomous systems. Finally, our SD process model features a description of time that allows to reason about the progress within ML development processes. This might lead to further applications of formal methods within the field of ML.}
-}
-
 @inproceedings{altmannALA23,
     title        = {DIRECT: Learning from Sparse and Shifting Rewards Using Discriminative Reward Co-Training},
     author       = {Philipp Altmann and Thomy Phan and Fabian Ritz and Thomas Gabor and Claudia Linnhof-Popien},
@@ -226,6 +211,21 @@
     pages       = {3--21},
     numpages    = {19},
     keywords    = {Reinforcement learning, Multi-agent, Specification compliance, AI safety}
+}
+
+@inproceedings{ritzISoLA22,
+    author      = {Fabian Ritz and Thomy Phan and Andreas Sedlmeier and Philipp Altmann and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien and Thomas Gabor},
+    editor      = {Margaria, Tiziana and Steffen, Bernhard},
+    title       = {Capturing Dependencies Within Machine Learning via a Formal Process Model},
+    booktitle   = {International Symposium on Leveraging Applications of Formal Methods, Verification and Validation (ISoLA)},
+    year        = {2022},
+    publisher   = {Springer Nature Switzerland},
+    pages       = {249--265},
+    isbn        = {978-3-031-19759-8},
+    doi         = {https://doi.org/10.1007/978-3-031-19759-8_16},
+    url         = {https://thomyphan.github.io/publication/2022-10-01-isola-ritz},
+    eprint      = {https://thomyphan.github.io/files/2022-isola-preprint.pdf},
+    abstract    = {The development of Machine Learning (ML) models is more than just a special case of software development (SD): ML models acquire properties and fulfill requirements even without direct human interaction in a seemingly uncontrollable manner. Nonetheless, the underlying processes can be described in a formal way. We define a comprehensive SD process model for ML that encompasses most tasks and artifacts described in the literature in a consistent way. In addition to the production of the necessary artifacts, we also focus on generating and validating fitting descriptions in the form of specifications. We stress the importance of further evolving the ML model throughout its life-cycle even after initial training and testing. Thus, we provide various interaction points with standard SD processes in which ML often is an encapsulated task. Further, our SD process model allows to formulate ML as a (meta-) optimization problem. If automated rigorously, it can be used to realize self-adaptive autonomous systems. Finally, our SD process model features a description of time that allows to reason about the progress within ML development processes. This might lead to further applications of formal methods within the field of ML.}
 }
 
 @inproceedings{phanNeurIPS21,
@@ -503,6 +503,22 @@
     eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2019/31/598/1903589/isal_a_00226.pdf}
 }
 
+@inproceedings{phanAAMAS18,
+    author      = {Thomy Phan and Lenz Belzner and Thomas Gabor and Kyrill Schmid},
+    title       = {Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation},
+    year        = {2018},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {Making decisions is a great challenge in distributed autonomous environments due to enormous state spaces and uncertainty. Many online planning algorithms rely on statistical sampling to avoid searching the whole state space, while still being able to make acceptable decisions. However, planning often has to be performed under strict computational constraints making online planning in multi-agent systems highly limited, which could lead to poor system performance, especially in stochastic domains. In this paper, we propose Emergent Value function Approximation for Distributed Environments (EVADE), an approach to integrate global experience into multi-agent online planning in stochastic domains to consider global effects during local planning. For this purpose, a value function is approximated online based on the emergent system behaviour by using methods of reinforcement learning. We empirically evaluated EVADE with two statistical multi-agent online planning algorithms in a highly complex and stochastic smart factory environment, where multiple agents need to process various items at a shared set of machines. Our experiments show that EVADE can effectively improve the performance of multi-agent online planning while offering efficiency w.r.t. the breadth and depth of the planning process.},
+    booktitle   = {Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
+    pages       = {730--738},
+    numpages    = {9},
+    keywords    = {online planning, value function approximation, multi-agent planning},
+    location    = {Stockholm, Sweden},
+    doi         = {https://dl.acm.org/doi/abs/10.5555/3237383.3237491},
+    url         = {https://thomyphan.github.io/publication/2018-06-01-aamas-phan},
+    eprint      = {https://thomyphan.github.io/files/2018-aamas.pdf}
+}
+
 @inproceedings{gaborICAC18,
     author      = {Thomas Gabor and Lenz Belzner and Thomy Phan and Kyrill Schmid},
     title       = {Preparing for the Unexpected: Diversity Improves Planning Resilience in Evolutionary Algorithms}, 
@@ -528,22 +544,6 @@
     doi         = {https://doi.org/10.1007/978-3-030-01421-6_24},
     url         = {https://thomyphan.github.io/publication/2018-08-01-icann-schmid},
     eprint      = {https://thomyphan.github.io/files/2018-icann.pdf}
-}
-
-@inproceedings{phanAAMAS18,
-    author      = {Thomy Phan and Lenz Belzner and Thomas Gabor and Kyrill Schmid},
-    title       = {Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation},
-    year        = {2018},
-    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
-    abstract    = {Making decisions is a great challenge in distributed autonomous environments due to enormous state spaces and uncertainty. Many online planning algorithms rely on statistical sampling to avoid searching the whole state space, while still being able to make acceptable decisions. However, planning often has to be performed under strict computational constraints making online planning in multi-agent systems highly limited, which could lead to poor system performance, especially in stochastic domains. In this paper, we propose Emergent Value function Approximation for Distributed Environments (EVADE), an approach to integrate global experience into multi-agent online planning in stochastic domains to consider global effects during local planning. For this purpose, a value function is approximated online based on the emergent system behaviour by using methods of reinforcement learning. We empirically evaluated EVADE with two statistical multi-agent online planning algorithms in a highly complex and stochastic smart factory environment, where multiple agents need to process various items at a shared set of machines. Our experiments show that EVADE can effectively improve the performance of multi-agent online planning while offering efficiency w.r.t. the breadth and depth of the planning process.},
-    booktitle   = {Proceedings of the 17th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
-    pages       = {730--738},
-    numpages    = {9},
-    keywords    = {online planning, value function approximation, multi-agent planning},
-    location    = {Stockholm, Sweden},
-    doi         = {https://dl.acm.org/doi/abs/10.5555/3237383.3237491},
-    url         = {https://thomyphan.github.io/publication/2018-06-01-aamas-phan},
-    eprint      = {https://thomyphan.github.io/files/2018-aamas.pdf}
 }
 
 @article{huangCell16,
