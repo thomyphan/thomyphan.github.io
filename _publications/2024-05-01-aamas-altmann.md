@@ -24,6 +24,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-09-01-qce-altmann), QCE 2024 (extended version)
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
 - P. Altmann et al., ["CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann), IJCAI 2023
 - P. Altmann et al., ["DIRECT: Learning from Sparse and Shifting Rewards using Discriminative Reward Co-Training"](https://thomyphan.github.io/publication/2023-05-01-ala-altmann), ALA 2023
