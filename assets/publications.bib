@@ -1,3 +1,19 @@
+@article{phanAAAI24,
+    author      = {Thomy Phan and Taoan Huang and Bistra Dilkina and Sven Koenig},
+    title       = {Adaptive Anytime Multi-Agent Path Finding Using Bandit-Based Large Neighborhood Search},
+    url         = {https://thomyphan.github.io/publication/2024-02-01-aaai-phan},
+    abstract    = {Anytime multi-agent path finding (MAPF) is a promising approach to scalable path optimization in large-scale multi-agent systems. State-of-the-art anytime MAPF is based on Large Neighborhood Search (LNS), where a fast initial solution is iteratively optimized by destroying and repairing a fixed number of parts, i.e., the neighborhood, of the solution, using randomized destroy heuristics and prioritized planning. Despite their recent success in various MAPF instances, current LNS-based approaches lack exploration and flexibility due to greedy optimization with a fixed neighborhood size which can lead to low quality solutions in general. So far, these limitations have been addressed with extensive prior effort in tuning or offline machine learning beyond actual planning. In this paper, we focus on online learning in LNS and propose Bandit-based Adaptive LArge Neighborhood search Combined with Exploration (BALANCE). BALANCE uses a bi-level multi-armed bandit scheme to adapt the selection of destroy heuristics and neighborhood sizes on the fly during search. We evaluate BALANCE on multiple maps from the MAPF benchmark set and empirically demonstrate cost improvements of at least 50% compared to state-of-the-art anytime MAPF in large-scale scenarios. We find that Thompson Sampling performs particularly well compared to alternative multi-armed bandit algorithms.},
+    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+    year        = {2024},
+    volume      = {38},
+    number      = {16},
+    doi         = {https://doi.org/10.1609/aaai.v38i16.29701},
+    eprint      = {https://thomyphan.github.io/files/2024-aaai-preprint.pdf},
+    code        = {https://github.com/thomyphan/anytime-mapf},
+    month       = {March},
+    pages       = {17514--17522}
+}
+
 @article{phanJAAMAS2024,
     author      = {Thomy Phan and Felix Sommer and Fabian Ritz and Philipp Altmann and Jonas Nüßlein and Michael Kölle and Lenz Belzner and Claudia Linnhoff-Popien},
     title       = {Emergent Cooperation from Mutual Acknowledgment Exchange in Multi-Agent Reinforcement Learning},
@@ -47,21 +63,6 @@
     pages       = {2183--2185}
 }
 
-@inproceedings{altmannQCE24,
-    author      = {Philipp Altmann and Jonas Stein and Michael Kölle and Adelina Bärligea and Maximilian Zorn and Thomas Gabor and Thomy Phan and Sebastian Feld and Claudia Linnhof-Popien},
-    title       = {Challenges for Reinforcement Learning in Quantum Circuit Design},
-    year        = {2024},
-    publisher   = {IEEE},
-    abstract    = {Quantum computing (QC) in the current NISQ era is still limited in size and precision. Hybrid applications mitigating those shortcomings are prevalent to gain early insight and advantages. Hybrid quantum machine learning (QML) comprises both the application of QC to improve machine learning (ML) and ML to improve QC architectures. This work considers the latter, leveraging reinforcement learning (RL) to improve the search for viable quantum architectures, which we formalize by a set of generic challenges. Furthermore, we propose a concrete framework, formalized as a Markov decision process, to enable learning policies capable of controlling a universal set of continuously parameterized quantum gates. Finally, we provide benchmark comparisons to assess the shortcomings and strengths of current state-of-the-art RL algorithms.},
-    booktitle   = {Proceedings of the IEEE International Conference on Quantum Computing and Engineering},
-    keywords    = {reinforcement learning, quantum computing, circuit optimization, architecture search},
-    location    = {Montreal, Canada},
-    url         = {https://thomyphan.github.io/publication/2024-05-01-aamas-altmann},
-    eprint      = {https://arxiv.org/pdf/2312.11337.pdf},
-    code        = {https://github.com/philippaltmann/qcd},
-    note       = {To appear}
-}
-
 @inproceedings{koelleICAART24,
     author      = {Michael Kölle and Felix Topp and Thomy Phan and Philipp Altmann and Jonas Nüßlein and Claudia Linnhoff-Popien},
     title       = {Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization},
@@ -77,20 +78,19 @@
     abstract    = {Multi-Agent Reinforcement Learning is becoming increasingly more important in times of autonomous driving and other smart industrial applications. Simultaneously a promising new approach to Reinforcement Learning arises using the inherent properties of quantum mechanics, reducing the trainable parameters of a model significantly. However, gradient-based Multi-Agent Quantum Reinforcement Learning methods often have to struggle with barren plateaus, holding them back from matching the performance of classical approaches. We build upon an existing approach for gradient free Quantum Reinforcement Learning and propose three genetic variations with Variational Quantum Circuits for Multi-Agent Reinforcement Learning using evolutionary optimization. We evaluate our genetic variations in the Coin Game environment and also compare them to classical approaches. We showed that our Variational Quantum Circuit approaches perform significantly better compared to a neural network with a similar amount of trainable parameters. Compared to the larger neural network, our approaches archive similar results using 97.88\% less parameters.}
 }
 
-@article{phanAAAI24,
-    author      = {Thomy Phan and Taoan Huang and Bistra Dilkina and Sven Koenig},
-    title       = {Adaptive Anytime Multi-Agent Path Finding Using Bandit-Based Large Neighborhood Search},
-    url         = {https://thomyphan.github.io/publication/2024-02-01-aaai-phan},
-    abstract    = {Anytime multi-agent path finding (MAPF) is a promising approach to scalable path optimization in large-scale multi-agent systems. State-of-the-art anytime MAPF is based on Large Neighborhood Search (LNS), where a fast initial solution is iteratively optimized by destroying and repairing a fixed number of parts, i.e., the neighborhood, of the solution, using randomized destroy heuristics and prioritized planning. Despite their recent success in various MAPF instances, current LNS-based approaches lack exploration and flexibility due to greedy optimization with a fixed neighborhood size which can lead to low quality solutions in general. So far, these limitations have been addressed with extensive prior effort in tuning or offline machine learning beyond actual planning. In this paper, we focus on online learning in LNS and propose Bandit-based Adaptive LArge Neighborhood search Combined with Exploration (BALANCE). BALANCE uses a bi-level multi-armed bandit scheme to adapt the selection of destroy heuristics and neighborhood sizes on the fly during search. We evaluate BALANCE on multiple maps from the MAPF benchmark set and empirically demonstrate cost improvements of at least 50% compared to state-of-the-art anytime MAPF in large-scale scenarios. We find that Thompson Sampling performs particularly well compared to alternative multi-armed bandit algorithms.},
-    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+@inproceedings{altmannQCE24,
+    author      = {Philipp Altmann and Jonas Stein and Michael Kölle and Adelina Bärligea and Maximilian Zorn and Thomas Gabor and Thomy Phan and Sebastian Feld and Claudia Linnhof-Popien},
+    title       = {Challenges for Reinforcement Learning in Quantum Circuit Design},
     year        = {2024},
-    volume      = {38},
-    number      = {16},
-    doi         = {https://doi.org/10.1609/aaai.v38i16.29701},
-    eprint      = {https://thomyphan.github.io/files/2024-aaai-preprint.pdf},
-    code        = {https://github.com/thomyphan/anytime-mapf},
-    month       = {March},
-    pages       = {17514--17522}
+    publisher   = {IEEE},
+    abstract    = {Quantum computing (QC) in the current NISQ era is still limited in size and precision. Hybrid applications mitigating those shortcomings are prevalent to gain early insight and advantages. Hybrid quantum machine learning (QML) comprises both the application of QC to improve machine learning (ML) and ML to improve QC architectures. This work considers the latter, leveraging reinforcement learning (RL) to improve the search for viable quantum architectures, which we formalize by a set of generic challenges. Furthermore, we propose a concrete framework, formalized as a Markov decision process, to enable learning policies capable of controlling a universal set of continuously parameterized quantum gates. Finally, we provide benchmark comparisons to assess the shortcomings and strengths of current state-of-the-art RL algorithms.},
+    booktitle   = {Proceedings of the IEEE International Conference on Quantum Computing and Engineering},
+    keywords    = {reinforcement learning, quantum computing, circuit optimization, architecture search},
+    location    = {Montreal, Canada},
+    url         = {https://thomyphan.github.io/publication/2024-09-01-qce-altmann},
+    eprint      = {https://arxiv.org/pdf/2312.11337.pdf},
+    code        = {https://github.com/philippaltmann/qcd},
+    note       = {To appear}
 }
 
 @phdthesis{phanPhD23,
@@ -120,21 +120,6 @@
     note        = {A short version appeared at AAMAS 2023}
 }
 
-@inproceedings{zornALIFE23,
-    author      = {Maximilian Zorn and Steffen Illium and Thomy Phan and Tanja Katharina Kaiser and Claudia Linnhoff-Popien and Thomas Gabor},
-    title       = {Social Neural Network Soups with Surprise Minimization},
-    booktitle   = {ALIFE 2023: Ghost in the Machine: Proceedings of the 2023 Artificial Life Conference (ALIFE)},
-    series      = {ALIFE 2023: Ghost in the Machine: Proceedings of the 2023 Artificial Life Conference (ALIFE)},
-    year        = {2023},
-    month       = {07},
-    pages       = {65--73},
-    publisher   = {MIT Press Direct},
-    doi         = {https://doi.org/10.1162/isal_a_00671},
-    abstract    = {A recent branch of research in artificial life has constructed artificial chemistry systems whose particles are dynamic neural networks. These particles can be applied to each other and show a tendency towards self-replication of their weight values. We define new interactions for said particles that allow them to recognize one another and learn predictors for each other's behavior. For instance, each particle minimizes its surprise when observing another particle's behavior. Given a special catalyst particle to exert evolutionary selection pressure on the soup of particles, these 'social' interactions are sufficient to produce emergent behavior similar to the stability-pattern previously only achieved via explicit self-replication training.},
-    url         = {https://thomyphan.github.io/publication/2023-07-01-alife-zorn},
-    eprint      = {https://thomyphan.github.io/files/2023-alife-preprint.pdf}
-}
-
 @inproceedings{altmannIJCAI23,
     author      = {Philipp Altmann and Leonard Feuchtinger and Fabian Ritz and Jonas Nüßlein and Claudia Linnhof-Popien and Thomy Phan},
     title       = {CROP: Towards Distributional-Shift Robust Reinforcement Learning Using Compact Reshaped Observation Processing},
@@ -150,16 +135,19 @@
     eprint      = {https://thomyphan.github.io/files/2023-ijcai-preprint.pdf}
 }
 
-@inproceedings{altmannALA23,
-    title        = {DIRECT: Learning from Sparse and Shifting Rewards Using Discriminative Reward Co-Training},
-    author       = {Philipp Altmann and Thomy Phan and Fabian Ritz and Thomas Gabor and Claudia Linnhof-Popien},
-    abstract     = {We propose discriminative reward co-training (DIRECT) as an extension to deep reinforcement learning algorithms. Building upon the concept of self-imitation learning (SIL), we introduce an imitation buffer to store beneficial trajectories generated by the policy determined by their return. A discriminator network is trained concurrently to the policy to distinguish between trajectories generated by the current policy and beneficial trajectories generated by previous policies. The discriminator’s verdict is used to construct a reward signal for optimizing the policy. By interpolating prior experience, DIRECT is able to act as a surrogate, steering policy optimization towards more valuable regions of the reward landscape thus learning an optimal policy. Our results show that DIRECT outperforms state-of-the-art algorithms in sparse- and shifting-reward environments being able to provide a surrogate reward to the policy and direct the optimization towards valuable areas.},
-    booktitle    = {15th Adaptive and Learning Agents Workshop (ALA)},
-    month        = {May},
-    year         = {2023},
-    url          = {https://thomyphan.github.io/publication/2023-05-01-ala-altmann},
-    code         = {https://github.com/philippaltmann/DIRECT},
-    eprint       = {https://thomyphan.github.io/files/2023-ala.pdf}
+@inproceedings{zornALIFE23,
+    author      = {Maximilian Zorn and Steffen Illium and Thomy Phan and Tanja Katharina Kaiser and Claudia Linnhoff-Popien and Thomas Gabor},
+    title       = {Social Neural Network Soups with Surprise Minimization},
+    booktitle   = {ALIFE 2023: Ghost in the Machine: Proceedings of the 2023 Artificial Life Conference (ALIFE)},
+    series      = {ALIFE 2023: Ghost in the Machine: Proceedings of the 2023 Artificial Life Conference (ALIFE)},
+    year        = {2023},
+    month       = {07},
+    pages       = {65--73},
+    publisher   = {MIT Press Direct},
+    doi         = {https://doi.org/10.1162/isal_a_00671},
+    abstract    = {A recent branch of research in artificial life has constructed artificial chemistry systems whose particles are dynamic neural networks. These particles can be applied to each other and show a tendency towards self-replication of their weight values. We define new interactions for said particles that allow them to recognize one another and learn predictors for each other's behavior. For instance, each particle minimizes its surprise when observing another particle's behavior. Given a special catalyst particle to exert evolutionary selection pressure on the soup of particles, these 'social' interactions are sufficient to produce emergent behavior similar to the stability-pattern previously only achieved via explicit self-replication training.},
+    url         = {https://thomyphan.github.io/publication/2023-07-01-alife-zorn},
+    eprint      = {https://thomyphan.github.io/files/2023-alife-preprint.pdf}
 }
 
 @inproceedings{ritzISoLA22,
@@ -175,6 +163,18 @@
     url         = {https://thomyphan.github.io/publication/2022-10-01-isola-ritz},
     eprint      = {https://thomyphan.github.io/files/2022-isola-preprint.pdf},
     abstract    = {The development of Machine Learning (ML) models is more than just a special case of software development (SD): ML models acquire properties and fulfill requirements even without direct human interaction in a seemingly uncontrollable manner. Nonetheless, the underlying processes can be described in a formal way. We define a comprehensive SD process model for ML that encompasses most tasks and artifacts described in the literature in a consistent way. In addition to the production of the necessary artifacts, we also focus on generating and validating fitting descriptions in the form of specifications. We stress the importance of further evolving the ML model throughout its life-cycle even after initial training and testing. Thus, we provide various interaction points with standard SD processes in which ML often is an encapsulated task. Further, our SD process model allows to formulate ML as a (meta-) optimization problem. If automated rigorously, it can be used to realize self-adaptive autonomous systems. Finally, our SD process model features a description of time that allows to reason about the progress within ML development processes. This might lead to further applications of formal methods within the field of ML.}
+}
+
+@inproceedings{altmannALA23,
+    title        = {DIRECT: Learning from Sparse and Shifting Rewards Using Discriminative Reward Co-Training},
+    author       = {Philipp Altmann and Thomy Phan and Fabian Ritz and Thomas Gabor and Claudia Linnhof-Popien},
+    abstract     = {We propose discriminative reward co-training (DIRECT) as an extension to deep reinforcement learning algorithms. Building upon the concept of self-imitation learning (SIL), we introduce an imitation buffer to store beneficial trajectories generated by the policy determined by their return. A discriminator network is trained concurrently to the policy to distinguish between trajectories generated by the current policy and beneficial trajectories generated by previous policies. The discriminator’s verdict is used to construct a reward signal for optimizing the policy. By interpolating prior experience, DIRECT is able to act as a surrogate, steering policy optimization towards more valuable regions of the reward landscape thus learning an optimal policy. Our results show that DIRECT outperforms state-of-the-art algorithms in sparse- and shifting-reward environments being able to provide a surrogate reward to the policy and direct the optimization towards valuable areas.},
+    booktitle    = {15th Adaptive and Learning Agents Workshop (ALA)},
+    month        = {May},
+    year         = {2023},
+    url          = {https://thomyphan.github.io/publication/2023-05-01-ala-altmann},
+    code         = {https://github.com/philippaltmann/DIRECT},
+    eprint       = {https://thomyphan.github.io/files/2023-ala.pdf}
 }
 
 @inproceedings{phanAAMAS22,
@@ -243,36 +243,6 @@
     code        = {https://github.com/thomyphan/scalable-marl}
 }
 
-@inproceedings{ritzALIFE21,
-    author      = {Fabian Ritz and Daniel Ratke and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
-    title       = {A Sustainable Ecosystem through Emergent Cooperation in Multi-Agent Reinforcement Learning},
-    booktitle   = {Conference on Artificial Life (ALIFE)},
-    year        = {2021},
-    month       = {07},
-    pages       = {74--83},
-    publisher   = {MIT Press Direct},
-    abstract    = {This paper considers sustainable and cooperative behavior in multi-agent systems. In the proposed predator-prey simulation, multiple selfish predators can learn to act sustainably by maintaining a herd of reproducing prey and further hunt cooperatively for long term benefit. Since the predators face starvation pressure, the scenario can also turn in a tragedy of the commons if selfish individuals decide to greedily hunt down the prey population before their conspecifics do, ultimately leading to extinction of prey and predators. This paper uses Multi-Agent Reinforcement Learning to overcome a collapse of the simulated ecosystem, analyzes the impact factors over multiple dimensions and proposes suitable metrics. We show that up to three predators are able to learn sustainable behavior in form of collective herding under starvation pressure. Complex cooperation in form of group hunting emerges between the predators as their speed is handicapped and the prey is given more degrees of freedom to escape. The implementation of environment and reinforcement learning pipeline is available online.},
-    url         = {https://thomyphan.github.io/publication/2021-07-01-alife-ritz},
-    doi         = {https://doi.org/10.1162/isal_a_00399},
-    note        = {74},
-    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal/33/74/1930024/isal_a_00399.pdf},
-    code        = {https://github.com/instance01/fish-rl-alife}
-}
-
-@inproceedings{ritzICAART21,
-    author      = {Fabian Ritz and Thomy Phan and Robert Müller and Thomas Gabor and Andreas Sedlmeier and Marc Zeller and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien},
-    title       = {SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning},
-    booktitle   = {Proceedings of the 13th International Conference on Agents and Artificial Intelligence (ICAART)},
-    year        = {2021},
-    pages       = {28--37},
-    publisher   = {SciTePress},
-    doi         = {https://doi.org/10.5220/0010189500280037},
-    isbn        = {978-989-758-484-8},
-    url         = {https://thomyphan.github.io/publication/2021-02-01-icaart-ritz},
-    eprint      = {https://thomyphan.github.io/files/2021-icaart-preprint.pdf},
-    abstract    = {A characteristic of reinforcement learning is the ability to develop unforeseen strategies when solving problems. While such strategies sometimes yield superior performance, they may also result in undesired or even dangerous behavior. In industrial scenarios, a system’s behavior also needs to be predictable and lie within defined ranges. To enable the agents to learn (how) to align with a given specification, this paper proposes to explicitly transfer functional and non-functional requirements into shaped rewards. Experiments are carried out on the smart factory, a multi-agent environment modeling an industrial lot-size-one production facility, with up to eight agents and different multi-agent reinforcement learning algorithms. Results indicate that compliance with functional and non-functional constraints can be achieved by the proposed approach.}
-}
-
 @article{phanAAAI21,
     author      = {Thomy Phan and Lenz Belzner and Thomas Gabor and Andreas Sedlmeier and Fabian Ritz and Claudia Linnhoff-Popien},
     title       = {Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition},
@@ -308,21 +278,66 @@
     keywords    = {Evolutionary algorithm, Diversity, Adaptive fitness}
 }
 
-@inproceedings{gaborQSE20,
-    author      = {Thomas Gabor and Leo Sünkel and Fabian Ritz and Thomy Phan and Lenz Belzner and Christoph Roch and Sebastian Feld and Claudia Linnhoff-Popien},
-    title       = {The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline},
+@inproceedings{ritzALIFE21,
+    author      = {Fabian Ritz and Daniel Ratke and Thomy Phan and Lenz Belzner and Claudia Linnhoff-Popien},
+    title       = {A Sustainable Ecosystem through Emergent Cooperation in Multi-Agent Reinforcement Learning},
+    booktitle   = {Conference on Artificial Life (ALIFE)},
+    year        = {2021},
+    month       = {07},
+    pages       = {74--83},
+    publisher   = {MIT Press Direct},
+    abstract    = {This paper considers sustainable and cooperative behavior in multi-agent systems. In the proposed predator-prey simulation, multiple selfish predators can learn to act sustainably by maintaining a herd of reproducing prey and further hunt cooperatively for long term benefit. Since the predators face starvation pressure, the scenario can also turn in a tragedy of the commons if selfish individuals decide to greedily hunt down the prey population before their conspecifics do, ultimately leading to extinction of prey and predators. This paper uses Multi-Agent Reinforcement Learning to overcome a collapse of the simulated ecosystem, analyzes the impact factors over multiple dimensions and proposes suitable metrics. We show that up to three predators are able to learn sustainable behavior in form of collective herding under starvation pressure. Complex cooperation in form of group hunting emerges between the predators as their speed is handicapped and the prey is given more degrees of freedom to escape. The implementation of environment and reinforcement learning pipeline is available online.},
+    url         = {https://thomyphan.github.io/publication/2021-07-01-alife-ritz},
+    doi         = {https://doi.org/10.1162/isal_a_00399},
+    note        = {74},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal/33/74/1930024/isal_a_00399.pdf},
+    code        = {https://github.com/instance01/fish-rl-alife}
+}
+
+@inproceedings{ritzICAART21,
+    author      = {Fabian Ritz and Thomy Phan and Robert Müller and Thomas Gabor and Andreas Sedlmeier and Marc Zeller and Jan Wieghardt and Reiner Schmid and Horst Sauer and Cornel Klein and Claudia Linnhoff-Popien},
+    title       = {SAT-MARL: Specification Aware Training in Multi-Agent Reinforcement Learning},
+    booktitle   = {Proceedings of the 13th International Conference on Agents and Artificial Intelligence (ICAART)},
+    year        = {2021},
+    pages       = {28--37},
+    publisher   = {SciTePress},
+    doi         = {https://doi.org/10.5220/0010189500280037},
+    isbn        = {978-989-758-484-8},
+    url         = {https://thomyphan.github.io/publication/2021-02-01-icaart-ritz},
+    eprint      = {https://thomyphan.github.io/files/2021-icaart-preprint.pdf},
+    abstract    = {A characteristic of reinforcement learning is the ability to develop unforeseen strategies when solving problems. While such strategies sometimes yield superior performance, they may also result in undesired or even dangerous behavior. In industrial scenarios, a system’s behavior also needs to be predictable and lie within defined ranges. To enable the agents to learn (how) to align with a given specification, this paper proposes to explicitly transfer functional and non-functional requirements into shaped rewards. Experiments are carried out on the smart factory, a multi-agent environment modeling an industrial lot-size-one production facility, with up to eight agents and different multi-agent reinforcement learning algorithms. Results indicate that compliance with functional and non-functional constraints can be achieved by the proposed approach.}
+}
+
+@inproceedings{phanAAMAS20,
+    author      = {Thomy Phan and Thomas Gabor and Andreas Sedlmeier and Fabian Ritz and Bernhard Kempter and Cornel Klein and Horst Sauer and Reiner Schmid and Jan Wieghardt and Marc Zeller and Claudia Linnhoff-Popien},
+    title       = {Learning and Testing Resilience in Cooperative Multi-Agent Systems},
     year        = {2020},
-    isbn        = {9781450379632},
-    publisher   = {Association for Computing Machinery},
-    eprint      = {https://thomyphan.github.io/files/2020-qse-preprint.pdf},
-    doi         = {https://doi.org/10.1145/3387940.3391469},
-    url         = {https://thomyphan.github.io/publication/2020-08-01-qse-gabor},
-    abstract    = {We discuss the synergetic connection between quantum computing and artificial intelligence. After surveying current approaches to quantum artificial intelligence and relating them to a formal model for machine learning processes, we deduce four major challenges for the future of quantum artificial intelligence: (i) Replace iterative training with faster quantum algorithms, (ii) distill the experience of larger amounts of data into the training process, (iii) allow quantum and classical components to be easily combined and exchanged, and (iv) build tools to thoroughly analyze whether observed benefits really stem from quantum properties of the algorithm.},
-    booktitle   = {Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering (ICSE) Workshops},
-    pages       = {456--461},
-    numpages    = {6},
-    keywords    = {artificial intelligence, software engineering, quantum computing},
-    location    = {Seoul, Republic of Korea}
+    isbn        = {9781450375184},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {State-of-the-art multi-agent reinforcement learning has achieved remarkable success in recent years. The success has been mainly based on the assumption that all teammates perfectly cooperate to optimize a global objective in order to achieve a common goal. While this may be true in the ideal case, these approaches could fail in practice, since in multi-agent systems (MAS), all agents may be a potential source of failure. In this paper, we focus on resilience in cooperative MAS and propose an Antagonist-Ratio Training Scheme (ARTS) by reformulating the original target MAS as a mixed cooperative-competitive game between a group of protagonists which represent agents of the target MAS and a group of antagonists which represent failures in the MAS. While the protagonists can learn robust policies to ensure resilience against failures, the antagonists can learn malicious behavior to provide an adequate test suite for other MAS. We empirically evaluate ARTS in a cyber physical production domain and show the effectiveness of ARTS w.r.t. resilience and testing capabilities.},
+    booktitle   = {Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
+    pages       = {1055--1063},
+    numpages    = {9},
+    keywords    = {learning and testing, multi-agent learning, adversarial learning},
+    location    = {Virtual Event, New Zealand},
+    url         = {https://thomyphan.github.io/publication/2020-05-01-aamas-phan},
+    eprint      = {https://thomyphan.github.io/files/2020-aamas.pdf},
+    doi         = {https://dl.acm.org/doi/10.5555/3398761.3398884}
+}
+
+@article{gaborSTTT20,
+    title       = {The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems},
+    author      = {Thomas Gabor and Andreas Sedlmeier and Thomy Phan and Fabian Ritz and Marie Kiermeier and Lenz Belzner and Bernhard Kempter and Cornel Klein and Horst Sauer and Reiner Schmid and Jan Wieghardt and Marc Zeller and Claudia Linnhoff-Popien},
+    journal     = {International Journal on Software Tools for Technology Transfer (STTT)},
+    volume      = {22},
+    number      = {4},
+    pages       = {457--476},
+    year        = {2020},
+    publisher   = {Springer},
+    abstract    = {Systems are becoming increasingly more adaptive, using techniques like machine learning to enhance their behavior on their own rather than only through human developers programming them. We analyze the impact the advent of these new techniques has on the discipline of rigorous software engineering, especially on the issue of quality assurance. To this end, we provide a general description of the processes related to machine learning and embed them into a formal framework for the analysis of adaptivity, recognizing that to test an adaptive system a new approach to adaptive testing is necessary. We introduce scenario coevolution as a design pattern describing how system and test can work as antagonists in the process of software evolution. While the general pattern applies to large-scale processes (including human developers further augmenting the system), we show all techniques on a smaller-scale example of an agent navigating a simple smart factory. We point out new aspects in software engineering for adaptive systems that may be tackled naturally using scenario coevolution. This work is a substantially extended take on Gabor et al. (International symposium on leveraging applications of formal methods, Springer, pp 137–154, 2018)},
+    doi         = {https://doi.org/10.1007/s10009-020-00560-5},
+    url         = {https://thomyphan.github.io/publication/2020-01-01-sttt-gabor},
+    eprint      = {https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf}
 }
 
 @inproceedings{rochICCS20,
@@ -366,6 +381,23 @@
     eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2020/32/333/1908570/isal_a_00267.pdf}
 }
 
+@inproceedings{gaborQSE20,
+    author      = {Thomas Gabor and Leo Sünkel and Fabian Ritz and Thomy Phan and Lenz Belzner and Christoph Roch and Sebastian Feld and Claudia Linnhoff-Popien},
+    title       = {The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline},
+    year        = {2020},
+    isbn        = {9781450379632},
+    publisher   = {Association for Computing Machinery},
+    eprint      = {https://thomyphan.github.io/files/2020-qse-preprint.pdf},
+    doi         = {https://doi.org/10.1145/3387940.3391469},
+    url         = {https://thomyphan.github.io/publication/2020-08-01-qse-gabor},
+    abstract    = {We discuss the synergetic connection between quantum computing and artificial intelligence. After surveying current approaches to quantum artificial intelligence and relating them to a formal model for machine learning processes, we deduce four major challenges for the future of quantum artificial intelligence: (i) Replace iterative training with faster quantum algorithms, (ii) distill the experience of larger amounts of data into the training process, (iii) allow quantum and classical components to be easily combined and exchanged, and (iv) build tools to thoroughly analyze whether observed benefits really stem from quantum properties of the algorithm.},
+    booktitle   = {Proceedings of the IEEE/ACM 42nd International Conference on Software Engineering (ICSE) Workshops},
+    pages       = {456--461},
+    numpages    = {6},
+    keywords    = {artificial intelligence, software engineering, quantum computing},
+    location    = {Seoul, Republic of Korea}
+}
+
 @inproceedings{phanALA20,
     title        = {A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation},
     author       = {Thomy Phan and Lenz Belzner and Kyrill Schmid and Thomas Gabor and Fabian Ritz and Sebastian Feld and Claudia Linnhoff-Popien},
@@ -377,36 +409,20 @@
     eprint       = {https://thomyphan.github.io/files/2020-ala.pdf}
 }
 
-@inproceedings{phanAAMAS20,
-    author      = {Thomy Phan and Thomas Gabor and Andreas Sedlmeier and Fabian Ritz and Bernhard Kempter and Cornel Klein and Horst Sauer and Reiner Schmid and Jan Wieghardt and Marc Zeller and Claudia Linnhoff-Popien},
-    title       = {Learning and Testing Resilience in Cooperative Multi-Agent Systems},
-    year        = {2020},
-    isbn        = {9781450375184},
-    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
-    abstract    = {State-of-the-art multi-agent reinforcement learning has achieved remarkable success in recent years. The success has been mainly based on the assumption that all teammates perfectly cooperate to optimize a global objective in order to achieve a common goal. While this may be true in the ideal case, these approaches could fail in practice, since in multi-agent systems (MAS), all agents may be a potential source of failure. In this paper, we focus on resilience in cooperative MAS and propose an Antagonist-Ratio Training Scheme (ARTS) by reformulating the original target MAS as a mixed cooperative-competitive game between a group of protagonists which represent agents of the target MAS and a group of antagonists which represent failures in the MAS. While the protagonists can learn robust policies to ensure resilience against failures, the antagonists can learn malicious behavior to provide an adequate test suite for other MAS. We empirically evaluate ARTS in a cyber physical production domain and show the effectiveness of ARTS w.r.t. resilience and testing capabilities.},
-    booktitle   = {Proceedings of the 19th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
-    pages       = {1055--1063},
-    numpages    = {9},
-    keywords    = {learning and testing, multi-agent learning, adversarial learning},
-    location    = {Virtual Event, New Zealand},
-    url         = {https://thomyphan.github.io/publication/2020-05-01-aamas-phan},
-    eprint      = {https://thomyphan.github.io/files/2020-aamas.pdf},
-    doi         = {https://dl.acm.org/doi/10.5555/3398761.3398884}
-}
-
-@article{gaborSTTT20,
-    title       = {The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems},
-    author      = {Thomas Gabor and Andreas Sedlmeier and Thomy Phan and Fabian Ritz and Marie Kiermeier and Lenz Belzner and Bernhard Kempter and Cornel Klein and Horst Sauer and Reiner Schmid and Jan Wieghardt and Marc Zeller and Claudia Linnhoff-Popien},
-    journal     = {International Journal on Software Tools for Technology Transfer (STTT)},
-    volume      = {22},
-    number      = {4},
-    pages       = {457--476},
-    year        = {2020},
-    publisher   = {Springer},
-    abstract    = {Systems are becoming increasingly more adaptive, using techniques like machine learning to enhance their behavior on their own rather than only through human developers programming them. We analyze the impact the advent of these new techniques has on the discipline of rigorous software engineering, especially on the issue of quality assurance. To this end, we provide a general description of the processes related to machine learning and embed them into a formal framework for the analysis of adaptivity, recognizing that to test an adaptive system a new approach to adaptive testing is necessary. We introduce scenario coevolution as a design pattern describing how system and test can work as antagonists in the process of software evolution. While the general pattern applies to large-scale processes (including human developers further augmenting the system), we show all techniques on a smaller-scale example of an agent navigating a simple smart factory. We point out new aspects in software engineering for adaptive systems that may be tackled naturally using scenario coevolution. This work is a substantially extended take on Gabor et al. (International symposium on leveraging applications of formal methods, Springer, pp 137–154, 2018)},
-    doi         = {https://doi.org/10.1007/s10009-020-00560-5},
-    url         = {https://thomyphan.github.io/publication/2020-01-01-sttt-gabor},
-    eprint      = {https://epub.ub.uni-muenchen.de/73060/1/Gabor2020_Article_TheScenarioCoevolutionParadigm.pdf}
+@article{phanAAAI2019,
+    author      = {Thomy Phan and Lenz Belzner and Marie Kiermeier and Markus Friedrich and Kyrill Schmid and Claudia Linnhoff-Popien},
+    title       = {Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling},
+    volume      = {33},
+    abstract    = {State-of-the-art approaches to partially observable planning like POMCP are based on stochastic tree search. While these approaches are computationally efficient, they may still construct search trees of considerable size, which could limit the performance due to restricted memory resources. In this paper, we propose Partially Observable Stacked Thompson Sampling (POSTS), a memory bounded approach to openloop planning in large POMDPs, which optimizes a fixed size stack of Thompson Sampling bandits. We empirically evaluate POSTS in four large benchmark problems and compare its performance with different tree-based approaches. We show that POSTS achieves competitive performance compared to tree-based open-loop planning and offers a performance memory tradeoff, making it suitable for partially observable planning with highly restricted computational and memory resources.},
+    number      = {01},
+    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+    year        = {2019},
+    month       = {July},
+    pages       = {7941--7948},
+    url         = {https://thomyphan.github.io/publication/2019-02-01-aaai-phan},
+    doi         = {https://doi.org/10.1609/aaai.v33i01.33017941},
+    eprint      = {https://thomyphan.github.io/files/2019-aaai.pdf},
+    code        = {https://github.com/thomyphan/planning}
 }
 
 @inproceedings{phanIJCAI19,
@@ -439,18 +455,21 @@
     code      = {https://github.com/jnptr/subgoal-mcts}
 }
 
-@inproceedings{hahnALIFE19,
-    author      = {Carsten Hahn and Thomy Phan and Thomas Gabor and Lenz Belzner and Claudia Linnhoff-Popien},
-    title       = {Emergent Escape-based Flocking Behavior Using Multi-Agent Reinforcement Learning},
-    booktitle   = {Conference on Artificial Life (ALIFE)},
-    pages       = {598--605},
+@inproceedings{phanAAMAS19,
+    author      = {Thomy Phan and Kyrill Schmid and Lenz Belzner and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien},
+    title       = {Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies},
     year        = {2019},
-    month       = {07},
-    publisher   = {MIT Press Direct},
-    abstract    = {In nature, flocking or swarm behavior is observed in many species as it has beneficial properties like reducing the probability of being caught by a predator. In this paper, we propose SELFish (Swarm Emergent Learning Fish), an approach with multiple autonomous agents which can freely move in a continuous space with the objective to avoid being caught by a present predator. The predator has the property that it might get distracted by multiple possible preys in its vicinity. We show that this property in interaction with self-interested agents which are trained with reinforcement learning solely to survive as long as possible leads to flocking behavior similar to Boids, a common simulation for flocking behavior. Furthermore we present interesting insights into the swarming behavior and into the process of agents being caught in our modeled environment.},
-    doi         = {https://doi.org/10.1162/isal_a_00226},
-    url         = {https://thomyphan.github.io/publication/2019-07-01-alife-hahn},
-    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2019/31/598/1903589/isal_a_00226.pdf}
+    isbn        = {9781450363099},
+    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
+    abstract    = {We propose Strong Emergent Policy (STEP) approximation, a scalable approach to learn strong decentralized policies for cooperative MAS with a distributed variant of policy iteration. For that, we use function approximation to learn from action recommendations of a decentralized multi-agent planning algorithm. STEP combines decentralized multi-agent planning with centralized learning, only requiring a generative model for distributed black box optimization. We experimentally evaluate STEP in two challenging and stochastic domains with large state and joint action spaces and show that STEP is able to learn stronger policies than standard multi-agent reinforcement learning algorithms, when combining multi-agent open-loop planning with centralized function approximation. The learned policies can be reintegrated into the multi-agent planning process to further improve performance.},
+    booktitle   = {Extended Abstracts of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
+    pages       = {2162--2164},
+    numpages    = {3},
+    keywords    = {multi-agent learning, policy iteration, multi-agent planning},
+    location    = {Montreal QC, Canada},
+    url         = {https://thomyphan.github.io/publication/2019-05-01-aamas-phan},
+    eprint      = {https://arxiv.org/pdf/1901.08761.pdf},
+    doi         = {https://dl.acm.org/doi/10.5555/3306127.3332044}
 }
 
 @inproceedings{gaborGECCO19,
@@ -470,37 +489,18 @@
     doi         = {https://doi.org/10.1145/3321707.3321831}
 }
 
-@inproceedings{phanAAMAS19,
-    author      = {Thomy Phan and Kyrill Schmid and Lenz Belzner and Thomas Gabor and Sebastian Feld and Claudia Linnhoff-Popien},
-    title       = {Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies},
+@inproceedings{hahnALIFE19,
+    author      = {Carsten Hahn and Thomy Phan and Thomas Gabor and Lenz Belzner and Claudia Linnhoff-Popien},
+    title       = {Emergent Escape-based Flocking Behavior Using Multi-Agent Reinforcement Learning},
+    booktitle   = {Conference on Artificial Life (ALIFE)},
+    pages       = {598--605},
     year        = {2019},
-    isbn        = {9781450363099},
-    publisher   = {International Foundation for Autonomous Agents and Multiagent Systems},
-    abstract    = {We propose Strong Emergent Policy (STEP) approximation, a scalable approach to learn strong decentralized policies for cooperative MAS with a distributed variant of policy iteration. For that, we use function approximation to learn from action recommendations of a decentralized multi-agent planning algorithm. STEP combines decentralized multi-agent planning with centralized learning, only requiring a generative model for distributed black box optimization. We experimentally evaluate STEP in two challenging and stochastic domains with large state and joint action spaces and show that STEP is able to learn stronger policies than standard multi-agent reinforcement learning algorithms, when combining multi-agent open-loop planning with centralized function approximation. The learned policies can be reintegrated into the multi-agent planning process to further improve performance.},
-    booktitle   = {Extended Abstracts of the 18th International Conference on Autonomous Agents and MultiAgent Systems (AAMAS)},
-    pages       = {2162--2164},
-    numpages    = {3},
-    keywords    = {multi-agent learning, policy iteration, multi-agent planning},
-    location    = {Montreal QC, Canada},
-    url         = {https://thomyphan.github.io/publication/2019-05-01-aamas-phan},
-    eprint      = {https://arxiv.org/pdf/1901.08761.pdf},
-    doi         = {https://dl.acm.org/doi/10.5555/3306127.3332044}
-}
-
-@article{phanAAAI2019,
-    author      = {Thomy Phan and Lenz Belzner and Marie Kiermeier and Markus Friedrich and Kyrill Schmid and Claudia Linnhoff-Popien},
-    title       = {Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling},
-    volume      = {33},
-    abstract    = {State-of-the-art approaches to partially observable planning like POMCP are based on stochastic tree search. While these approaches are computationally efficient, they may still construct search trees of considerable size, which could limit the performance due to restricted memory resources. In this paper, we propose Partially Observable Stacked Thompson Sampling (POSTS), a memory bounded approach to openloop planning in large POMDPs, which optimizes a fixed size stack of Thompson Sampling bandits. We empirically evaluate POSTS in four large benchmark problems and compare its performance with different tree-based approaches. We show that POSTS achieves competitive performance compared to tree-based open-loop planning and offers a performance memory tradeoff, making it suitable for partially observable planning with highly restricted computational and memory resources.},
-    number      = {01},
-    journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-    year        = {2019},
-    month       = {July},
-    pages       = {7941--7948},
-    url         = {https://thomyphan.github.io/publication/2019-02-01-aaai-phan},
-    doi         = {https://doi.org/10.1609/aaai.v33i01.33017941},
-    eprint      = {https://thomyphan.github.io/files/2019-aaai.pdf},
-    code        = {https://github.com/thomyphan/planning}
+    month       = {07},
+    publisher   = {MIT Press Direct},
+    abstract    = {In nature, flocking or swarm behavior is observed in many species as it has beneficial properties like reducing the probability of being caught by a predator. In this paper, we propose SELFish (Swarm Emergent Learning Fish), an approach with multiple autonomous agents which can freely move in a continuous space with the objective to avoid being caught by a present predator. The predator has the property that it might get distracted by multiple possible preys in its vicinity. We show that this property in interaction with self-interested agents which are trained with reinforcement learning solely to survive as long as possible leads to flocking behavior similar to Boids, a common simulation for flocking behavior. Furthermore we present interesting insights into the swarming behavior and into the process of agents being caught in our modeled environment.},
+    doi         = {https://doi.org/10.1162/isal_a_00226},
+    url         = {https://thomyphan.github.io/publication/2019-07-01-alife-hahn},
+    eprint      = {https://direct.mit.edu/isal/proceedings-pdf/isal2019/31/598/1903589/isal_a_00226.pdf}
 }
 
 @inproceedings{gaborICAC18,
