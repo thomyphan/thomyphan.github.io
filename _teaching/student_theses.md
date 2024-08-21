@@ -28,7 +28,7 @@ You can find all student theses that I mentored as primary advising assistant be
 - Adaptive Resilient Multi-Agent Reinforcement Learning (N. Czogalla)
 
 ### 2021
-- Learning Trust in Multi-Agent Systems (F. Sommer)
+- [Learning Trust in Multi-Agent Systems](https://thomyphan.github.io/publication/2024-07-01-jaamas-phan) (F. Sommer)
 - Evaluating Resilience in Antagonist-based Multi-Agent Reinforcement Learning (K. Blanz)
 - Neural Architecture Search using Upside Down Reinforcement Learning (S. Cronjaeger)
 

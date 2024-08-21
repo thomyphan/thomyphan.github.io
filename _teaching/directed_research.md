@@ -12,6 +12,9 @@ author_profile: true
 
 At the <a href="https://classes.usc.edu/term-20241/course/csci-599/">University of Southern California</a>, I guide students through challenging individual projects and potential publications, related to my <a href="https://thomyphan.github.io/research/"><strong>Research</strong></a>.
 
+### 2024
+- [Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic](https://arxiv.org/abs/2408.02960) (B. Zhang)
+
 
 <div style="float: right;">
     <a href="https://thomyphan.github.io/teaching/"><strong>Back to Teaching</strong></a>
