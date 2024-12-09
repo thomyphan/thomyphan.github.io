@@ -4,7 +4,8 @@
     url         = {https://thomyphan.github.io/publication/2025-02-01-aaai-phan2},
     abstract    = {Monte-Carlo Tree Search (MCTS) is a popular approach to online planning under uncertainty. While MCTS uses statistical sampling via multi-armed bandits to avoid exhaustive search in complex domains, common closed-loop approaches typically construct enormous search trees to consider a large number of potential observations and actions. On the other hand, open-loop approaches offer better memory efficiency by ignoring observations but are generally not competitive with closed-loop MCTS in terms of performance -- even with commonly integrated human knowledge. In this paper, we propose Counterfactual Open-loop Reasoning with Ad hoc Learning (CORAL) for open-loop MCTS, using a causal multi-armed bandit approach with unobserved confounders (MABUC). CORAL consists of two online learning phases that are conducted during the open-loop search. In the first phase, an intent policy is learned based on preferred actions. In the second phase, a counterfactual policy is learned with MABUCs to make a final decision using the previously learned intent policy. We evaluate CORAL in four POMDP benchmark scenarios and compare it with closed-loop and open-loop alternatives. In contrast to standard open-loop MCTS, CORAL achieves competitive performance compared with closed-loop algorithms while constructing significantly smaller search trees.},
     journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-    year        = {2025. To appear}
+    year        = {2025},
+    note        = {To appear}
 }
 
 @article{phan1AAAI25,
@@ -13,7 +14,8 @@
     url         = {https://thomyphan.github.io/publication/2025-02-01-aaai-phan1},
     abstract    = {Anytime multi-agent path finding (MAPF) is a promising approach to scalable and collision-free path optimization in multi-agent systems. MAPF-LNS, based on Large Neighborhood Search (LNS), is the current state-of-the-art approach where a fast initial solution is iteratively optimized by destroying and repairing selected paths of the solution. Current MAPF-LNS variants commonly use an adaptive selection mechanism to choose among multiple destroy heuristics. However, to determine promising destroy heuristics, MAPF-LNS requires a considerable amount of exploration time. As common destroy heuristics are stationary, i.e., non-adaptive, any performance bottleneck caused by them cannot be overcome by adaptive heuristic selection alone, thus limiting the overall effectiveness of MAPF-LNS. In this paper, we propose Adaptive Delay-based Destroy-and-Repair Enhanced with Success-based Self-Learning (ADDRESS) as a single-destroy-heuristic variant of MAPF-LNS. ADDRESS applies restricted Thompson Sampling to the top-K set of the most delayed agents to select a seed agent for adaptive LNS neighborhood generation. We evaluate ADDRESS in multiple maps from the MAPF benchmark set and demonstrate cost improvements by at least 50% in large-scale scenarios with up to a thousand agents, compared with the original MAPF-LNS and other state-of-the-art methods.},
     journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
-    year        = {2025. To appear},
+    year        = {2025},
+    note        = {To appear},
     eprint      = {https://arxiv.org/pdf/2408.02960},
     code        = {https://github.com/JimyZ13/ADDRESS.git}
 }
