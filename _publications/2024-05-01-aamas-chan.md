@@ -24,5 +24,6 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic"](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1), AAAI 2025
 - T. Phan et al., ["Confidence-Based Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2024-05-01-aamas-phan), AAMAS 2024
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024

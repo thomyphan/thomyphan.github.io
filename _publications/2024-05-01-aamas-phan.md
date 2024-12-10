@@ -24,6 +24,7 @@ research_learning4search: "True"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic"](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1), AAAI 2025
 - S. Chan et al., ["Anytime Multi-Agent Path Finding using Operator Parallelism in Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-05-01-aamas-chan), AAMAS 2024
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024
 - P. Altmann et al., ["CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann), IJCAI 2023
