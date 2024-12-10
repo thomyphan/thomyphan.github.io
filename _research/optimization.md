@@ -25,9 +25,10 @@ We focus on stochastic optimization based on evolutionary [1] or quantum computi
 
 *Monte Carlo Planning (MCP)* is a sampling-based approach to sequential decision making suitable for domains with enormous branching factors. MCP can be used for online planning, where the agent alternates between acting and reasoning per time step. MCP only requires limited domain knowledge in form of a black box simulator and a computation budget for stochastic optimization of decisions.
 
-We devise algorithms that address various real-world challenges regarding MCP like resource restrictions [1,2] and temporal abstraction [3]. Our algorithms are open-loop to reduce the search space, while being able to make good decisions in complex domains.
+We devise algorithms that address various real-world challenges regarding MCP like resource restrictions [1,2] and temporal abstraction [3], and counterfactual reasoning [4]. Our algorithms are open-loop to reduce the search space, while being able to make good decisions in complex domains.
 
 *Publications:*  
 [1] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
 [2] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
-[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)   
+[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)
+[4] [Counterfactual Monte Carlo Planning](https://thomyphan.github.io/publication/2025-02-01-aaai-phan2)   
