@@ -26,6 +26,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Counterfactual Online Learning for Open-Loop Monte-Carlo Planning"](https://thomyphan.github.io/publication/2025-02-01-aaai-phan2), AAAI 2025
 - T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024
 - T. Phan et al., ["Adaptive Thompson Sampling Stacks for Memory Bounded Open-Loop Planning"](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan), IJCAI 2019
 - T. Phan et al., ["Memory Bounded Open-Loop Planning in Large POMDPs Using Thompson Sampling"](https://thomyphan.github.io/publication/2019-02-01-aaai-phan), AAAI 2019
