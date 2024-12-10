@@ -30,5 +30,5 @@ We devise algorithms that address various real-world challenges regarding MCP li
 *Publications:*  
 [1] [Memory Bounded Open-Loop Planning](https://thomyphan.github.io/publication/2019-02-01-aaai-phan)  
 [2] [Adaptive Thompson Sampling Stacks](https://thomyphan.github.io/publication/2019-08-01-ijcai-phan)  
-[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)
+[3] [Subgoal-Based Monte Carlo Planning](https://thomyphan.github.io/publication/2019-08-01-ijcai-gabor)  
 [4] [Counterfactual Monte Carlo Planning](https://thomyphan.github.io/publication/2025-02-01-aaai-phan2)   

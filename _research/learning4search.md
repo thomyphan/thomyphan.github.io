@@ -16,7 +16,7 @@ Heuristic search is important for a variety of real-world applications such as r
 We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms via online adaptation [1,2]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [3].
 
 *Publications:*  
-[1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)
+[1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)  
 [2] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1)  
 [3] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan)  
 
