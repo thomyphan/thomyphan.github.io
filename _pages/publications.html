@@ -92,7 +92,7 @@ You can find all my articles on my <a href="https://scholar.google.de/citations?
         var linkAbstractId = "a-"+abstractId;
         result += '<a href="'+getEntryURL(entry)+'">' + entryTags["title"] + '</a>.<br/>';
         var authors = replaceAll(entryTags["author"], " and ", ", ");
-        authors = replaceAll(authors, "*", "");
+        authors = replaceAll(authors, "\\*", "");
         authors = authors.replace(authorName, "<strong>"+authorName+"</strong>");
         result += authors + ".<br/>";
         result += valueInTag(getVenue(entry), "em");
