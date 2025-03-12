@@ -19,6 +19,7 @@ We currently focus on *multi-agent path finding (MAPF)* as a particularly challe
 [1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)  
 [2] [Adaptive Delay-Based Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1)  
 [3] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan)  
+[4] [Generative Curricula for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-04-01-jair-phan)  
 
 ## Multi-Agent Planning and Learning
 
