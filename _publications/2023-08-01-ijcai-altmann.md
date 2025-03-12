@@ -26,6 +26,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
 - T. Phan et al., ["Confidence-Based Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2024-05-01-aamas-phan), AAMAS 2024
 - P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-09-01-qce-altmann), QCE 2024
 - P. Altmann et al., ["DIRECT: Learning from Sparse and Shifting Rewards using Discriminative Reward Co-Training"](https://thomyphan.github.io/publication/2023-05-01-ala-altmann), ALA 2023

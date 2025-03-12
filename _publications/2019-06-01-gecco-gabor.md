@@ -28,6 +28,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
 - P. Altmann et al., ["Challenges for Reinforcement Learning in Quantum Computing"](https://thomyphan.github.io/publication/2024-09-01-qce-altmann), QCE 2024
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
 - T. Phan et al., ["Learning and Testing Resilience in Cooperative Multi-Agent Systems"](https://thomyphan.github.io/publication/2020-05-01-aamas-phan), AAMAS 2020

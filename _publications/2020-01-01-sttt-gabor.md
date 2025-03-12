@@ -25,8 +25,9 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
 - F. Ritz et al., ["Capturing Dependencies Within Machine Learning via a Formal Process Model"](https://thomyphan.github.io/publication/2022-10-01-isola-ritz), ISoLA 2022
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021
 - T. Gabor et al., ["The Holy Grail of Quantum Artificial Intelligence: Major Challenges in Accelerating the Machine Learning Pipeline"](https://thomyphan.github.io/publication/2020-08-01-qse-gabor), QSE 2020
-- T. Gabor et al., ["The Scenario Coevolution Paradigm: Adaptive Quality Assurance for Adaptive Systems"](https://thomyphan.github.io/publication/2020-01-01-sttt-gabor), STTT 2020
 - T. Phan et al., ["Learning and Testing Resilience in Cooperative Multi-Agent Systems"](https://thomyphan.github.io/publication/2020-05-01-aamas-phan), AAMAS 2020
+- T. Gabor et al., ["Scenario Co-Evolution for Reinforcement Learning on a Grid World Smart Factory Domain"](https://thomyphan.github.io/publication/2020-06-01-gecco-gabor), GECCO 2019
