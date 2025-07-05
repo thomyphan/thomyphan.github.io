@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Thomy Phan"
 title_separator          : "-"
 name                     : &name "Thomy Phan"
-description              : &description "Postdoctoral Scholar at the University of Southern California"
+description              : &description "Postdoctoral Scholar at the University of California, Irvine"
 url                      : https://thomyphan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "thomyphan.github.io"
@@ -82,7 +82,7 @@ analytics:
 author:
   name             : "Thomy Phan"
   avatar           : "profile.jpg"
-  bio              : "Postdoctoral Scholar at University of Southern California"
+  bio              : "Postdoctoral Scholar at University of California, Irvine"
   location         :
   employer         :
   pubmed           : 
