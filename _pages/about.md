@@ -9,7 +9,7 @@ redirect_from:
   - /about.html
 ---
 
-I am a Postdoctoral Scholar at the [University of California, Irvine](https://uci.edu) (transferred from [USC](https://www.usc.edu) in July 2025), advised by Professor [Sven Koenig](https://ics.uci.edu/?people=sven-koenig).
+I am a Postdoctoral Scholar at the [University of California, Irvine](https://uci.edu) (transferred from [USC](https://www.usc.edu) in 2025), advised by Professor [Sven Koenig](https://ics.uci.edu/?people=sven-koenig).
 
 My areas of interest are artificial intelligence and multi-agent systems. My research focuses on **multi-agent algorithms for scalable optimization** using learning and search techniques. Applications of my research are large-scale distributed and intelligent systems, such as warehouse automation, smart manufacturing, and traffic management.
 
