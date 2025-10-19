@@ -10,7 +10,7 @@ locale                   : "en-US"
 title                    : "Thomy Phan"
 title_separator          : "-"
 name                     : &name "Thomy Phan"
-description              : &description "Postdoctoral Scholar at UC Irvine"
+description              : &description "Incoming Junior Professor at the University of Bayreuth"
 url                      : https://thomyphan.github.io # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
 repository               : "thomyphan.github.io"
@@ -87,7 +87,7 @@ author:
   employer         :
   pubmed           : 
   googlescholar    : "https://scholar.google.de/citations?user=yny05hUAAAAJ"
-  email            : "thomy.phan@usc.edu"
+  email            : "thomy.phan@gmx.de"
   researchgate     : "https://www.researchgate.net/profile/Thomy-Phan"
   uri              : "https://thomyphan.github.io"
   bitbucket        :
