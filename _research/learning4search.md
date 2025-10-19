@@ -7,13 +7,13 @@ author_profile: true
 
 {% include base_path %}
 
-## Machine Learning-Guided Search
+## Machine Learning-Guided Search for Multi-Agent Path Finding
 
 <img src="https://thomyphan.github.io/images/research/mapf_instance.png" style="float:right; width:150pt;padding-left:10px;" title="Random MAPF Instance" alt="Random MAPF Instance"/>
 
 Heuristic search is important for a variety of real-world applications such as routing, robot motion planning, and multi-agent coordination. Hand-crafted heuristics are often used to exploit structural properties of the underlying problem to speed up the search.
 
-We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms via online adaptation [1,2]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [3].
+We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms via online adaptation [1,2]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [3,4].
 
 *Publications:*  
 [1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)  
