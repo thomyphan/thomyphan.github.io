@@ -5,6 +5,8 @@
     abstract    = {Anytime multi-agent path finding (MAPF) is a promising approach to scalable and collision-free path optimization in multi-agent systems. MAPF-LNS, based on Large Neighborhood Search (LNS), is the current state-of-the-art approach where a fast initial solution is iteratively optimized by destroying and repairing selected paths, i.e., a neighborhood, of the solution. Delay-based MAPF-LNS has demonstrated particular effectiveness in generating promising neighborhoods via seed agents according to their delays. Seed agents are selected using handcrafted strategies or online learning, where the former relies on human intuition about underlying structures, while the latter conducts black box optimization, ignoring any structure. In this paper, we propose Truncated Adaptive Counterfactual K-ranked LEarning (TACKLE) to select seed agents using human intuition for informed online learning. We show theoretically that TACKLE dominates its handcrafted and black box learning counterparts in the limit. Our experiments demonstrate cost improvements by at least 60% in instances with up to a thousand agents, compared with state-of-the-art anytime MAPF solvers.},
     journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
     year        = {2026},
+    eprint      = {https://thomyphan.github.io/files/2026-aaai-preprint1.pdf},
+    code        = {https://github.com/thomyphan/counterfactual-mapf-lns},
     note        = {To Appear}
 }
 
@@ -14,6 +16,8 @@
     url         = {https://thomyphan.github.io/publication/2026-01-01-aaai-phan2},
     abstract    = {Multi-agent path finding (MAPF) is the challenging problem of finding conflict-free paths with minimal costs for multiple agents. While traditional MAPF solvers are centralized using heuristic search, reinforcement learning (RL) is becoming increasingly popular due to its potential to learn decentralized and generalizing policies. RL-based MAPF must cope with spatial coordination, which is often addressed by combining independent training with ad hoc measures like replanning and communication. Such ad hoc measures often complicate the approach and require knowledge beyond the actual accessible information in RL, such as the full map occupation or broadcast communication channels, which limits generalizability, effectiveness, and sample efficiency. In this paper, we propose Partitioned Attention-based Reverse Curricula for Enhanced Learning (PARCEL), considering a bounding region for each agent. PARCEL trains all agents with overlapping regions jointly via self-attention to avoid potential conflicts. By employing a reverse curriculum, where the bounding regions grow as the policies improve, all agents will eventually merge into a single coordinated group. We evaluate PARCEL in two simple coordination tasks and four MAPF benchmark maps. Compared with state-of-the-art RL-based MAPF methods, PARCEL demonstrates better effectiveness and sample efficiency without ad hoc measures.},
     journal     = {Proceedings of the AAAI Conference on Artificial Intelligence (AAAI)},
+    eprint      = {https://thomyphan.github.io/files/2026-aaai-preprint2.pdf},
+    code        = {https://github.com/thomyphan/spatial-curricula-mapf},
     year        = {2026},
     note        = {To Appear}
 }
