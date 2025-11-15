@@ -25,6 +25,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Spatially Grouped Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2026-01-01-aaai-phan2), AAAI 2026
 - T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
 - F. Ritz et al., ["Capturing Dependencies Within Machine Learning via a Formal Process Model"](https://thomyphan.github.io/publication/2022-10-01-isola-ritz), ISoLA 2022
 - T. Phan et al., ["Resilient Multi-Agent Reinforcement Learning with Adversarial Value Decomposition"](https://thomyphan.github.io/publication/2021-02-01-aaai-phan), AAAI 2021

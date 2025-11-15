@@ -25,6 +25,7 @@ research_learning4search: "False"
 {% include base_path %}
 
 ## Related Articles
+- T. Phan et al., ["Spatially Grouped Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2026-01-01-aaai-phan2), AAAI 2026
 - T. Phan et al., ["Truncated Counterfactual Learning for Anytime Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2026-01-01-aaai-phan1), AAAI 2026
 - T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
 - T. Phan et al., ["Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic"](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1), AAAI 2025
