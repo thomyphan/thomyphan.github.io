@@ -18,6 +18,6 @@ Please, check out the latest info about my
 * [**Publications**](https://thomyphan.github.io/publications/)
 * [**Teaching**](https://thomyphan.github.io/teaching/)
 
-<h2><span style="background-color: #FFFF00; padding-left:1em; padding-right:1em; padding-top:0.5em; padding-bottom:0.5em;">I am hiring!</span></h2>
+<!--<h2><span style="background-color: #FFFF00; padding-left:1em; padding-right:1em; padding-top:0.5em; padding-bottom:0.5em;">I am hiring!</span></h2>
 
-I am looking for a curious and motivated doctoral student. Please check out [**my opening**](https://thomyphan.github.io/open_positions/).
+I am looking for a curious and motivated doctoral student. Please check out [**my opening**](https://thomyphan.github.io/open_positions/).!>
