@@ -13,13 +13,15 @@ author_profile: true
 
 Heuristic search is important for a variety of real-world applications such as routing, robot motion planning, and multi-agent coordination. Hand-crafted heuristics are often used to exploit structural properties of the underlying problem to speed up the search.
 
-We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms via online adaptation [1,2]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [3,4].
+We currently focus on *multi-agent path finding (MAPF)* as a particularly challenging search domain and use machine learning to guide heuristic search algorithms via online adaptation [1,2,3]. We also develop simple curriculum approaches to learn fast policies for highly constraint environments [4,5,6].
 
 *Publications:*  
 [1] [Adaptive Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-02-01-aaai-phan)  
 [2] [Adaptive Delay-Based Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1)  
-[3] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan)  
-[4] [Generative Curricula for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-04-01-jair-phan)  
+[3] [Counterfactual Adaption in Anytime Multi-Agent Path Finding](https://thomyphan.github.io/publication/2026-01-01-aaai-phan1)  
+[4] [Curriculum Learning for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2024-05-01-aamas-phan)  
+[5] [Generative Curricula for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2025-04-01-jair-phan)  
+[6] [Spatial Curricula for Multi-Agent Path Finding](https://thomyphan.github.io/publication/2026-01-01-aaai-phan2)  
 
 ## Multi-Agent Planning and Learning
 
