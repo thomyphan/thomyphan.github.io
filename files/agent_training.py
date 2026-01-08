@@ -17,7 +17,7 @@ nr_test_episodes = 10
 env = gym.make(f"{environment_name}-v1", render_mode="rgb_array")
 model = ALGORITHM[algorithm_name]("MlpPolicy", env, verbose=1)
 
-# Train your agent
+# Train your agent (increase 'total_timesteps' is necessary)
 model.learn(total_timesteps=10_000)
 
 # Evaluate your trained agent
