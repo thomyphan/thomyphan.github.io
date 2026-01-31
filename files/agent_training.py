@@ -10,8 +10,8 @@ ALGORITHM = {
 }
 
 # TODO set your environment and algorithm here
-environment_name = "CartPole"
-algorithm_name = "PPO"
+environment_name = "Acrobot"
+algorithm_name = "DQN"
 nr_test_episodes = 10
 
 env = gym.make(f"{environment_name}-v1", render_mode="rgb_array")
@@ -28,6 +28,7 @@ for e in range(nr_test_episodes):
     return_value = 0.0
     obs = test_env.reset()
     while not done:
+        random_noise = np.random.randn()
         # Decision on an action
         action, _ = model.predict(obs, deterministic=True)
         # Execution of the action
