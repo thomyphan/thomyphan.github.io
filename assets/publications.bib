@@ -1,3 +1,17 @@
+@article{phanJAAMAS2026,
+    author      = {Thomy Phan and Joseph Driscoll and Justin Romberg and Sven Koenig},
+    title       = {Confidence-Based Curricula for Multi-Agent Path Finding via Reinforcement Learning},
+    year        = {2026},
+    publisher   = {Springer Nature},
+    url         = {https://thomyphan.github.io/publication/2026-05-01-jaamas-phan},
+    code        = {https://github.com/thomyphan/rl4mapf},
+    abstract    = {A wide range of real-world applications can be formulated as Multi-Agent Path Finding (MAPF) problem, where the goal is to find collision-free paths for multiple agents with individual start and goal locations. State-of-the-art MAPF solvers are mainly centralized and rely on global information, which limits their scalability and flexibility when facing changes or new maps that require expensive replanning. Multi-agent reinforcement learning (MARL) offers an alternative approach to addressing MAPF problems by learning decentralized policies that generalize across a variety of maps. While there exist some prior works that attempt to connect both areas, the proposed techniques are heavily engineered and very complex due to the integration of many mechanisms that limit generality and are expensive to use. We argue that much simpler and more general approaches are needed to enable decentralized MAPF in a sustainable manner at significantly lower cost. In this paper, we propose Confidence-based Auto-Curriculum for Team Update Stability (CACTUS) as a lightweight MARL approach to decentralized MAPF. CACTUS defines a simple reverse curriculum scheme, where the goal of each agent is randomly placed within an allocation radius around the agent's start location. The allocation radius increases gradually as all agents improve, which is assessed by a confidence-based measure. In addition, we propose an extension called Confidence- and Conflict-Based Curriculum Learning with Allocation Radius Adaptation (C3LARA), using weighted sampling of goal locations to improve conflict resolution in scenarios of high agent density. We provide a theoretical analysis of the strengths and limitations of CACTUS regarding exploration efficiency, optimality, and multi-agent coordination. We evaluate CACTUS and C$^3$LARA across various maps of different sizes, obstacle densities, and numbers of agents. Our experiments demonstrate better performance and generalization capabilities than state-of-the-art MARL approaches with less than 600,000 trainable parameters, which is less than 5% of the neural network size of current MARL approaches to decentralized MAPF.},
+    journal     = {Autonomous Agents and Multi-Agent Systems},
+    month       = {May},
+    keywords    = {Multi-Agent Path Finding, Multi-Agent Reinforcement Learning, Curriculum Learning, Exploration, Multi-Agent Credit Assignment},
+    note        = {Invited from AAMAS 2024}
+}
+
 @article{phan1AAAI26,
     author      = {Thomy Phan and Shao-Hung Chan and Sven Koenig},
     title       = {Truncated Counterfactual Learning for Anytime Multi-Agent Path Finding},
