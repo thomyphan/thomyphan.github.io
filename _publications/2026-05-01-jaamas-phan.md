@@ -1,0 +1,40 @@
+---
+author_list: "Thomy Phan and Joseph Driscoll and Justin Romberg and Sven Koenig"
+title: "Confidence-Based Curricula for Multi-Agent Path Finding via Reinforcement Learning"
+collection: publications
+permalink: /publication/2026-05-01-jaamas-phan
+excerpt: "A wide range of real-world applications can be formulated as Multi-Agent Path Finding (MAPF) problem, where the goal is to find collision-free paths for multiple agents with individual start and goal locations. State-of-the-art MAPF solvers are mainly centralized and rely on global information, which limits their scalability and flexibility when facing changes or new maps that require expensive replanning. Multi-agent reinforcement learning (MARL) offers an alternative approach to addressing MAPF problems by learning decentralized policies that generalize across a variety of maps. While there exist some prior works that attempt to connect both areas, the proposed techniques are heavily engineered and very complex due to the integration of many mechanisms that limit generality and are expensive to use. We argue that much simpler and more general approaches are needed to enable decentralized MAPF in a sustainable manner at significantly lower cost. In this paper, we propose Confidence-based Auto-Curriculum for Team Update Stability (CACTUS) as a lightweight MARL approach to decentralized MAPF. CACTUS defines a simple reverse curriculum scheme, where the goal of each agent is randomly placed within an allocation radius around the agent's start location. The allocation radius increases gradually as all agents improve, which is assessed by a confidence-based measure. In addition, we propose an extension called Confidence- and Conflict-Based Curriculum Learning with Allocation Radius Adaptation (C3LARA), using weighted sampling of goal locations to improve conflict resolution in scenarios of high agent density. We provide a theoretical analysis of the strengths and limitations of CACTUS regarding exploration efficiency, optimality, and multi-agent coordination. We evaluate CACTUS and C3LARA across various maps of different sizes, obstacle densities, and numbers of agents. Our experiments demonstrate better performance and generalization capabilities than state-of-the-art MARL approaches with less than 600,000 trainable parameters, which is less than 5% of the neural network size of current MARL approaches to decentralized MAPF."
+booktitle: "Autonomous Agents and Multi-Agent Systems"
+venue_short: "JAAMAS"
+date: "2024-05-01"
+bibtexid: "phanJAAMAS2026"
+#paperdoi: "https://doi.org/10.1007/s10458-024-09666-5"
+#paperurl: "https://link.springer.com/article/10.1007/s10458-024-09666-5"
+#eprint: "https://link.springer.com/content/pdf/10.1007/s10458-024-09666-5.pdf"
+keywords: "Multi-Agent Path Finding, Multi-Agent Reinforcement Learning, Curriculum Learning, Exploration, Multi-Agent Credit Assignment"
+publisher: "Springer Nature"
+coderepository: "https://github.com/thomyphan/rl4mapf"
+research_emergence: "False"
+research_resilience : "False"
+research_dependability : "False"
+research_marl : "True"
+research_planning : "False"
+research_learning4search: "True"
+---
+
+{% include base_path %}
+
+## Related Articles
+
+- T. Phan et al., ["Spatially Grouped Curriculum Learning for Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2026-01-01-aaai-phan2), AAAI 2026
+- T. Phan et al., ["Truncated Counterfactual Learning for Anytime Multi-Agent Path Finding"](https://thomyphan.github.io/publication/2026-01-01-aaai-phan1), AAAI 2026
+- T. Phan et al., ["Generative Curricula for Multi-Agent Path Finding via Unsupervised and Reinforcement Learning"](https://thomyphan.github.io/publication/2025-04-01-jair-phan), JAIR 2025
+- T. Phan et al., ["Anytime Multi-Agent Path Finding with an Adaptive Delay-Based Heuristic"](https://thomyphan.github.io/publication/2025-02-01-aaai-phan1), AAAI 2025
+- S. Chan et al., ["Anytime Multi-Agent Path Finding using Operator Parallelism in Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-05-01-aamas-chan), AAMAS 2024
+- T. Phan et al., ["Adaptive Anytime Multi-Agent Path Finding using Bandit-Based Large Neighborhood Search"](https://thomyphan.github.io/publication/2024-02-01-aaai-phan), AAAI 2024
+- P. Altmann et al., ["CROP: Towards Distributional-Shift Robust Reinforcement Learning using Compact Reshaped Observation Processing"](https://thomyphan.github.io/publication/2023-08-01-ijcai-altmann), IJCAI 2023
+- T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
+- T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
+- T. Phan et al., ["A Distributed Policy Iteration Scheme for Cooperative Multi-Agent Policy Approximation"](https://thomyphan.github.io/publication/2020-05-01-ala-phan), ALA 2020
+- T. Phan et al., ["Distributed Policy Iteration for Scalable Approximation of Cooperative Multi-Agent Policies"](https://thomyphan.github.io/publication/2019-05-01-aamas-phan), AAMAS 2019
+- T. Phan et al., ["Leveraging Statistical Multi-Agent Online Planning with Emergent Value Function Approximation"](https://thomyphan.github.io/publication/2018-06-01-aamas-phan), AAMAS 2018
