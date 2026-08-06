@@ -30,7 +30,8 @@ research_learning4search: "False"
 
 ## Related Articles
 
-- M. Koelle et al., ["Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization](https://thomyphan.github.io/publication/2024-02-01-icaart-koelle), ICAART 2024
+- P. Altmann et al., [Dynamic Reward Incentives for Emergent Cooperation under Changing Rewards](https://thomyphan.github.io/publication/2026-08-03-tmlr-altmann), TMLR 2026
+- M. Koelle et al., ["Multi-Agent Quantum Reinforcement Learning using Evolutionary Optimization"](https://thomyphan.github.io/publication/2024-02-01-icaart-koelle), ICAART 2024
 - T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange"](https://thomyphan.github.io/publication/2022-05-01-aamas-phan), AAMAS 2022 (conference version)
 - L. Belzner et al., ["The Sharer's Dilemma in Collective Adaptive Systems of Self-Interested Agents"](https://thomyphan.github.io/publication/2018-11-01-isola-belzner), ISoLA 2018
 - K. Schmid et al., ["Action Markets in Deep Multi-Agent Reinforcement Learning"](https://thomyphan.github.io/publication/2018-08-01-icann-schmid), ICANN 2018

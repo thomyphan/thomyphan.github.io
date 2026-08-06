@@ -24,6 +24,7 @@ research_planning : "False"
 {% include base_path %}
 
 ## Featured Articles
+- P. Altmann et al., [Dynamic Reward Incentives for Emergent Cooperation under Changing Rewards](https://thomyphan.github.io/publication/2026-08-03-tmlr-altmann), TMLR 2026
 - T. Phan et al., ["Attention-Based Recurrence for Multi-Agent Reinforcement Learning under Stochastic Partial Observability"](https://thomyphan.github.io/publication/2023-07-01-icml-phan), ICML 2023
 - T. Phan et al., ["Emergent Cooperation from Mutual Acknowledgment Exchange"](https://thomyphan.github.io/publication/2022-05-01-aamas-phan), AAMAS 2022
 - T. Phan et al., ["VAST: Value Function Factorization with Variable Agent Sub-Teams"](https://thomyphan.github.io/publication/2021-12-01-neurips-phan), NeurIPS 2021
